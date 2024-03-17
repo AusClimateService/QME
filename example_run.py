@@ -12,8 +12,8 @@ from dask.distributed import Client, LocalCluster
 
 
 # set as appropriate
-# adjustment to specific output filenames in the to_netcdf arguments
-outdir = "/scratch/eg3/ag0738/qme/example/"
+# adjust specific output filenames in the to_netcdf arguments
+outdir = ""
 
 
 def standardise_latlon(ds, digits=2):
