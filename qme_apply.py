@@ -1,6 +1,7 @@
 import numpy as np
 import xarray as xr
 from qme_utils import *
+from qme_vars import *
 
 
 def apply_mean_values(data, mean_values, start_year = 0):
@@ -19,12 +20,12 @@ def apply_mean_values(data, mean_values, start_year = 0):
         adjusted = data_loc.copy()
         for i in range(len(data_loc)):
             year = int(year_values[i])
-            if year >= start_year:
+            if year >= start_year:  
                 adjusted[i] += mean_loc[year]
         return adjusted
         
     return xr.apply_ufunc(apply_temp, data, mean_values, input_core_dims = [["time"], ["values"]], 
-                          output_core_dims = [["time"]], vectorize = True, 
+                          output_core_dims = [["time"]], vectorize = True, keep_attrs = True,
                           output_dtypes = [np.float32], dask = 'parallelized')
 
 
@@ -36,18 +37,26 @@ def apply_bc(var, mdl, bc):
     bc - the bias correction factors
     var - the variable being corrected
     """
+    var = get_qme_var(var)
+    reso = var.bin_count()
     month_values = mdl.time.values.astype('datetime64[M]').astype(int) % 12
     def apply(mdl_loc, bc_loc):
-        adjusted = scale_data(limit_data(mdl_loc, var), var)
-        rounded = np.round(adjusted).astype(int)
+        adjusted = var.scale_data(var.limit_data(mdl_loc))
+
+        # special rounding function used to correct Numpy rounding towards evens - see comments in qme_utils
+        rounded = round_half_up(adjusted)
+
+        # original version
+        # rounded = np.round(adjusted).astype(int)
+        
         for i, value in enumerate(rounded):
-            adjusted[i] += bc_loc[month_values[i]][value]
-        adjusted = unscale_data(adjusted, var)
-        if var == "pr":
-            adjusted = np.clip(adjusted, 0, None)
+            # check for out of bounds in case of funky numbers when dealing with NaNs
+            if value >= 0 and value < reso:
+                adjusted[i] += bc_loc[month_values[i]][value]
+        adjusted = var.unscale_data(adjusted)
         return adjusted
         
     return xr.apply_ufunc(apply, mdl, bc, input_core_dims = [["time"], ["month", "values"]], 
-                          output_core_dims = [["time"]], vectorize = True, 
+                          output_core_dims = [["time"]], vectorize = True, keep_attrs = True, 
                           output_dtypes = [np.float32], dask = 'parallelized')
 

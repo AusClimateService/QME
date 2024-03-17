@@ -1,15 +1,15 @@
 #!/bin/bash
-#PBS -l ncpus=28
-#PBS -l mem=190GB
+#PBS -l ncpus=104
+#PBS -l mem=500GB
 #PBS -l jobfs=20GB
-#PBS -q normalbw
+#PBS -q normalsr
 #PBS -P eg3
-#PBS -l walltime=01:00:00
-#PBS -l storage=gdata/hh5+gdata/dk92+gdata/ia39+gdata/eg3
+#PBS -l walltime=02:00:00
+#PBS -l storage=gdata/hh5+gdata/dk92+gdata/ia39+scratch/eg3
 #PBS -l wd
 
 module use /g/data/hh5/public/modules
-module load conda_concept/analysis3-23.04
+module load conda_concept/analysis3
 
 module use /g/data/dk92/apps/Modules/modulefiles
 module load gadi_jupyterlab/23.02

@@ -1,10 +1,10 @@
 import numpy as np
 import xarray as xr
-import warnings
 from qme_utils import *
+from qme_vars import *
 
 
-def make_dist(var, data, reso = -1):
+def make_dist(var, data):
     """
     Calculate histograms at a given resolution (default 501) for a set of input data, divided by month
     Inputs:
@@ -14,32 +14,23 @@ def make_dist(var, data, reso = -1):
     Returns:
     output - the original data converted into histograms (with the "time" dimension replaced by "month" and "values" dimensions)
     """
-    if reso == -1:
-        reso = DIST_RESO
-    else:
-        warnings.warn("Using non-default resolution may result in inaccurate or truncated output - see qme_utils")
-
-    # extract month values from datetime data coordinates (as these are not passed into the vectorized function)
+    var = get_qme_var(var)
+    reso = var.bin_count()
     month_values = data.time.values.astype('datetime64[M]').astype(int) % 12
     def count_dist(values):
         dist = np.zeros((12, reso))
 
-        normalized = scale_data(limit_data(values, var), var)
+        normalized = var.scale_data(var.limit_data(values))
 
-        # Numpy rounds towards evens (i.e. 1.5 and 2.5 will both round to 2, instead of 2 and 3 respectively).
-        # To correct for this, we compare the rounded result to the rounded result of the original array plus one:
-        # if the result is 2 then the original was rounded down instead of up.
-        # These cases are isolated with the division and floor (the other results, 0 and 1, will all become 0)
-        # and added to the original rounding result before being converted to integers for counting
-        rounded = np.round(normalized)
-        correction = np.floor((np.round(normalized + 1) - rounded) / 2)
-        adjusted = (rounded + correction).astype(int)
+        # special rounding function used to correct Numpy rounding towards evens - see comments in qme_utils
+        rounded = round_half_up(normalized)
 
-        # original version - 
-        # adjusted = np.round(scale_data(limit_data(values, var), var)).astype(int)
+        # original version
+        # adjusted = np.round(var.scale_data(var.limit_data(values))).astype(int)
         
-        for i, value in enumerate(adjusted):
-            dist[month_values[i]][value] += 1
+        for i, value in enumerate(rounded):
+            if value in range(reso):
+                dist[month_values[i]][value] += 1
         return dist
     
     output = xr.apply_ufunc(count_dist, data, input_core_dims = [["time"]], output_core_dims = [["month", "values"]], vectorize = True, 
@@ -103,7 +94,7 @@ def find_means(data, mean_smth = 31, ref_year = 15):
                             output_dtypes = [np.float32], 
                             dask_gufunc_kwargs = {"output_sizes": {"values": total_years}}, 
                             dask = 'parallelized')
-    output = output.assign_coords({"values": np.arange(total_years)}).rename("mean_model")
+    output = output.assign_coords({"values": np.arange(total_years)})
 
     return output
     
@@ -127,11 +118,11 @@ def future_means(cur_data, fut_data):
     fut_means = xr.apply_ufunc(lambda x, y: y, fut_means, modified_mean, 
                                dask = 'parallelized', 
                                output_dtypes = [np.float32], 
-                               vectorize = True).rename("mean_model")
+                               vectorize = True)
     return fut_means
 
 
-def calc_qme(var, dist_mdl, dist_obs, xtr = 3, cal_smth = 21, mn_smth = "default", mltp = False, mthd = "", lmt = 1.5, lmt_thresh = 10, ssze_lim = 50, include_q_check = True, values_dim = "values", month_dim = 'month'):
+def calc_qme(var, dist_mdl, dist_obs, xtr = 3, cal_smth = 21, mn_smth = "", mltp = False, mthd = "", lmt = 1.5, lmt_thresh = 10, ssze_lim = 50, force_zero = False):
     """
     Calculates the QME bias correction factors over the given histogram dimension, returning corrected histograms of equal length. Most of the keyword parameters may be kept at their default values.
     Inputs:
@@ -141,51 +132,41 @@ def calc_qme(var, dist_mdl, dist_obs, xtr = 3, cal_smth = 21, mn_smth = "default
     xtr - how long to calculate tail values
     cal_smth - the number of values to be smoothed with a rolling box
     mn_smth - whether to apply a 3 or 5 month moving sum to the histogram data. 
-        Can be set to "" for none, "_3mn" for 3 months, "_5mn" for 5 months or 
-        "default" for a default option depending on var. Input histograms
-        must have a dimension named "month" (alternative name can be specified with month_dim)
+        Can be set to "" for none, "_3mn" for 3 months, "_5mn" for 5 months. 
+        Input distributions must have a dimension named "month".
     mltp - whether to use multiplicative scaling during tail correction instead of additive
     mthd - set to "_quick" for slightly faster quantile matching with not much lost 
     lmt - apply a limit in magnitude change (-1 to disable)
     lmt_thresh - the threshold at which to apply lmt
     ssze_lim - the lower limit of sample size to pass the quality check
-    include_q_check - whether to include the quality check results as a separate variable within the output Dataset
-    values_dim - specify the name of the dimension on which the values are stored, in case they were not generated within this code (or were renamed)
-    months_dim - specify the name of the month dimension, should one exist and be required for mn_smth
+    force_zero - whether 0 values are retained for certain variables (primarily pr)
 
     Output:
-    A Dataset containing the bias correction values "biascorr" and "q_check" if specified.
+    A Dataset containing the bias correction values.
     
     """
-    # Default option for month smoothing if not specified
-    if mn_smth == "default":
-        if var == "pr":
-            mn_smth = "_3mn"
-        else:
-            mn_smth = ""
+    var = get_qme_var(var)
 
     # Include adjacent months if a user option was selected for this.
     if mn_smth == '_3mn':
-        dist_mdl = three_mnth_sum(dist_mdl, month_dim) # Apply a 3-month moving sum to the histogram data.
-        dist_obs = three_mnth_sum(dist_obs, month_dim) # Apply a 3-month moving sum to the histogram data.
-        xtr = xtr * 3        
+        dist_mdl = three_mnth_sum(dist_mdl, "month") # Apply a 3-month moving sum to the histogram data.
+        dist_obs = three_mnth_sum(dist_obs, "month") # Apply a 3-month moving sum to the histogram data.
+        xtr = xtr * 3
+
     elif mn_smth == '_5mn':
-        dist_mdl = three_mnth_sum(dist_mdl, month_dim) # Apply a 3-month moving sum to the histogram data.
-        dist_obs = three_mnth_sum(dist_obs, month_dim) # Apply a 3-month moving sum to the histogram data.
-        dist_mdl = three_mnth_sum(dist_mdl, month_dim) # Apply another 3-month moving sum to the histogram data, resulting in a [1, 2, 3, 2, 1] type of smoothing centred on a given month.
-        dist_obs = three_mnth_sum(dist_obs, month_dim) # Apply another 3-month moving sum to the histogram data, resulting in a [1, 2, 3, 2, 1] type of smoothing centred on a given month.
+        dist_mdl = three_mnth_sum(dist_mdl, "month") # Apply a 3-month moving sum to the histogram data.
+        dist_obs = three_mnth_sum(dist_obs, "month") # Apply a 3-month moving sum to the histogram data.
+        dist_mdl = three_mnth_sum(dist_mdl, "month") # Apply another 3-month moving sum to the histogram data, resulting in a [1, 2, 3, 2, 1] type of smoothing centred on a given month.
+        dist_obs = three_mnth_sum(dist_obs, "month") # Apply another 3-month moving sum to the histogram data, resulting in a [1, 2, 3, 2, 1] type of smoothing centred on a given month.
         xtr = xtr * 9
         
-    mdl_reso = dist_mdl[values_dim].size
-    obs_reso = dist_obs[values_dim].size
+    mdl_reso = dist_mdl["values"].size
+    obs_reso = dist_obs["values"].size
 
     if mdl_reso != obs_reso:
-        raise ValueError(f'Error - mismatched resolutions between between mdl and obs distributions: {mdl_reso}, {obs_reso}')
+        raise ValueError(f'Error - mismatched bin counts between between mdl and obs distributions: {mdl_reso}, {obs_reso}')
 
     reso = mdl_reso
-
-    if reso != DIST_RESO:
-        warnings.warn(f'Distribution resolution {reso} does not match given resolution {DIST_RESO} in qme_utils, which may result in inaccurate output')
     
     def qcheck(dist_mdl_loc, dist_obs_loc):
     # Do some data quality checks here, noting that users can modify this or add other checks if need be.
@@ -214,10 +195,10 @@ def calc_qme(var, dist_mdl, dist_obs, xtr = 3, cal_smth = 21, mn_smth = "default
         
         # Data unsuitable for bias correction, return blank array instead
         if q_val != 0:
-            return biascorr_cell, q_val
+            return biascorr_cell
 
         scaled_reso = np.arange(reso) # Make an array of integers increasing from 0 to reso.
-        unscaled_reso = unscale_data(scaled_reso, var) # This array contains unscaled values, converted from scaled_reso, for use below in calibrating histogram tails.
+        unscaled_reso = var.unscale_data(scaled_reso) # This array contains unscaled values, converted from scaled_reso, for use below in calibrating histogram tails.
         
         tots_obs = sum(dist_obs_loc)
         tots_mdl = sum(dist_mdl_loc)
@@ -226,11 +207,6 @@ def calc_qme(var, dist_mdl, dist_obs, xtr = 3, cal_smth = 21, mn_smth = "default
                 dist_obs_loc = dist_obs_loc * (tots_mdl/tots_obs)
             else:
                 dist_mdl_loc = dist_mdl_loc * (tots_obs/tots_mdl)
-                
-            # tots_obs = sum(dist_obs_loc)
-            # tots_mdl = sum(dist_mdl_loc)
-            # if round(tots_obs) != round(tots_mdl):
-            #     raise ValueError(f'Error - inconsistent sample sizes: {round(tots_obs)}, {round(tots_mdl)}')
         
         # Find the array positions that have data counts > 0.
         vals_obs = np.nonzero(dist_obs_loc > 0)[0]
@@ -276,7 +252,7 @@ def calc_qme(var, dist_mdl, dist_obs, xtr = 3, cal_smth = 21, mn_smth = "default
             xtr_low += 1 # Position in histogram of xtr lowest value.
         xtr_low += 1
         val = biascorr_cell[xtr_low]
-        val = unscale_data(val, var)
+        val = var.unscale_data(val)
         if mltp:
             bias = val/unscaled_reso[xtr_low]
             bias_tails[:xtr_low + 1] = unscaled_reso[:xtr_low + 1] * bias
@@ -285,12 +261,12 @@ def calc_qme(var, dist_mdl, dist_obs, xtr = 3, cal_smth = 21, mn_smth = "default
             bias_tails[:xtr_low + 1] = unscaled_reso[:xtr_low + 1] + bias
         
         # Upper tail.
-        xtr_high = vals_mdl[-1] #reso # Find bias at the xtr highest mdl value.
+        xtr_high = vals_mdl[-1] # Find bias at the xtr highest mdl value.
         while(mdl_bwd_sum[xtr_high] < xtr):
             xtr_high -= 1 # Position in histogram of xtr highest value.
         xtr_high -= 1
         val = biascorr_cell[xtr_high]
-        val = unscale_data(val, var)
+        val = var.unscale_data(val)
         if mltp:
             bias = val/unscaled_reso[xtr_high]
             bias_tails[xtr_high:] = unscaled_reso[xtr_high:] * bias
@@ -298,43 +274,39 @@ def calc_qme(var, dist_mdl, dist_obs, xtr = 3, cal_smth = 21, mn_smth = "default
             bias = val - unscaled_reso[xtr_high] # Bias, as an unscaled anomaly.
             bias_tails[xtr_high:] = unscaled_reso[xtr_high:] + bias
         
-        if var == 'pr': # Ensure data for pr are >= 0. Users can do similar here for other variables if need be.
+        if force_zero: # Ensure data for pr are >= 0. Users can do similar here for other variables if need be.
             bias_tails = np.clip(bias_tails, 0, None)
             bias_tails[0] = 0  # Ensure zero rainfall is retained as zero.
         
-        bias_tails = scale_data(bias_tails, var)
+        bias_tails = var.scale_data(bias_tails)
         biascorr_cell[:xtr_low + 1] = bias_tails[:xtr_low + 1]
         biascorr_cell[xtr_high:] = bias_tails[xtr_high:]
         
         # Do some post-processing
-        biascorr_cell = unscale_data(biascorr_cell, var)
+        biascorr_cell = var.unscale_data(biascorr_cell)
         if lmt != -1: # Apply a limit of lmt (in %) for the magnitude change.
             for x in range(reso):
                 if biascorr_cell[x] > lmt_thresh: biascorr_cell[x] = min([biascorr_cell[x], unscaled_reso[x]*lmt])
-                # if biascorr_cell[x] < (-1*lmt_thrsh): biascorr_cell[x] = max([biascorr_cell[x], unscaled_reso[x]*lmt])
 
         if cal_smth > 1:
             biascorr_cell = smooth(biascorr_cell - unscaled_reso, cal_smth) + unscaled_reso # Apply a smoothing to the bias correction values (using anomalies, based on subtracting unscaled_reso).
         
-        if var == 'pr': # Ensure data for pr are >= 0. Users can do similar here for other variables if need be.
+        if force_zero: # Ensure data for pr are >= 0. Users can do similar here for other variables if need be.
             biascorr_cell = np.clip(biascorr_cell, 0, None)
             
-        biascorr_cell = scale_data(biascorr_cell, var) - scaled_reso # Scale the array and convert to anomaly for storing in the gridded array
+        biascorr_cell = var.scale_data(biascorr_cell) - scaled_reso # Scale the array and convert to anomaly for storing in the gridded array
 
-        if var == 'pr':
+        if force_zero:
             biascorr_cell[0] = 0 # Ensure zero rainfall is retained as zero.
             
-        return biascorr_cell, q_val
+        return biascorr_cell
 
-    bc_factors, q_check = xr.apply_ufunc(factors, dist_mdl, dist_obs, 
-                                         input_core_dims = [[values_dim], [values_dim]], 
-                                         output_core_dims = [["values"], []], 
-                                         vectorize = True, 
-                                         output_dtypes = [np.float32, np.int32], 
-                                         dask = 'parallelized')
+    bc_factors = xr.apply_ufunc(factors, dist_mdl, dist_obs, 
+                                input_core_dims = [["values"], ["values"]], 
+                                output_core_dims = [["values"]], 
+                                vectorize = True, 
+                                output_dtypes = [np.float32], 
+                                dask = 'parallelized')
 
-    if include_q_check:
-        return xr.Dataset({"biascorr": bc_factors, "q_check": q_check})
-    else:
-        return xr.Dataset({"biascorr": bc_factors})
+    return bc_factors
 

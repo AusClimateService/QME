@@ -2,102 +2,82 @@ import numpy as np
 import xarray as xr
 
 
-DIST_RESO = 501
+class qme_var:
+    def __init__(self, lower_lim, upper_lim, max_bin = 500, scaling = 'auto', unscaling = None, verify_override = False):
+        self.min = lower_lim
+        self.max = upper_lim
+        self.reso = max_bin
+
+        if scaling == 'auto':
+            if unscaling is not None:
+                raise ValueError("Cannot supply unscaling if scaling is not supplied or set to auto")
+
+            self._scaling = lambda x: (self.reso / (self.max - self.min)) * (x - self.min)
+            self._unscaling = lambda x: (x / (self.reso / self.max - self.min)) + self.min
+            
+        else:
+            self._scaling = scaling
+            if unscaling is None:
+                raise ValueError("Unscaling must be supplied if scaling is supplied (it should be the reverse operation)")
+            self._unscaling = unscaling
+            if not verify_override:
+                self.verify_scaling()
+
+    def scale_data(self, data):
+        return self._scaling(data)
+
+    def unscale_data(self, data):
+        return self._unscaling(data)
+
+    def limit_data(self, data):
+        return np.clip(data, self.min, self.max)
+
+    def bin_count(self):
+        """
+        The total number of bins for this variable, noting that one is added because the end value is included.
+        """
+        return self.reso + 1
+
+    def verify_scaling(self):
+        """
+        Verify that the supplied scaling and unscaling functions align with each and the given bin count. 
+        """
+        scaled_min = self.scale_data(self.min)
+        scaled_max = self.scale_data(self.max)
+
+        # -0.5 is the threshold as values between here and 0 can be rounded to 0. Likewise, values between reso and reso + 0.5 can be rounded to reso
+        # Checking both sides for min and max in case a negative scaling is involved for some reason
+        if scaled_min < -0.5 or scaled_min >= self.reso + 0.5:
+            raise ValueError(f'Scaling function produces out of bound value {scaled_min} when applied to min value {self.min} - \n' +
+                             f'Ensure scaling function only produces values between 0 and {self.reso} when applied between given limits {self.min} and {self.max}.')
+            
+        if scaled_max < -0.5 or scaled_max >= self.reso + 0.5:
+            raise ValueError(f'Scaling function produces out of bound value {scaled_max} when applied to max value {self.max} - \n' +
+                             f'Ensure scaling function only produces values between 0 and {self.reso} when applied between given limits {self.min} and {self.max}.\n' +
+                             f'Alternatively, supply a higher bin count.')
+            
+        # Check that scaled values unscale back to their original value
+        if not np.isclose(self.min, self.unscale_data(scaled_min)):
+            raise ValueError(f'Failed to symmetrically unscale min value {self.min} after scaling - check the unscaling function.')
+            
+        if not np.isclose(self.max, self.unscale_data(scaled_max)):
+            raise ValueError(f'Failed to symmetrically unscale max value {self.max} after scaling - check the unscaling function.')
 
 
-def scale_data(data, var_name):
+def round_half_up(data):
     """
-    Scale the given 'data' for better representation of extremes in the histograms for quantile matching.
-    This scaling can be varied depending on the input variable 'var_name'.
-    The scaled data need to range from 0 to reso for the histograms used in quantile matching.
-    The limit_data procedure below also ensures data stay within this range from 0 to reso.
-    Make sure to add the reverse operation in unscale_data below!
-    Inputs:
-    data - the data being scaled, which can be anything that mathematical operations can be performed directly on (such as numbers, NumPy arrays, DataArrays etc.)
-    var_name - the variable to specify how to scale the data
-    """
-    
-    #***** User inputs here *****
-    # If wanting additional variables, users can add to the code below.
-    if var_name == 'tasmax':
-        data = (data + 35) * 5
-    elif var_name == 'tasmin':
-        data = (data + 55) * 5
-    elif var_name == 'pr':
-        data = np.log(data + 1) * 70
-    elif var_name == 'wswd':
-        data = data * 10
-    elif var_name == 'rsds':
-        data = data * 10
-    elif var_name == 'rh':
-        data = data * 4
-    else:
-        raise ValueError("Unexpected variable name " + var_name) # probably unnecessary when finalized 
-
-    return data
-
-
-def unscale_data(data, var_name):
-    """
-    Revert from scale_dat procedure, as above.
-    Inputs:
-    data - the data being unscaled, which can be anything that mathematical operations can be performed directly on (such as numbers, NumPy arrays, DataArrays etc.)
-    var_name - the variable to specify how to unscale the data
-    """
-    
-    #***** User inputs here *****
-    # If wanting additional variables, users can add to the code below.
-    if var_name == 'tasmax': 
-        data = data/5 - 35
-    elif var_name == 'tasmin': 
-        data = data/5 - 55
-    elif var_name == 'pr': 
-        data = np.exp(data/70) - 1
-    elif var_name == 'wswd':
-        data = data / 10
-    elif var_name == 'rsds':
-        data = data / 10
-    elif var_name == 'rh':
-        data = data / 4
-    else:
-        raise ValueError("Unexpected variable name " + var_name) # probably unnecessary when finalized 
-        
-    return data 
-
-
-def limit_data(data, var_name):
-    """
-    Apply upper and lower limits to data using np.clip, with the limits depending on the variable and designed to correspond with scale_data.
-    After scale_data(limit_data(data)), all results should be between 0 and 500 inclusive.
-    Inputs:
-    data - the data to apply limits to
-    var_name - the variable to specify how to limit the data
+    Round .5 values up instead of towards even (the behaviour Numpy uses) for consistency with IDL
     """
 
-    #***** User inputs here *****
-    # If wanting additional variables, users can add to the code below.
-    if var_name == 'tasmax':
-        lim_upper = 60 # Upper limit of 60 degrees C.
-        lim_lower = -30 # Lower limit of -30 degrees C.
-    elif var_name == 'tasmin':
-        lim_upper = 40 # Upper limit of 40 degrees C.
-        lim_lower = -50 # Lower limit of -50 degrees C.
-    elif var_name == 'pr':
-        lim_upper = 1250 # Upper limit of 1250 mm.
-        lim_lower = 0 # Lower limit of 0 mm.
-    elif var_name == 'wswd':
-        lim_upper = 45 # Upper limit of 40 m/s.
-        lim_lower = 0 # Lower limit 0 m/s.
-    elif var_name == 'rsds':
-        lim_upper = 45 # Upper limit 40 MJ/m/m.
-        lim_lower = 0 # Lower limit 0. MJ/m/m.
-    elif var_name == 'rh':
-        lim_upper = 110 # Upper limit 110%.
-        lim_lower = 0 # Lower limit 0%.
-    else:
-        raise ValueError("Unexpected variable name " + var_name) # probably unnecessary when finalized
-
-    return np.clip(data, lim_lower, lim_upper)
+    # Numpy rounds towards evens (i.e. 1.5 and 2.5 will both round to 2, instead of 2 and 3 respectively).
+    # To correct for this, we compare the rounded result to the rounded result of the original array plus one:
+    # if the result is 2 then the original was rounded down instead of up.
+    # These cases are isolated with the division and floor operations (so the other results, 0 and 1, will all become 0)
+    # and added to the original rounding result before being converted to integers
+    rounded = np.round(data)
+    correction = np.floor((np.round(data + 1) - rounded) / 2)
+    adjusted = (rounded + correction).astype(int)
+    return adjusted
 
 
 def three_mnth_sum(data, dim = "month"):
@@ -105,11 +85,11 @@ def three_mnth_sum(data, dim = "month"):
     Procedure to make 3-month moving sum, with rolling around the edges.
     Inputs: 
     data - a DataArray with the specified dimension of size 12 (representing months)
-    dim (optional) - specify dimension name in case it is not 'month'
+    dim (optional) - specify dimension name in case it is not called 'month'
     """
 
-    if not(data[dim].size == 12): # or (data[dim].size == 13)): 
-        raise ValueError(f'Month dimension must be of size 12, given array had size {data.time.size}') # Check this is 12, ~or 13 for all year also included~
+    if not(data[dim].size == 12):
+        raise ValueError(f'Month dimension must be of size 12, given array had size {data[dim].size}')
 
     # calculate rolling sum
     summed_dat = data.rolling({dim: 3}, center = True).sum()
@@ -117,10 +97,6 @@ def three_mnth_sum(data, dim = "month"):
     # manually calculate Jan + Dec since rolling does not work on edges
     summed_dat[{dim: 0}] = data[{dim: 0}] + data[{dim: 1}] + data[{dim: 11}]
     summed_dat[{dim: 11}] = data[{dim: 0}] + data[{dim: 10}] + data[{dim: 11}]
-
-    # # restore original 13th column if there was one
-    # if data.time.size == 13:
-    #     summed_dat[{"time": 12}] = data[{"time": 12}]
         
     return summed_dat
     
