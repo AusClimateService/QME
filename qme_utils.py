@@ -1,33 +1,51 @@
 import numpy as np
 import xarray as xr
+import warnings
+
+
+warning_trigger = False
 
 
 class qme_var:
-    def __init__(self, lower_lim, upper_lim, max_bin = 500, scaling = 'auto', unscaling = None, verify_override = False):
+    def __init__(self, lower_lim, upper_lim, max_bin = 500, scaling = "linear", unscaling = None):
         self.min = lower_lim
         self.max = upper_lim
         self.reso = max_bin
+        self.scaling = scaling
 
-        if scaling == 'auto':
-            if unscaling is not None:
-                raise ValueError("Cannot supply unscaling if scaling is not supplied or set to auto")
+        if scaling == "linear":
+            scaling_factor = self.reso / (self.max - self.min)
+            self._scaling_func = lambda x: scaling_factor * (x - self.min)
+            self._unscaling_func = lambda x: (x / scaling_factor) + self.min
 
-            self._scaling = lambda x: (self.reso / (self.max - self.min)) * (x - self.min)
-            self._unscaling = lambda x: (x / (self.reso / self.max - self.min)) + self.min
-            
+        elif scaling == "log":
+            scaling_factor = self.reso / np.log(self.max - self.min + 1)
+            self._scaling_func = lambda x: np.log(x - self.min + 1) * scaling_factor
+            self._unscaling_func = lambda x: np.exp(x / scaling_factor) + self.min - 1
+
         else:
-            self._scaling = scaling
+            self._scaling_func = scaling
+            try:
+                # test if it is actually callable
+                self._scaling_func(self.min)
+            except TypeError:
+                raise ValueError("scaling must be either 'linear' or 'log', or a supplied scaling function for advanced purposes")
             if unscaling is None:
-                raise ValueError("Unscaling must be supplied if scaling is supplied (it should be the reverse operation)")
-            self._unscaling = unscaling
-            if not verify_override:
-                self.verify_scaling()
+                raise ValueError("unscaling must be supplied if a scaling function is supplied (it should be the reverse operation)")
+            self.scaling = "custom"
+            self._unscaling_func = unscaling
+            if not warning_trigger:
+                warnings.warn("Usage of custom scaling functions need to be manually documented to ensure data is reproducible")
+                warning_trigger = True
+
+        # check that the user supplied or auto generated functions work properly
+        self.verify_scaling()
 
     def scale_data(self, data):
-        return self._scaling(data)
+        return self._scaling_func(data)
 
     def unscale_data(self, data):
-        return self._unscaling(data)
+        return self._unscaling_func(data)
 
     def limit_data(self, data):
         return np.clip(data, self.min, self.max)
@@ -114,6 +132,10 @@ def smooth(data, width):
     # IDL will add 1 to any even number given as an argument
     if width % 2 == 0:
         width += 1
+
+    # no smoothing will occur, width too small
+    if width == 1:
+        return data
 
     # the IDL function was called with "/EDGE_TRUNCATE", meaning that along the edges out of bound values were just filled with the edge value
     # instead of being replaced by NaNs
