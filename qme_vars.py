@@ -18,12 +18,13 @@ def get_qme_var(var):
     scaling = 'linear'
     
     if var == "pr":
+        # expected units: mm/day
         
         # lower limit for the given variable - anything lower will be set to this value
         lower_lim = 0
+        
         # upper limit for the variable - anything higher will be set to this value
-        upper_lim = 1264
-        # upper_lim = 1250
+        upper_lim = 1250
 
         # The bin count for calculating distributions (noting that 1 will be added later as the range is inclusive)
         # Increasing this increases the resolution of the bias correction at the cost of computation speed and memory
@@ -35,32 +36,58 @@ def get_qme_var(var):
         scaling = "log"
 
     elif var == "tasmax":
+        # expected units: C
         lower_lim = -35
         upper_lim = 65
         max_bin = 500
         scaling = "linear"
 
     elif var == "tasmin":
+        # expected units: C
         lower_lim = -55
         upper_lim = 45
         max_bin = 500
         scaling = "linear"
 
     elif var == "wswd":
+        # expected units: m/s
+        lower_lim = 0
+        upper_lim = 50
+        max_bin = 500
+        scaling = "linear"
+
+    elif var == "sfcWindmax":
+        # expected units: m/s
         lower_lim = 0
         upper_lim = 50
         max_bin = 500
         scaling = "linear"
 
     elif var == "rsds":
+        # expected units: W m-2
         lower_lim = 0
-        upper_lim = 50
+        upper_lim = 500
         max_bin = 500
         scaling = "linear"
 
     elif var == "rh":
+        # expected units: %
         lower_lim = 0
         upper_lim = 125
+        max_bin = 500
+        scaling = "linear"
+
+    elif var == "hursmax":
+        # expected units: %
+        lower_lim = 0
+        upper_lim = 100
+        max_bin = 500
+        scaling = "linear"
+
+    elif var == "hursmin":
+        # expected units: %
+        lower_lim = 0
+        upper_lim = 100
         max_bin = 500
         scaling = "linear"
 

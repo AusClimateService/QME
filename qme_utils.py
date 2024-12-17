@@ -93,6 +93,7 @@ def round_half_up(data):
     # These cases are isolated with the division and floor operations (so the other results, 0 and 1, will all become 0)
     # and added to the original rounding result before being converted to integers
     rounded = np.round(data)
+    return rounded.astype(int)
     correction = np.floor((np.round(data + 1) - rounded) / 2)
     adjusted = (rounded + correction).astype(int)
     return adjusted
