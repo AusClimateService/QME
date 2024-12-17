@@ -53,7 +53,7 @@ def qme_run(var, ref_data, hist_data, fut_data = None):
         "mltp": False,
         "lmt": 1.5 if var == "pr" else -1,
         "lmt_thresh": 10,
-        "force_zero": var == "pr"
+        "retain_zero": var == "pr"
     }
     
     # Whether to account for trend with moving average
