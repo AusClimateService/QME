@@ -1,5 +1,8 @@
 # QME
-Code for QME bias correction method
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14635628.svg)](https://doi.org/10.5281/zenodo.14635628)
+
+Code for QME bias correction method.
 
 This repository contains the code for running the QME method, developed by Andrew Dowdy in IDL and translated to Python by Andrew Gammon for use by the ACS.
 
