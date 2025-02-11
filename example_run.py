@@ -33,11 +33,7 @@ def preprocess_ds(ds):
     
     ds = standardise_latlon(ds)
     ds = ds.drop_vars([item for item in ('height', 'lat_bnds', 'lon_bnds', 'time_bnds') if item in ds.variables or item in ds.dims])
-
-    # round all time values to midday for consistency
-    # may not be necessary for univariate methods, depending on the mdl and ref data
-    ds = ds.assign_coords(time = ds.time.dt.floor("D") + np.timedelta64(12, 'h')) 
-    
+   
     return ds
 
 
@@ -47,8 +43,8 @@ def qme_run(var, ref_data, hist_data, fut_data = None):
     params = {
         "xtr": 3,
         "cal_smth": 21,
-        "mthd": '_quick',
-        "mn_smth": '_3mn' if var == "pr" else '',
+        "mthd": 'quick',
+        "mn_smth": '3mn' if var == "pr" else '',
         "ssze_lim": 50,
         "mltp": False,
         "lmt": 1.5 if var == "pr" else -1,
