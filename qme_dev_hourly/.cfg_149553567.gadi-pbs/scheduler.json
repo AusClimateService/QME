@@ -1,0 +1,13 @@
+{
+  "type": "Scheduler",
+  "id": "Scheduler-eb6e8e07-7580-4f70-bc2a-92b48e2ea9bf",
+  "address": "tcp://10.6.5.25:8732",
+  "services": {
+    "dashboard": 8866
+  },
+  "started": 1757829579.583314,
+  "n_workers": 0,
+  "total_threads": 0,
+  "total_memory": 0,
+  "workers": {}
+}

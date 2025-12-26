@@ -1,0 +1,369 @@
+2025-11-28 10:13:57,135 - distributed.scheduler - INFO - -----------------------------------------------
+2025-11-28 10:13:57,781 - distributed.scheduler - INFO - State start
+2025-11-28 10:13:57,783 - distributed.scheduler - INFO - -----------------------------------------------
+2025-11-28 10:13:57,784 - distributed.scheduler - INFO -   Scheduler at:      tcp://10.6.5.29:8768
+2025-11-28 10:13:57,785 - distributed.scheduler - INFO -   dashboard at:          proxy/8872/status
+2025-11-28 10:13:57,787 - distributed.scheduler - INFO - Registering Worker plugin shuffle
+2025-11-28 10:14:07,184 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:38049 name: tcp://10.6.5.29:38049
+2025-11-28 10:14:07,194 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:38049
+2025-11-28 10:14:07,194 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54110
+2025-11-28 10:14:07,195 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:38155 name: tcp://10.6.5.29:38155
+2025-11-28 10:14:07,195 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:38155
+2025-11-28 10:14:07,195 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54096
+2025-11-28 10:14:07,196 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:42215 name: tcp://10.6.5.29:42215
+2025-11-28 10:14:07,196 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:42215
+2025-11-28 10:14:07,196 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54128
+2025-11-28 10:14:07,196 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:40115 name: tcp://10.6.5.29:40115
+2025-11-28 10:14:07,198 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:40115
+2025-11-28 10:14:07,198 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54088
+2025-11-28 10:14:07,199 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:42301 name: tcp://10.6.5.29:42301
+2025-11-28 10:14:07,199 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:42301
+2025-11-28 10:14:07,199 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54120
+2025-11-28 10:14:07,199 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:43207 name: tcp://10.6.5.29:43207
+2025-11-28 10:14:07,200 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:43207
+2025-11-28 10:14:07,200 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54114
+2025-11-28 10:14:07,204 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:33705 name: tcp://10.6.5.29:33705
+2025-11-28 10:14:07,205 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:33705
+2025-11-28 10:14:07,205 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54158
+2025-11-28 10:14:07,207 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:44351 name: tcp://10.6.5.29:44351
+2025-11-28 10:14:07,207 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:44351
+2025-11-28 10:14:07,207 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54144
+2025-11-28 10:14:07,207 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:44065 name: tcp://10.6.5.29:44065
+2025-11-28 10:14:07,208 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:44065
+2025-11-28 10:14:07,208 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54162
+2025-11-28 10:14:07,212 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:41669 name: tcp://10.6.5.29:41669
+2025-11-28 10:14:07,212 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:41669
+2025-11-28 10:14:07,212 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54184
+2025-11-28 10:14:07,213 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:40343 name: tcp://10.6.5.29:40343
+2025-11-28 10:14:07,213 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:40343
+2025-11-28 10:14:07,213 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54188
+2025-11-28 10:14:07,214 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:43459 name: tcp://10.6.5.29:43459
+2025-11-28 10:14:07,214 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:43459
+2025-11-28 10:14:07,214 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54170
+2025-11-28 10:14:07,219 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:42339 name: tcp://10.6.5.29:42339
+2025-11-28 10:14:07,219 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:42339
+2025-11-28 10:14:07,219 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54204
+2025-11-28 10:14:07,220 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:42861 name: tcp://10.6.5.29:42861
+2025-11-28 10:14:07,220 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:42861
+2025-11-28 10:14:07,220 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54192
+2025-11-28 10:14:07,221 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:43573 name: tcp://10.6.5.29:43573
+2025-11-28 10:14:07,221 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:43573
+2025-11-28 10:14:07,221 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54216
+2025-11-28 10:14:07,223 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:39831 name: tcp://10.6.5.29:39831
+2025-11-28 10:14:07,223 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:39831
+2025-11-28 10:14:07,223 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54218
+2025-11-28 10:14:07,232 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:34361 name: tcp://10.6.5.29:34361
+2025-11-28 10:14:07,233 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:34361
+2025-11-28 10:14:07,233 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54228
+2025-11-28 10:14:07,234 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:41587 name: tcp://10.6.5.29:41587
+2025-11-28 10:14:07,234 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:41587
+2025-11-28 10:14:07,234 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54230
+2025-11-28 10:14:07,251 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:40859 name: tcp://10.6.5.29:40859
+2025-11-28 10:14:07,251 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:40859
+2025-11-28 10:14:07,252 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54240
+2025-11-28 10:14:07,252 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:44489 name: tcp://10.6.5.29:44489
+2025-11-28 10:14:07,253 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:44489
+2025-11-28 10:14:07,253 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54236
+2025-11-28 10:14:07,303 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:34611 name: tcp://10.6.5.29:34611
+2025-11-28 10:14:07,303 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:34611
+2025-11-28 10:14:07,304 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54248
+2025-11-28 10:14:07,356 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:34791 name: tcp://10.6.5.29:34791
+2025-11-28 10:14:07,356 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:34791
+2025-11-28 10:14:07,357 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54258
+2025-11-28 10:14:07,388 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:40663 name: tcp://10.6.5.29:40663
+2025-11-28 10:14:07,389 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:40663
+2025-11-28 10:14:07,389 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54264
+2025-11-28 10:14:07,436 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:44691 name: tcp://10.6.5.29:44691
+2025-11-28 10:14:07,437 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:44691
+2025-11-28 10:14:07,437 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54280
+2025-11-28 10:14:07,442 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:43123 name: tcp://10.6.5.29:43123
+2025-11-28 10:14:07,442 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:43123
+2025-11-28 10:14:07,443 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54276
+2025-11-28 10:14:07,473 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:37353 name: tcp://10.6.5.29:37353
+2025-11-28 10:14:07,474 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:37353
+2025-11-28 10:14:07,474 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54296
+2025-11-28 10:14:07,484 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:45135 name: tcp://10.6.5.29:45135
+2025-11-28 10:14:07,485 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:45135
+2025-11-28 10:14:07,485 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54318
+2025-11-28 10:14:07,489 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:37571 name: tcp://10.6.5.29:37571
+2025-11-28 10:14:07,489 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:37571
+2025-11-28 10:14:07,490 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54302
+2025-11-28 10:14:07,534 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:33747 name: tcp://10.6.5.29:33747
+2025-11-28 10:14:07,535 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:33747
+2025-11-28 10:14:07,535 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54342
+2025-11-28 10:14:07,536 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:37991 name: tcp://10.6.5.29:37991
+2025-11-28 10:14:07,537 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:37991
+2025-11-28 10:14:07,537 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54334
+2025-11-28 10:14:07,550 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:36191 name: tcp://10.6.5.29:36191
+2025-11-28 10:14:07,550 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:36191
+2025-11-28 10:14:07,550 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54350
+2025-11-28 10:14:07,568 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:34243 name: tcp://10.6.5.29:34243
+2025-11-28 10:14:07,569 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:34243
+2025-11-28 10:14:07,569 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54364
+2025-11-28 10:14:07,572 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:43653 name: tcp://10.6.5.29:43653
+2025-11-28 10:14:07,573 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:43653
+2025-11-28 10:14:07,573 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54380
+2025-11-28 10:14:07,574 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:34233 name: tcp://10.6.5.29:34233
+2025-11-28 10:14:07,575 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:34233
+2025-11-28 10:14:07,575 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54354
+2025-11-28 10:14:07,576 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:45537 name: tcp://10.6.5.29:45537
+2025-11-28 10:14:07,577 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:45537
+2025-11-28 10:14:07,577 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54360
+2025-11-28 10:14:07,581 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:45037 name: tcp://10.6.5.29:45037
+2025-11-28 10:14:07,582 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:45037
+2025-11-28 10:14:07,582 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54388
+2025-11-28 10:14:07,583 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:34767 name: tcp://10.6.5.29:34767
+2025-11-28 10:14:07,584 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:34767
+2025-11-28 10:14:07,584 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54382
+2025-11-28 10:14:07,597 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:45165 name: tcp://10.6.5.29:45165
+2025-11-28 10:14:07,597 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:45165
+2025-11-28 10:14:07,597 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54396
+2025-11-28 10:14:07,602 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:40981 name: tcp://10.6.5.29:40981
+2025-11-28 10:14:07,603 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:40981
+2025-11-28 10:14:07,603 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54402
+2025-11-28 10:14:07,610 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:38023 name: tcp://10.6.5.29:38023
+2025-11-28 10:14:07,611 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:38023
+2025-11-28 10:14:07,611 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54410
+2025-11-28 10:14:07,613 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:43059 name: tcp://10.6.5.29:43059
+2025-11-28 10:14:07,614 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:43059
+2025-11-28 10:14:07,614 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54404
+2025-11-28 10:14:07,616 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:34043 name: tcp://10.6.5.29:34043
+2025-11-28 10:14:07,617 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:34043
+2025-11-28 10:14:07,617 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54424
+2025-11-28 10:14:07,629 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:34831 name: tcp://10.6.5.29:34831
+2025-11-28 10:14:07,630 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:34831
+2025-11-28 10:14:07,630 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54438
+2025-11-28 10:14:07,631 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:46573 name: tcp://10.6.5.29:46573
+2025-11-28 10:14:07,632 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:46573
+2025-11-28 10:14:07,632 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54446
+2025-11-28 10:14:07,651 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:40561 name: tcp://10.6.5.29:40561
+2025-11-28 10:14:07,652 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:40561
+2025-11-28 10:14:07,652 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54458
+2025-11-28 10:14:07,653 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:41219 name: tcp://10.6.5.29:41219
+2025-11-28 10:14:07,654 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:41219
+2025-11-28 10:14:07,654 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54472
+2025-11-28 10:14:07,658 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:33593 name: tcp://10.6.5.29:33593
+2025-11-28 10:14:07,658 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:33593
+2025-11-28 10:14:07,659 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54468
+2025-11-28 10:14:07,664 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.29:43751 name: tcp://10.6.5.29:43751
+2025-11-28 10:14:07,665 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.29:43751
+2025-11-28 10:14:07,665 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54474
+2025-11-28 10:14:22,202 - distributed.scheduler - INFO - Receive client connection: Client-ced7bbcd-cbe6-11f0-a8f4-0000008efe80
+2025-11-28 10:14:22,206 - distributed.core - INFO - Starting established connection to tcp://10.6.5.29:54062
+2025-11-28 10:14:22,229 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-11-28 10:14:23,379 - distributed.scheduler - INFO - Registering Worker plugin qme_utils.pybf1863a1-1b42-46cd-9c5f-c01fdb03bf84
+2025-11-28 10:14:25,476 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-11-28 10:14:25,480 - distributed.scheduler - INFO - Registering Worker plugin qme_vars.py84d66eb9-0952-436a-b053-28fd02b9805f
+2025-11-28 10:14:25,520 - distributed.scheduler - INFO - Registering Worker plugin qme_train.pyaf763470-1313-4604-a2e5-f5eb743f2690
+2025-11-28 10:14:25,527 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-11-28 10:14:25,560 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-11-28 10:14:25,562 - distributed.scheduler - INFO - Registering Worker plugin qme_apply.py9f6a832f-3406-4d0d-86eb-e71f8b1b5ac3
+2025-11-28 10:15:37,031 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.08s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 13:22:02,974 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.32s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 13:39:57,540 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.30s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 14:02:56,321 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.12s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 14:15:29,236 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.40s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 14:26:32,689 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.24s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 14:49:34,761 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.67s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 15:06:46,313 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.50s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 15:18:06,821 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.71s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 15:36:46,199 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.84s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 15:57:05,215 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.39s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 16:08:04,936 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.17s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 16:23:34,197 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.62s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 16:46:35,987 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.54s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 16:59:53,054 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.59s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 17:11:02,754 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.97s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 17:31:47,153 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.17s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 17:49:49,996 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.21s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 18:00:20,270 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.79s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 18:16:04,903 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.11s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 18:38:08,336 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.14s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 18:51:50,440 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.54s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 19:02:42,496 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.16s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 19:22:31,533 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.56s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 19:44:42,038 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 19:55:10,776 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.60s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 20:06:47,486 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.20s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 20:28:36,396 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.18s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 20:50:26,640 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.43s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 21:01:21,130 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.44s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 21:12:35,890 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.46s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 21:34:28,819 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.05s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 21:56:45,580 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.00s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:09:13,056 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.27s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:19:38,173 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.11s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:19:48,154 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.30s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:20:06,499 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 11.61s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:24:56,444 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.10s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:25:40,171 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.23s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:25:54,176 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.06s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:26:15,963 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 12.55s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:30:48,795 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.94s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:31:38,716 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.23s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:31:54,539 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.52s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:32:17,044 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 13.21s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:37:23,804 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.98s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:38:24,070 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.29s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:38:38,639 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.52s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:39:02,506 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 13.46s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:43:08,958 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.19s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:44:13,066 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.32s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:44:28,311 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.25s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:44:51,532 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 13.33s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:48:46,923 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.02s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:50:02,127 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.25s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:50:19,046 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.37s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:50:42,970 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 13.17s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:54:27,749 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.52s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:56:04,992 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.37s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:56:18,391 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.69s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:56:41,834 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 13.00s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 22:59:59,328 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.24s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:02:10,098 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.27s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:02:21,837 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.87s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:02:36,964 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.85s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:02:46,283 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.88s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:06:10,133 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.69s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:08:04,282 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.34s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:08:16,532 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.22s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:08:41,241 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 13.02s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:11:51,885 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.20s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:14:06,717 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.26s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:14:18,235 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.67s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:14:36,401 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.98s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:14:42,912 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.92s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:18:07,936 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.15s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:20:05,514 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.33s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:20:19,802 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.60s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:20:37,229 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.62s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:20:43,160 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.93s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:24:11,572 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.79s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:26:02,388 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.28s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:26:16,148 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.05s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:26:39,086 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 12.90s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:29:39,947 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.17s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:32:00,214 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.27s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:32:16,053 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.23s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:32:34,224 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.65s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:32:40,165 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.94s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:36:09,772 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:38:00,792 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.24s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:38:15,039 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.40s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:38:38,111 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 13.15s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:41:54,515 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.55s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:44:09,088 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.29s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:44:21,885 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.86s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:44:42,902 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.78s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:44:49,566 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.66s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:48:18,111 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 10.11s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:50:20,702 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.76s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:50:33,058 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.82s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:50:49,345 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.54s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:51:02,295 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.78s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:52:37,791 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.88s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:56:41,460 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:56:54,103 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.82s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:57:08,131 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.57s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-28 23:57:30,578 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 14.90s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:04:03,044 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:04:20,037 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.22s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:04:32,278 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.85s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:04:56,942 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 15.04s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:10:18,714 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.39s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:10:34,215 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.59s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:10:51,298 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.85s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:11:16,455 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 14.27s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:17:21,841 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.48s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:19:29,879 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.60s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:19:48,076 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.26s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:20:04,492 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.96s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:20:16,036 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.86s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:23:52,467 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.90s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:27:09,867 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:27:21,415 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.88s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:27:36,180 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.85s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:27:49,119 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:28:49,672 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 9.10s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:33:41,553 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.69s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:33:52,757 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.60s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:34:05,287 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.84s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:34:29,168 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 15.37s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:39:57,359 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.75s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:40:10,923 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.88s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:40:21,351 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:40:45,418 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 14.46s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:45:25,476 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.70s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:46:28,152 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.64s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:46:43,756 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.82s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:47:08,452 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 14.21s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:50:14,759 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.50s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:52:48,003 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.64s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:53:03,611 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.87s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:53:19,221 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.71s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:53:31,195 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.66s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:54:20,670 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.89s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:59:07,306 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.81s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:59:19,867 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.79s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:59:32,464 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.98s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 00:59:55,968 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 15.67s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:05:30,064 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.74s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:05:42,406 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.41s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:05:53,210 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.70s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:06:17,043 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 14.21s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:11:36,775 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.52s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:13:45,733 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.15s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:14:04,323 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.89s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:14:19,950 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.37s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:14:30,992 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.67s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:16:56,555 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.78s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:20:18,865 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.69s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:20:31,557 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.54s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:20:45,597 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.58s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:20:58,837 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.85s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:21:25,368 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 9.12s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:26:36,920 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.64s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:26:49,273 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:27:01,451 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.82s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:27:24,312 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 14.59s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:32:54,395 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:33:08,860 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.98s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:33:17,716 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.86s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:33:42,977 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 14.31s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:37:31,924 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.13s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:39:29,360 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.74s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:39:43,778 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:39:58,185 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.18s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:40:09,922 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:42:48,456 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 9.11s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:46:36,925 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.79s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:46:49,518 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.20s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:47:03,716 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.17s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:47:17,602 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.79s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:47:30,216 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.91s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:53:01,689 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:53:16,738 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.62s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:53:27,850 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.25s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:53:52,310 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 14.98s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:59:26,732 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:59:38,622 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.99s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:59:46,903 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.24s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 01:59:59,764 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.14s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:00:11,837 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.74s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:03:12,231 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.45s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:05:53,461 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.71s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:06:05,447 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.01s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:06:20,278 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.65s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:06:33,190 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 6.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:07:08,946 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 8.96s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:12:13,926 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:12:26,799 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.66s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:12:39,504 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.94s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:13:02,761 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 15.11s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:15:14,841 - distributed.semaphore - WARNING - Tried to release Lock or Semaphore but it was already released: name='/g/data/xv83/users/at2708/bias_adjustment_acs_qme/qme_dev_hourly/test_hourly_correction/BOM/ACCESS-CM2/historical/r4i1p1f1/BARPA-R/v1-r1-ACS-QME-BARRAR2-1980-2022/1hr/wbgtAdjust/v20250311/wbgtAdjust_AUST-11i_ACCESS-CM2_historical_r4i1p1f1_BOM_BARPA-R_v1-r1-ACS-QME-BARRAR2-1980-2022_1hr_19960101-19961231.nc', lease_id='9c671a72b3d842feb418f7622843b234'. This can happen if the Lock or Semaphore timed out before.
+2025-11-29 02:15:18,450 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.69s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:15:18,452 - distributed.scheduler - INFO - Remove client Client-ced7bbcd-cbe6-11f0-a8f4-0000008efe80
+2025-11-29 02:15:22,622 - distributed.core - INFO - Received 'close-stream' from tcp://10.6.5.29:54062; closing.
+2025-11-29 02:15:22,629 - distributed.scheduler - INFO - Remove client Client-ced7bbcd-cbe6-11f0-a8f4-0000008efe80
+2025-11-29 02:15:23,428 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.98s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-11-29 02:15:23,431 - distributed.scheduler - INFO - Close client connection: Client-ced7bbcd-cbe6-11f0-a8f4-0000008efe80

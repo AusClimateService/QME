@@ -1,0 +1,731 @@
+Loading singularity
+Loading conda/analysis3-25.06
+Loading gadi_jupyterlab/23.02
+2025-09-18 09:51:51,578 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:43161'
+2025-09-18 09:51:51,587 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:40255'
+2025-09-18 09:51:51,591 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:46509'
+2025-09-18 09:51:51,594 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:46003'
+2025-09-18 09:51:51,599 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:43775'
+2025-09-18 09:51:51,604 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:45495'
+2025-09-18 09:51:51,608 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:34649'
+2025-09-18 09:51:51,612 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:36765'
+2025-09-18 09:51:51,617 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:43363'
+2025-09-18 09:51:51,622 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:41403'
+2025-09-18 09:51:51,626 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:37537'
+2025-09-18 09:51:51,630 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:40973'
+2025-09-18 09:51:51,634 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:34825'
+2025-09-18 09:51:51,637 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:41359'
+2025-09-18 09:51:51,641 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:38479'
+2025-09-18 09:51:51,645 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:45085'
+2025-09-18 09:51:51,650 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:33403'
+2025-09-18 09:51:51,655 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:41391'
+2025-09-18 09:51:51,658 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:33943'
+2025-09-18 09:51:51,663 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:32987'
+2025-09-18 09:51:51,711 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:34311'
+2025-09-18 09:51:51,716 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:37309'
+2025-09-18 09:51:51,720 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:46461'
+2025-09-18 09:51:51,725 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:37017'
+2025-09-18 09:51:51,733 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:39017'
+2025-09-18 09:51:51,736 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:33643'
+2025-09-18 09:51:51,740 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:40855'
+2025-09-18 09:51:51,745 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:37043'
+2025-09-18 09:51:51,750 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:43497'
+2025-09-18 09:51:51,753 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:36983'
+2025-09-18 09:51:51,757 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:35125'
+2025-09-18 09:51:51,764 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:43717'
+2025-09-18 09:51:51,768 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:35235'
+2025-09-18 09:51:51,773 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:36945'
+2025-09-18 09:51:51,777 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:41795'
+2025-09-18 09:51:51,782 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:40001'
+2025-09-18 09:51:51,787 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:41989'
+2025-09-18 09:51:51,792 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:37471'
+2025-09-18 09:51:51,796 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:41065'
+2025-09-18 09:51:51,801 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:36541'
+2025-09-18 09:51:51,805 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:44635'
+2025-09-18 09:51:51,810 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:34501'
+2025-09-18 09:51:51,814 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:33441'
+2025-09-18 09:51:51,819 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:44531'
+2025-09-18 09:51:51,822 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:37545'
+2025-09-18 09:51:51,825 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:43815'
+2025-09-18 09:51:51,832 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:34093'
+2025-09-18 09:51:51,835 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:41825'
+2025-09-18 09:51:51,841 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:32793'
+2025-09-18 09:51:51,845 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:42221'
+2025-09-18 09:51:51,849 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:42513'
+2025-09-18 09:51:51,854 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.81.2:35357'
+2025-09-18 09:51:52,712 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:39055
+2025-09-18 09:51:52,712 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:39055
+2025-09-18 09:51:52,712 - distributed.worker - INFO -          dashboard at:            10.6.81.2:38519
+2025-09-18 09:51:52,712 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,712 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,712 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,712 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,712 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-h1o_y_h1
+2025-09-18 09:51:52,712 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,735 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:52,735 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,735 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,736 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:52,879 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:36083
+2025-09-18 09:51:52,879 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:45379
+2025-09-18 09:51:52,879 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:36083
+2025-09-18 09:51:52,879 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:45379
+2025-09-18 09:51:52,879 - distributed.worker - INFO -          dashboard at:            10.6.81.2:40801
+2025-09-18 09:51:52,879 - distributed.worker - INFO -          dashboard at:            10.6.81.2:40011
+2025-09-18 09:51:52,879 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,879 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,879 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,879 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,879 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,879 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,879 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,879 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,879 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-x258imk0
+2025-09-18 09:51:52,879 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-xgwg0txy
+2025-09-18 09:51:52,879 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,879 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,885 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:33039
+2025-09-18 09:51:52,885 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:33039
+2025-09-18 09:51:52,885 - distributed.worker - INFO -          dashboard at:            10.6.81.2:45053
+2025-09-18 09:51:52,885 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,885 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,885 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,886 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,886 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-r0twmfqd
+2025-09-18 09:51:52,886 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,899 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:42235
+2025-09-18 09:51:52,899 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:42235
+2025-09-18 09:51:52,899 - distributed.worker - INFO -          dashboard at:            10.6.81.2:32957
+2025-09-18 09:51:52,899 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,899 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,899 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,899 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,899 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-9fk03fi6
+2025-09-18 09:51:52,900 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,900 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:52,901 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,901 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,902 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:34187
+2025-09-18 09:51:52,902 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:34187
+2025-09-18 09:51:52,902 - distributed.worker - INFO -          dashboard at:            10.6.81.2:35131
+2025-09-18 09:51:52,902 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,902 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,902 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,902 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,902 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-qpjl5kls
+2025-09-18 09:51:52,902 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,902 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:52,903 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:52,903 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,903 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,904 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:52,906 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:52,907 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,908 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,909 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:52,915 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:35313
+2025-09-18 09:51:52,915 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:35313
+2025-09-18 09:51:52,915 - distributed.worker - INFO -          dashboard at:            10.6.81.2:34807
+2025-09-18 09:51:52,915 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,915 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,915 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,915 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,915 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:40193
+2025-09-18 09:51:52,915 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-wcupv28g
+2025-09-18 09:51:52,915 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:40193
+2025-09-18 09:51:52,915 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,915 - distributed.worker - INFO -          dashboard at:            10.6.81.2:36287
+2025-09-18 09:51:52,915 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,915 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,915 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,915 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,915 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-fshbt0kj
+2025-09-18 09:51:52,915 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,918 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:32851
+2025-09-18 09:51:52,918 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:32851
+2025-09-18 09:51:52,918 - distributed.worker - INFO -          dashboard at:            10.6.81.2:33011
+2025-09-18 09:51:52,918 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,918 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,918 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,918 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,918 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-umusgdm1
+2025-09-18 09:51:52,918 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,920 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:45853
+2025-09-18 09:51:52,921 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:45853
+2025-09-18 09:51:52,921 - distributed.worker - INFO -          dashboard at:            10.6.81.2:36873
+2025-09-18 09:51:52,921 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,921 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,921 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,921 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,921 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-e5widfcv
+2025-09-18 09:51:52,921 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,921 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:52,922 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,922 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,923 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:52,924 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:52,924 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:33209
+2025-09-18 09:51:52,924 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:33209
+2025-09-18 09:51:52,924 - distributed.worker - INFO -          dashboard at:            10.6.81.2:46531
+2025-09-18 09:51:52,924 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,924 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,924 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,924 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,925 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-7sft6pc6
+2025-09-18 09:51:52,925 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,925 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,925 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,925 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:38895
+2025-09-18 09:51:52,925 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:38895
+2025-09-18 09:51:52,925 - distributed.worker - INFO -          dashboard at:            10.6.81.2:46311
+2025-09-18 09:51:52,925 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,925 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,925 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,926 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,926 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-fewhkf2x
+2025-09-18 09:51:52,926 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,926 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:52,929 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:35337
+2025-09-18 09:51:52,929 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:35337
+2025-09-18 09:51:52,929 - distributed.worker - INFO -          dashboard at:            10.6.81.2:40655
+2025-09-18 09:51:52,929 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,929 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,929 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,929 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,929 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-1s9bfdw9
+2025-09-18 09:51:52,929 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,931 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:39417
+2025-09-18 09:51:52,931 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:39417
+2025-09-18 09:51:52,931 - distributed.worker - INFO -          dashboard at:            10.6.81.2:36791
+2025-09-18 09:51:52,931 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,931 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,931 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,931 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,931 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-pe6n4rx0
+2025-09-18 09:51:52,932 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,935 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:52,936 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,936 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,937 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:36571
+2025-09-18 09:51:52,937 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:36571
+2025-09-18 09:51:52,937 - distributed.worker - INFO -          dashboard at:            10.6.81.2:33953
+2025-09-18 09:51:52,937 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,937 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,937 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,937 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,937 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-20a5e2hn
+2025-09-18 09:51:52,937 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,937 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:52,938 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:52,938 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,938 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,940 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:52,940 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:52,942 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,942 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,943 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:41203
+2025-09-18 09:51:52,943 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:41203
+2025-09-18 09:51:52,943 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:52,943 - distributed.worker - INFO -          dashboard at:            10.6.81.2:41637
+2025-09-18 09:51:52,943 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,943 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,943 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:44969
+2025-09-18 09:51:52,943 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,943 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,943 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:44969
+2025-09-18 09:51:52,943 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-gt5rzpsf
+2025-09-18 09:51:52,943 - distributed.worker - INFO -          dashboard at:            10.6.81.2:46159
+2025-09-18 09:51:52,943 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,943 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,943 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,943 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,943 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,943 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-b6q7o8e3
+2025-09-18 09:51:52,943 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,951 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:35955
+2025-09-18 09:51:52,951 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:35955
+2025-09-18 09:51:52,951 - distributed.worker - INFO -          dashboard at:            10.6.81.2:41425
+2025-09-18 09:51:52,951 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,951 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,951 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,951 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,951 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-1qsaaamd
+2025-09-18 09:51:52,951 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,955 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:40095
+2025-09-18 09:51:52,955 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:40095
+2025-09-18 09:51:52,955 - distributed.worker - INFO -          dashboard at:            10.6.81.2:42469
+2025-09-18 09:51:52,955 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,955 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,955 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,955 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,955 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-7ui2quc1
+2025-09-18 09:51:52,955 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,958 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:44353
+2025-09-18 09:51:52,958 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:44353
+2025-09-18 09:51:52,959 - distributed.worker - INFO -          dashboard at:            10.6.81.2:44627
+2025-09-18 09:51:52,959 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:52,959 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:52,959 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:52,959 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:52,959 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-fwwkevoi
+2025-09-18 09:51:52,959 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,005 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,006 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,006 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,008 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,023 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,024 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,025 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,025 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,026 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,026 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,027 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,027 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:43179
+2025-09-18 09:51:53,027 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,027 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:43179
+2025-09-18 09:51:53,027 - distributed.worker - INFO -          dashboard at:            10.6.81.2:34959
+2025-09-18 09:51:53,027 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,027 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,027 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,028 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,028 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-tx879cli
+2025-09-18 09:51:53,028 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,032 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,033 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,033 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,034 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,034 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,034 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,034 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,035 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,035 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,035 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,036 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,037 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,038 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,039 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,039 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,039 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,039 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:45557
+2025-09-18 09:51:53,039 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:45557
+2025-09-18 09:51:53,039 - distributed.worker - INFO -          dashboard at:            10.6.81.2:37565
+2025-09-18 09:51:53,040 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,040 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,040 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,040 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,040 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-f6xo62ts
+2025-09-18 09:51:53,040 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,040 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,040 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,040 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,040 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,040 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,041 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,041 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,041 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,041 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,041 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,042 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,042 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,042 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,042 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,043 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,044 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,053 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,054 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,054 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,056 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,059 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,060 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,060 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,061 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,088 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:38563
+2025-09-18 09:51:53,089 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:38563
+2025-09-18 09:51:53,089 - distributed.worker - INFO -          dashboard at:            10.6.81.2:37103
+2025-09-18 09:51:53,089 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,089 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,089 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,089 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,089 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-wkdqt4nw
+2025-09-18 09:51:53,089 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,093 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:43667
+2025-09-18 09:51:53,093 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:43667
+2025-09-18 09:51:53,093 - distributed.worker - INFO -          dashboard at:            10.6.81.2:34597
+2025-09-18 09:51:53,093 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,093 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,093 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,093 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,093 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-doeegsaj
+2025-09-18 09:51:53,093 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,110 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,112 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,112 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,113 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,113 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,114 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,115 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,116 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,159 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:46853
+2025-09-18 09:51:53,159 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:46853
+2025-09-18 09:51:53,159 - distributed.worker - INFO -          dashboard at:            10.6.81.2:41775
+2025-09-18 09:51:53,159 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,159 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,159 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,159 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,159 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-eqb76b9s
+2025-09-18 09:51:53,159 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,159 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:33037
+2025-09-18 09:51:53,159 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:33037
+2025-09-18 09:51:53,159 - distributed.worker - INFO -          dashboard at:            10.6.81.2:42933
+2025-09-18 09:51:53,159 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,159 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,159 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,159 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,160 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-i0ees5ud
+2025-09-18 09:51:53,160 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,172 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,172 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,172 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,172 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,179 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,180 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,180 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,181 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,202 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:44575
+2025-09-18 09:51:53,203 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:44575
+2025-09-18 09:51:53,203 - distributed.worker - INFO -          dashboard at:            10.6.81.2:35809
+2025-09-18 09:51:53,203 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,203 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,203 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,203 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,203 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-qu9mkbr0
+2025-09-18 09:51:53,203 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,225 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,226 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,226 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,227 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,233 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:39699
+2025-09-18 09:51:53,234 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:39699
+2025-09-18 09:51:53,234 - distributed.worker - INFO -          dashboard at:            10.6.81.2:37283
+2025-09-18 09:51:53,234 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,234 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,234 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,234 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,234 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-8uhjvmh_
+2025-09-18 09:51:53,234 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,256 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,257 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,257 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,258 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,325 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:42725
+2025-09-18 09:51:53,325 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:42725
+2025-09-18 09:51:53,325 - distributed.worker - INFO -          dashboard at:            10.6.81.2:44779
+2025-09-18 09:51:53,325 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,325 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,325 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,325 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,325 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-m5mai5_q
+2025-09-18 09:51:53,325 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,331 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:41337
+2025-09-18 09:51:53,331 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:41337
+2025-09-18 09:51:53,331 - distributed.worker - INFO -          dashboard at:            10.6.81.2:41785
+2025-09-18 09:51:53,331 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,331 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,331 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,331 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:33287
+2025-09-18 09:51:53,331 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,331 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:33287
+2025-09-18 09:51:53,331 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-njyj73oh
+2025-09-18 09:51:53,331 - distributed.worker - INFO -          dashboard at:            10.6.81.2:33159
+2025-09-18 09:51:53,331 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,331 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,331 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,331 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,331 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,331 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-nvmp1ddh
+2025-09-18 09:51:53,331 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,335 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:45999
+2025-09-18 09:51:53,335 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:45999
+2025-09-18 09:51:53,335 - distributed.worker - INFO -          dashboard at:            10.6.81.2:39377
+2025-09-18 09:51:53,335 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,335 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,335 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,335 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,335 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-gi8mbau2
+2025-09-18 09:51:53,335 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,339 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:40963
+2025-09-18 09:51:53,340 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:40963
+2025-09-18 09:51:53,340 - distributed.worker - INFO -          dashboard at:            10.6.81.2:37711
+2025-09-18 09:51:53,340 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,340 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,340 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,340 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,340 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-ee9dd5wa
+2025-09-18 09:51:53,340 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,341 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:37229
+2025-09-18 09:51:53,342 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:37229
+2025-09-18 09:51:53,342 - distributed.worker - INFO -          dashboard at:            10.6.81.2:44661
+2025-09-18 09:51:53,342 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,342 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,342 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,342 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,342 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-yi3w_jkm
+2025-09-18 09:51:53,342 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,345 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,346 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,346 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,347 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,347 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,348 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,348 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,350 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,350 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:44233
+2025-09-18 09:51:53,350 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:44233
+2025-09-18 09:51:53,350 - distributed.worker - INFO -          dashboard at:            10.6.81.2:41675
+2025-09-18 09:51:53,350 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,350 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,350 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,350 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,350 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-k4i5zk8d
+2025-09-18 09:51:53,350 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,350 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:33147
+2025-09-18 09:51:53,350 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:33147
+2025-09-18 09:51:53,350 - distributed.worker - INFO -          dashboard at:            10.6.81.2:42863
+2025-09-18 09:51:53,350 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,350 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,350 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,350 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,350 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-46d804aj
+2025-09-18 09:51:53,350 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,351 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,351 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:39045
+2025-09-18 09:51:53,352 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:39045
+2025-09-18 09:51:53,352 - distributed.worker - INFO -          dashboard at:            10.6.81.2:35757
+2025-09-18 09:51:53,352 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,352 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,352 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,352 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,352 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-0o1spz51
+2025-09-18 09:51:53,352 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,352 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,352 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,353 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,355 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,356 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,356 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,358 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,359 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,359 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,360 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,360 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,360 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,360 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,360 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,361 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,361 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,361 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,362 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,362 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,363 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:43645
+2025-09-18 09:51:53,363 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:43645
+2025-09-18 09:51:53,363 - distributed.worker - INFO -          dashboard at:            10.6.81.2:43471
+2025-09-18 09:51:53,363 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,363 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,363 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,363 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,363 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-7bj5bqnd
+2025-09-18 09:51:53,363 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,363 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,363 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,364 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,364 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,364 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:36727
+2025-09-18 09:51:53,364 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:36727
+2025-09-18 09:51:53,364 - distributed.worker - INFO -          dashboard at:            10.6.81.2:34261
+2025-09-18 09:51:53,364 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,364 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:33045
+2025-09-18 09:51:53,364 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,364 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,364 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:33045
+2025-09-18 09:51:53,364 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,364 - distributed.worker - INFO -          dashboard at:            10.6.81.2:33291
+2025-09-18 09:51:53,364 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-td4di_vo
+2025-09-18 09:51:53,364 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,364 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,364 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,364 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,364 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,364 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,364 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-ueb9zyca
+2025-09-18 09:51:53,364 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,364 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,364 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,366 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,368 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:39049
+2025-09-18 09:51:53,368 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:46815
+2025-09-18 09:51:53,368 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:39049
+2025-09-18 09:51:53,368 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:46815
+2025-09-18 09:51:53,368 - distributed.worker - INFO -          dashboard at:            10.6.81.2:42335
+2025-09-18 09:51:53,368 - distributed.worker - INFO -          dashboard at:            10.6.81.2:39809
+2025-09-18 09:51:53,368 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,368 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,368 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,368 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,368 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,368 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,368 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,368 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,368 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-ddjp5ikw
+2025-09-18 09:51:53,368 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-acs_ipi4
+2025-09-18 09:51:53,368 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,368 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,369 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:43995
+2025-09-18 09:51:53,369 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:43995
+2025-09-18 09:51:53,369 - distributed.worker - INFO -          dashboard at:            10.6.81.2:40137
+2025-09-18 09:51:53,369 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,369 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,369 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,369 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,369 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-1xgfc5xh
+2025-09-18 09:51:53,369 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,372 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:44417
+2025-09-18 09:51:53,372 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:44417
+2025-09-18 09:51:53,372 - distributed.worker - INFO -          dashboard at:            10.6.81.2:34715
+2025-09-18 09:51:53,372 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,372 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,372 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,372 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,372 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-5di_m1dn
+2025-09-18 09:51:53,372 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,375 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:44777
+2025-09-18 09:51:53,375 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:44777
+2025-09-18 09:51:53,375 - distributed.worker - INFO -          dashboard at:            10.6.81.2:39993
+2025-09-18 09:51:53,375 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,375 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,375 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,375 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:38857
+2025-09-18 09:51:53,375 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,375 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:38857
+2025-09-18 09:51:53,375 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-5gb5p3a0
+2025-09-18 09:51:53,375 - distributed.worker - INFO -          dashboard at:            10.6.81.2:34981
+2025-09-18 09:51:53,375 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,375 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,375 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,375 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,375 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,375 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-eupxgeqr
+2025-09-18 09:51:53,375 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,382 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:40475
+2025-09-18 09:51:53,382 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:40475
+2025-09-18 09:51:53,382 - distributed.worker - INFO -          dashboard at:            10.6.81.2:33237
+2025-09-18 09:51:53,382 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,382 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,382 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,382 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,382 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-kzn9wopi
+2025-09-18 09:51:53,382 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,384 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,385 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,385 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,385 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,386 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,386 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,386 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,386 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:44369
+2025-09-18 09:51:53,386 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:44369
+2025-09-18 09:51:53,387 - distributed.worker - INFO -          dashboard at:            10.6.81.2:33371
+2025-09-18 09:51:53,387 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,387 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,387 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,387 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,387 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-jt0v4xqv
+2025-09-18 09:51:53,387 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,387 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,388 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,388 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,388 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,389 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,389 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,390 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,390 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,391 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,392 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,392 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:43243
+2025-09-18 09:51:53,392 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,392 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:43243
+2025-09-18 09:51:53,392 - distributed.worker - INFO -          dashboard at:            10.6.81.2:42773
+2025-09-18 09:51:53,392 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,393 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,393 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,393 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,393 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,393 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-wl6zysc6
+2025-09-18 09:51:53,393 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,393 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,394 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:45463
+2025-09-18 09:51:53,394 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:45463
+2025-09-18 09:51:53,394 - distributed.worker - INFO -          dashboard at:            10.6.81.2:35177
+2025-09-18 09:51:53,394 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,394 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,394 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,394 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,394 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,394 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-eke3g_c8
+2025-09-18 09:51:53,394 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,394 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,394 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,396 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,396 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:40519
+2025-09-18 09:51:53,397 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:40519
+2025-09-18 09:51:53,397 - distributed.worker - INFO -          dashboard at:            10.6.81.2:37181
+2025-09-18 09:51:53,397 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,397 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,397 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,397 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,397 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-4kfhean2
+2025-09-18 09:51:53,397 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,398 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,399 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,399 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,399 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,400 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,400 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,400 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,401 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,401 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,402 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,403 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,403 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,403 - distributed.worker - INFO -       Start worker at:      tcp://10.6.81.2:39521
+2025-09-18 09:51:53,403 - distributed.worker - INFO -          Listening to:      tcp://10.6.81.2:39521
+2025-09-18 09:51:53,403 - distributed.worker - INFO -          dashboard at:            10.6.81.2:44785
+2025-09-18 09:51:53,403 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,403 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,404 - distributed.worker - INFO -               Threads:                          2
+2025-09-18 09:51:53,404 - distributed.worker - INFO -                Memory:                   9.62 GiB
+2025-09-18 09:51:53,403 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,404 - distributed.worker - INFO -       Local Directory: /jobfs/149925615.gadi-pbs/dask-scratch-space/worker-biltndrf
+2025-09-18 09:51:53,404 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,404 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,404 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,405 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,410 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,411 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,411 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,411 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,412 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,412 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,412 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,412 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,413 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,414 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,414 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,414 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,420 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,421 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,421 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,421 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-18 09:51:53,422 - distributed.worker - INFO -         Registered to:       tcp://10.6.81.1:8786
+2025-09-18 09:51:53,422 - distributed.worker - INFO - -------------------------------------------------
+2025-09-18 09:51:53,423 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786
+2025-09-18 09:51:53,424 - distributed.core - INFO - Starting established connection to tcp://10.6.81.1:8786

@@ -1,0 +1,508 @@
+2025-09-16 15:15:32,783 - distributed.scheduler - INFO - -----------------------------------------------
+2025-09-16 15:15:33,420 - distributed.scheduler - INFO - State start
+2025-09-16 15:15:33,423 - distributed.scheduler - INFO - -----------------------------------------------
+2025-09-16 15:15:33,423 - distributed.scheduler - INFO -   Scheduler at:      tcp://10.6.5.28:8715
+2025-09-16 15:15:33,424 - distributed.scheduler - INFO -   dashboard at:          proxy/8801/status
+2025-09-16 15:15:33,426 - distributed.scheduler - INFO - Registering Worker plugin shuffle
+2025-09-16 15:15:38,883 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:34939 name: tcp://10.6.5.28:34939
+2025-09-16 15:15:38,895 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:34939
+2025-09-16 15:15:38,895 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42046
+2025-09-16 15:15:38,918 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:45733 name: tcp://10.6.5.28:45733
+2025-09-16 15:15:38,919 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:45733
+2025-09-16 15:15:38,919 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42058
+2025-09-16 15:15:39,030 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:36093 name: tcp://10.6.5.28:36093
+2025-09-16 15:15:39,031 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:36093
+2025-09-16 15:15:39,031 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42060
+2025-09-16 15:15:39,044 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:40657 name: tcp://10.6.5.28:40657
+2025-09-16 15:15:39,045 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:40657
+2025-09-16 15:15:39,045 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42076
+2025-09-16 15:15:39,130 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:35203 name: tcp://10.6.5.28:35203
+2025-09-16 15:15:39,131 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:35203
+2025-09-16 15:15:39,131 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42084
+2025-09-16 15:15:39,134 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:36897 name: tcp://10.6.5.28:36897
+2025-09-16 15:15:39,135 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:36897
+2025-09-16 15:15:39,135 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42092
+2025-09-16 15:15:39,136 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:40907 name: tcp://10.6.5.28:40907
+2025-09-16 15:15:39,137 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:40907
+2025-09-16 15:15:39,137 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42104
+2025-09-16 15:15:39,164 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:33863 name: tcp://10.6.5.28:33863
+2025-09-16 15:15:39,164 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:33863
+2025-09-16 15:15:39,164 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42120
+2025-09-16 15:15:39,175 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:34225 name: tcp://10.6.5.28:34225
+2025-09-16 15:15:39,175 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:34225
+2025-09-16 15:15:39,175 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42124
+2025-09-16 15:15:39,193 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:42457 name: tcp://10.6.5.28:42457
+2025-09-16 15:15:39,193 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:42457
+2025-09-16 15:15:39,194 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42130
+2025-09-16 15:15:39,202 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:34117 name: tcp://10.6.5.28:34117
+2025-09-16 15:15:39,202 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:34117
+2025-09-16 15:15:39,202 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42146
+2025-09-16 15:15:39,203 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:44833 name: tcp://10.6.5.28:44833
+2025-09-16 15:15:39,203 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:44833
+2025-09-16 15:15:39,204 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42160
+2025-09-16 15:15:39,205 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:35575 name: tcp://10.6.5.28:35575
+2025-09-16 15:15:39,206 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:35575
+2025-09-16 15:15:39,206 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42164
+2025-09-16 15:15:39,216 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:35309 name: tcp://10.6.5.28:35309
+2025-09-16 15:15:39,216 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:35309
+2025-09-16 15:15:39,217 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42192
+2025-09-16 15:15:39,219 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:44775 name: tcp://10.6.5.28:44775
+2025-09-16 15:15:39,219 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:44775
+2025-09-16 15:15:39,219 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42180
+2025-09-16 15:15:39,222 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:38825 name: tcp://10.6.5.28:38825
+2025-09-16 15:15:39,222 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:38825
+2025-09-16 15:15:39,223 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42166
+2025-09-16 15:15:39,234 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:45897 name: tcp://10.6.5.28:45897
+2025-09-16 15:15:39,234 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:45897
+2025-09-16 15:15:39,235 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42204
+2025-09-16 15:15:39,265 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:35545 name: tcp://10.6.5.28:35545
+2025-09-16 15:15:39,266 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:35545
+2025-09-16 15:15:39,266 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42210
+2025-09-16 15:15:39,274 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:40987 name: tcp://10.6.5.28:40987
+2025-09-16 15:15:39,274 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:40987
+2025-09-16 15:15:39,274 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42214
+2025-09-16 15:15:39,279 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:39251 name: tcp://10.6.5.28:39251
+2025-09-16 15:15:39,279 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:39251
+2025-09-16 15:15:39,279 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42220
+2025-09-16 15:15:39,283 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:38827 name: tcp://10.6.5.28:38827
+2025-09-16 15:15:39,283 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:38827
+2025-09-16 15:15:39,284 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42226
+2025-09-16 15:15:39,286 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:43689 name: tcp://10.6.5.28:43689
+2025-09-16 15:15:39,287 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:43689
+2025-09-16 15:15:39,287 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42234
+2025-09-16 15:15:39,288 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:33421 name: tcp://10.6.5.28:33421
+2025-09-16 15:15:39,289 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:33421
+2025-09-16 15:15:39,289 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42228
+2025-09-16 15:15:39,297 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:37553 name: tcp://10.6.5.28:37553
+2025-09-16 15:15:39,298 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:37553
+2025-09-16 15:15:39,298 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42250
+2025-09-16 15:15:39,332 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:35823 name: tcp://10.6.5.28:35823
+2025-09-16 15:15:39,333 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:35823
+2025-09-16 15:15:39,333 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42270
+2025-09-16 15:15:39,334 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:46085 name: tcp://10.6.5.28:46085
+2025-09-16 15:15:39,334 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:46085
+2025-09-16 15:15:39,334 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42266
+2025-09-16 15:15:39,346 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:45143 name: tcp://10.6.5.28:45143
+2025-09-16 15:15:39,346 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:45143
+2025-09-16 15:15:39,346 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42280
+2025-09-16 15:15:39,350 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:40607 name: tcp://10.6.5.28:40607
+2025-09-16 15:15:39,350 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:40607
+2025-09-16 15:15:39,350 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42274
+2025-09-16 15:15:39,372 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:46279 name: tcp://10.6.5.28:46279
+2025-09-16 15:15:39,373 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:46279
+2025-09-16 15:15:39,373 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42284
+2025-09-16 15:15:39,387 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:35251 name: tcp://10.6.5.28:35251
+2025-09-16 15:15:39,388 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:35251
+2025-09-16 15:15:39,388 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42286
+2025-09-16 15:15:39,402 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:39939 name: tcp://10.6.5.28:39939
+2025-09-16 15:15:39,403 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:39939
+2025-09-16 15:15:39,403 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42300
+2025-09-16 15:15:39,421 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:33861 name: tcp://10.6.5.28:33861
+2025-09-16 15:15:39,422 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:33861
+2025-09-16 15:15:39,422 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42304
+2025-09-16 15:15:39,450 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:43903 name: tcp://10.6.5.28:43903
+2025-09-16 15:15:39,451 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:43903
+2025-09-16 15:15:39,451 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42306
+2025-09-16 15:15:39,462 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:45727 name: tcp://10.6.5.28:45727
+2025-09-16 15:15:39,463 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:45727
+2025-09-16 15:15:39,463 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42328
+2025-09-16 15:15:39,470 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:41367 name: tcp://10.6.5.28:41367
+2025-09-16 15:15:39,471 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:41367
+2025-09-16 15:15:39,471 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42314
+2025-09-16 15:15:39,490 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:36119 name: tcp://10.6.5.28:36119
+2025-09-16 15:15:39,491 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:36119
+2025-09-16 15:15:39,491 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42342
+2025-09-16 15:15:39,498 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:41285 name: tcp://10.6.5.28:41285
+2025-09-16 15:15:39,499 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:41285
+2025-09-16 15:15:39,499 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42350
+2025-09-16 15:15:39,501 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:42449 name: tcp://10.6.5.28:42449
+2025-09-16 15:15:39,502 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:42449
+2025-09-16 15:15:39,502 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42366
+2025-09-16 15:15:39,512 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:46683 name: tcp://10.6.5.28:46683
+2025-09-16 15:15:39,513 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:46683
+2025-09-16 15:15:39,513 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42374
+2025-09-16 15:15:39,518 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:33291 name: tcp://10.6.5.28:33291
+2025-09-16 15:15:39,519 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:33291
+2025-09-16 15:15:39,519 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42372
+2025-09-16 15:15:39,524 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:34347 name: tcp://10.6.5.28:34347
+2025-09-16 15:15:39,525 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:34347
+2025-09-16 15:15:39,525 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42382
+2025-09-16 15:15:39,533 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:46289 name: tcp://10.6.5.28:46289
+2025-09-16 15:15:39,533 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:46289
+2025-09-16 15:15:39,534 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42384
+2025-09-16 15:15:39,537 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:37911 name: tcp://10.6.5.28:37911
+2025-09-16 15:15:39,538 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:37911
+2025-09-16 15:15:39,538 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42400
+2025-09-16 15:15:39,543 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:42429 name: tcp://10.6.5.28:42429
+2025-09-16 15:15:39,544 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:42429
+2025-09-16 15:15:39,544 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42410
+2025-09-16 15:15:39,552 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:40517 name: tcp://10.6.5.28:40517
+2025-09-16 15:15:39,552 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:40517
+2025-09-16 15:15:39,553 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42422
+2025-09-16 15:15:39,576 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:38215 name: tcp://10.6.5.28:38215
+2025-09-16 15:15:39,577 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:38215
+2025-09-16 15:15:39,577 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42430
+2025-09-16 15:15:39,585 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:42197 name: tcp://10.6.5.28:42197
+2025-09-16 15:15:39,586 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:42197
+2025-09-16 15:15:39,586 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42438
+2025-09-16 15:15:39,616 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:45979 name: tcp://10.6.5.28:45979
+2025-09-16 15:15:39,617 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:45979
+2025-09-16 15:15:39,617 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:42446
+2025-09-16 15:15:44,385 - distributed.scheduler - INFO - Receive client connection: Client-3246baa1-92bc-11f0-abd1-00000088fe80
+2025-09-16 15:15:44,387 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:39742
+2025-09-16 15:15:44,397 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-16 15:15:45,589 - distributed.scheduler - INFO - Registering Worker plugin qme_utils.py736870d9-b3b8-4205-aeea-2abc2019a346
+2025-09-16 15:15:47,641 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-16 15:15:47,644 - distributed.scheduler - INFO - Registering Worker plugin qme_vars.pyb3d721b9-05d8-4b39-8913-63524c7f13f4
+2025-09-16 15:15:47,684 - distributed.scheduler - INFO - Registering Worker plugin qme_train.pyba3899bd-b1c3-4ff3-aab1-57eea89fb223
+2025-09-16 15:15:47,691 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-16 15:15:47,723 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-16 15:15:47,726 - distributed.scheduler - INFO - Registering Worker plugin qme_apply.py81ed45f2-ce5b-434e-b07b-d8cd894dcc4b
+2025-09-16 15:16:47,164 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.84s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:17:24,678 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.18s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:17:33,571 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.98s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:17:40,826 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:17:54,085 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 7.38s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:18:21,356 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 9.00s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:19:47,215 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 49.65s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:19:58,950 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 11.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:22:04,033 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 14.61s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:22:14,513 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 4113.782196998596}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 4440.542265892029}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:14,559 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1266'}, 'attr': 'end', 'new': 3.1500000000000004}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:14,631 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 5356.416001319885}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 5685.88551235199}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:14,672 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 6592.688293457031}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 6935.366882324219}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:14,712 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 7812.319659233093}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 8170.590252876282}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:14,751 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 9067.193247795105}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 9393.813099861145}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:14,793 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 9966.668383598328}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 10827.668042182922}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:14,831 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 11522.27646446228}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 11878.88271522522}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:14,871 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 12729.343162536621}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 13071.339698791504}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:14,913 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 13968.37135887146}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 14297.84494972229}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:14,954 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 15208.076341629028}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 15547.454175949097}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:14,998 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1266'}, 'attr': 'end', 'new': 2.1}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:15,038 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 31051.009692192078}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 38444.30598163605}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:15,079 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1469'}, 'attr': 'inner_height', 'new': 476}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:15,123 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 32265.84401035309}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 32598.632308006287}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:15,162 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1469'}, 'attr': 'inner_height', 'new': 471}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:15,199 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1266'}, 'attr': 'end', 'new': 3.1500000000000004}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:15,243 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 33101.68728733063}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 34105.97140407562}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:15,282 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 33670.28493976593}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 35447.64181804657}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:15,317 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 36013.56570529938}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 36344.79293727875}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:15,358 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'start', 'new': 37233.478587150574}, {'kind': 'ModelChanged', 'model': {'id': 'p1467'}, 'attr': 'end', 'new': 37597.90056324005}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:15,400 - bokeh.server.protocol_handler - ERROR - error handling message
+ message: Message 'PATCH-DOC' content: {'events': [{'kind': 'ModelChanged', 'model': {'id': 'p1266'}, 'attr': 'end', 'new': 2.1}]} 
+ error: AssertionError()
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/protocol_handler.py", line 94, in handle
+    work = await handler(message, connection)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/session.py", line 295, in patch
+    return connection.session._handle_patch(message, connection)
+           ^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:15,406 - tornado.application - ERROR - Uncaught exception GET /status/ws (10.6.152.5)
+HTTPServerRequest(protocol='http', host='localhost:8801', method='GET', uri='/status/ws', version='HTTP/1.1', remote_ip='10.6.152.5')
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/web.py", line 1848, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/websocket.py", line 277, in get
+    await self.ws_connection.accept_connection(self)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/websocket.py", line 890, in accept_connection
+    await self._accept_connection(handler)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/websocket.py", line 973, in _accept_connection
+    await self._receive_frame_loop()
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/websocket.py", line 1130, in _receive_frame_loop
+    self.handler.on_ws_connection_close(self.close_code, self.close_reason)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/websocket.py", line 599, in on_ws_connection_close
+    self.on_connection_close()
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/websocket.py", line 591, in on_connection_close
+    self.on_close()
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/views/ws.py", line 308, in on_close
+    self.connection.session.notify_connection_lost()
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/bokeh/server/connection.py", line 65, in session
+    assert self._session is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-09-16 15:22:43,922 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 14.50s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:22:58,044 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 13.62s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:29:46,483 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 14.56s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:31:27,735 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.45s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:35:46,219 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 15.16s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-16 15:37:03,338 - distributed.scheduler - INFO - Remove client Client-3246baa1-92bc-11f0-abd1-00000088fe80

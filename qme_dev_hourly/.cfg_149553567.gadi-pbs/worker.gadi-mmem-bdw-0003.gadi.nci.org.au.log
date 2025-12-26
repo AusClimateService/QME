@@ -1,0 +1,845 @@
+Loading singularity
+Loading conda/analysis3-25.06
+Loading gadi_jupyterlab/23.02
+2025-09-14 15:59:53,114 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:46327'
+2025-09-14 15:59:53,124 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:42499'
+2025-09-14 15:59:53,128 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:44559'
+2025-09-14 15:59:53,132 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:33527'
+2025-09-14 15:59:53,138 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:33437'
+2025-09-14 15:59:53,143 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:45229'
+2025-09-14 15:59:53,147 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:40423'
+2025-09-14 15:59:53,151 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:37147'
+2025-09-14 15:59:53,156 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:45875'
+2025-09-14 15:59:53,161 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:34337'
+2025-09-14 15:59:53,167 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:39429'
+2025-09-14 15:59:53,172 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:37637'
+2025-09-14 15:59:53,176 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:34553'
+2025-09-14 15:59:53,181 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:34171'
+2025-09-14 15:59:53,185 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:37667'
+2025-09-14 15:59:53,189 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:35329'
+2025-09-14 15:59:53,193 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:46539'
+2025-09-14 15:59:53,199 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:38573'
+2025-09-14 15:59:53,203 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:46681'
+2025-09-14 15:59:53,208 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:35767'
+2025-09-14 15:59:53,213 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:40711'
+2025-09-14 15:59:53,218 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:36681'
+2025-09-14 15:59:53,222 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:34735'
+2025-09-14 15:59:53,226 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:37553'
+2025-09-14 15:59:53,234 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:46643'
+2025-09-14 15:59:53,362 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:37823'
+2025-09-14 15:59:53,366 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:37877'
+2025-09-14 15:59:53,371 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:42225'
+2025-09-14 15:59:53,375 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:33881'
+2025-09-14 15:59:53,380 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:41731'
+2025-09-14 15:59:53,385 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:41063'
+2025-09-14 15:59:53,398 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.27:45879'
+2025-09-14 15:59:55,447 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:35469
+2025-09-14 15:59:55,447 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:43927
+2025-09-14 15:59:55,447 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:35469
+2025-09-14 15:59:55,447 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:43927
+2025-09-14 15:59:55,447 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:43503
+2025-09-14 15:59:55,447 - distributed.worker - INFO -          dashboard at:            10.6.5.27:43169
+2025-09-14 15:59:55,448 - distributed.worker - INFO -          dashboard at:            10.6.5.27:37925
+2025-09-14 15:59:55,448 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:43503
+2025-09-14 15:59:55,448 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,448 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,448 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,448 - distributed.worker - INFO -          dashboard at:            10.6.5.27:37141
+2025-09-14 15:59:55,448 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,448 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,448 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,448 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,448 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,448 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,448 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,448 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-b0xu2n3r
+2025-09-14 15:59:55,448 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,448 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-ps2wbhk5
+2025-09-14 15:59:55,448 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:41439
+2025-09-14 15:59:55,448 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,448 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,448 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,448 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:41439
+2025-09-14 15:59:55,448 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-52k3ld82
+2025-09-14 15:59:55,448 - distributed.worker - INFO -          dashboard at:            10.6.5.27:44009
+2025-09-14 15:59:55,448 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,448 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,449 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,449 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,449 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,449 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-y9fjoi0k
+2025-09-14 15:59:55,449 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,451 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:39361
+2025-09-14 15:59:55,451 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:39361
+2025-09-14 15:59:55,451 - distributed.worker - INFO -          dashboard at:            10.6.5.27:46595
+2025-09-14 15:59:55,451 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,451 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,452 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,452 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,452 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-u_jm6cx3
+2025-09-14 15:59:55,452 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,456 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:43605
+2025-09-14 15:59:55,456 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:43605
+2025-09-14 15:59:55,456 - distributed.worker - INFO -          dashboard at:            10.6.5.27:43709
+2025-09-14 15:59:55,457 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,457 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,457 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,457 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,457 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-jdd2wwgi
+2025-09-14 15:59:55,457 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,458 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:44599
+2025-09-14 15:59:55,458 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:44599
+2025-09-14 15:59:55,458 - distributed.worker - INFO -          dashboard at:            10.6.5.27:40661
+2025-09-14 15:59:55,458 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,458 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,458 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,458 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:38187
+2025-09-14 15:59:55,458 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,458 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:38187
+2025-09-14 15:59:55,458 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-cabhaqqx
+2025-09-14 15:59:55,458 - distributed.worker - INFO -          dashboard at:            10.6.5.27:45775
+2025-09-14 15:59:55,459 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,459 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,459 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,459 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,459 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,459 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-s0pm7uwu
+2025-09-14 15:59:55,459 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,463 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:34219
+2025-09-14 15:59:55,463 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:35995
+2025-09-14 15:59:55,463 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:34219
+2025-09-14 15:59:55,463 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:35995
+2025-09-14 15:59:55,463 - distributed.worker - INFO -          dashboard at:            10.6.5.27:39913
+2025-09-14 15:59:55,463 - distributed.worker - INFO -          dashboard at:            10.6.5.27:33605
+2025-09-14 15:59:55,463 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,464 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,464 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,464 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,464 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,464 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,464 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:35827
+2025-09-14 15:59:55,464 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,464 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,464 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:35827
+2025-09-14 15:59:55,464 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-4k7xy4go
+2025-09-14 15:59:55,464 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-1m70l0tq
+2025-09-14 15:59:55,464 - distributed.worker - INFO -          dashboard at:            10.6.5.27:40409
+2025-09-14 15:59:55,464 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,464 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,464 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,464 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,464 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,464 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,464 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-gxtlmbcu
+2025-09-14 15:59:55,465 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,469 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:44639
+2025-09-14 15:59:55,469 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:44639
+2025-09-14 15:59:55,470 - distributed.worker - INFO -          dashboard at:            10.6.5.27:35815
+2025-09-14 15:59:55,470 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,470 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,470 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,470 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,470 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-ud7r0_od
+2025-09-14 15:59:55,470 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:46159
+2025-09-14 15:59:55,470 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,470 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:46159
+2025-09-14 15:59:55,470 - distributed.worker - INFO -          dashboard at:            10.6.5.27:34715
+2025-09-14 15:59:55,470 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,471 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,471 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,471 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,471 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-pebmp9js
+2025-09-14 15:59:55,471 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,476 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,477 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,477 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,478 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,478 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,478 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,478 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,479 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,479 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,480 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,480 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,481 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,481 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,482 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,482 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,482 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:33097
+2025-09-14 15:59:55,482 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:36189
+2025-09-14 15:59:55,482 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:33097
+2025-09-14 15:59:55,482 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:36189
+2025-09-14 15:59:55,482 - distributed.worker - INFO -          dashboard at:            10.6.5.27:42067
+2025-09-14 15:59:55,482 - distributed.worker - INFO -          dashboard at:            10.6.5.27:36213
+2025-09-14 15:59:55,482 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:44761
+2025-09-14 15:59:55,482 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,482 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,482 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,482 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:44761
+2025-09-14 15:59:55,482 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,482 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,482 - distributed.worker - INFO -          dashboard at:            10.6.5.27:44037
+2025-09-14 15:59:55,482 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,483 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,483 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,483 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,483 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,483 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,483 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-_7s1h_x9
+2025-09-14 15:59:55,483 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-4izf9431
+2025-09-14 15:59:55,483 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,483 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,483 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,483 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,483 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,483 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-o546k2kz
+2025-09-14 15:59:55,483 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,483 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,483 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,484 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,484 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,484 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:39213
+2025-09-14 15:59:55,485 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:39213
+2025-09-14 15:59:55,485 - distributed.worker - INFO -          dashboard at:            10.6.5.27:39529
+2025-09-14 15:59:55,485 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,485 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,485 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:41047
+2025-09-14 15:59:55,485 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,485 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,485 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:41047
+2025-09-14 15:59:55,485 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,485 - distributed.worker - INFO -          dashboard at:            10.6.5.27:38919
+2025-09-14 15:59:55,485 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,485 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,485 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-d_iwl2y1
+2025-09-14 15:59:55,485 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,485 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,485 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,485 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,485 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-9umklxy8
+2025-09-14 15:59:55,486 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,486 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,486 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,487 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,487 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,488 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,488 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,489 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,489 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,489 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,490 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,490 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,490 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,491 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,492 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,492 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:44363
+2025-09-14 15:59:55,492 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:44363
+2025-09-14 15:59:55,492 - distributed.worker - INFO -          dashboard at:            10.6.5.27:35379
+2025-09-14 15:59:55,492 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,492 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,492 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,492 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,492 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,493 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,493 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-men_ctw7
+2025-09-14 15:59:55,493 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,494 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,494 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:40617
+2025-09-14 15:59:55,494 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,494 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:40617
+2025-09-14 15:59:55,495 - distributed.worker - INFO -          dashboard at:            10.6.5.27:36837
+2025-09-14 15:59:55,495 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,495 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,495 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,495 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,495 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-6jua03th
+2025-09-14 15:59:55,495 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,495 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,495 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,497 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,501 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,502 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,502 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,503 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,503 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,504 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,504 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,506 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,508 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:32777
+2025-09-14 15:59:55,508 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:32777
+2025-09-14 15:59:55,508 - distributed.worker - INFO -          dashboard at:            10.6.5.27:33113
+2025-09-14 15:59:55,508 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,508 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,508 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,508 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,508 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-njp28yz4
+2025-09-14 15:59:55,509 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,512 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,513 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,513 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,513 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,514 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,514 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,514 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,516 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,516 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,516 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,516 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,518 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,518 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,518 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,518 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,519 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,520 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,520 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,520 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,521 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,521 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,522 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,522 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,523 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,526 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,527 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,528 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,529 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:34135
+2025-09-14 15:59:55,529 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:34135
+2025-09-14 15:59:55,529 - distributed.worker - INFO -          dashboard at:            10.6.5.27:46635
+2025-09-14 15:59:55,529 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,529 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,529 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,529 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,529 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,529 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-95auip4o
+2025-09-14 15:59:55,529 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,531 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:33717
+2025-09-14 15:59:55,531 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:33717
+2025-09-14 15:59:55,531 - distributed.worker - INFO -          dashboard at:            10.6.5.27:35083
+2025-09-14 15:59:55,531 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,531 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,531 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,532 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,531 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,532 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-mpkef5o8
+2025-09-14 15:59:55,532 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,532 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,532 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,534 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,540 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:36817
+2025-09-14 15:59:55,541 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:36817
+2025-09-14 15:59:55,541 - distributed.worker - INFO -          dashboard at:            10.6.5.27:34923
+2025-09-14 15:59:55,541 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,541 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,541 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:43395
+2025-09-14 15:59:55,541 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,541 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:43395
+2025-09-14 15:59:55,541 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,541 - distributed.worker - INFO -          dashboard at:            10.6.5.27:43965
+2025-09-14 15:59:55,541 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-jy1k3rmk
+2025-09-14 15:59:55,541 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,541 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,541 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,541 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,541 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,541 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-s6vzdftz
+2025-09-14 15:59:55,542 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,544 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:41771
+2025-09-14 15:59:55,544 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:41771
+2025-09-14 15:59:55,544 - distributed.worker - INFO -          dashboard at:            10.6.5.27:45083
+2025-09-14 15:59:55,544 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,544 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,544 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,545 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,545 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-l3gzxvi1
+2025-09-14 15:59:55,545 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,551 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,552 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,552 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,553 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,555 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,556 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,556 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,556 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:45515
+2025-09-14 15:59:55,556 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:45515
+2025-09-14 15:59:55,557 - distributed.worker - INFO -          dashboard at:            10.6.5.27:44529
+2025-09-14 15:59:55,557 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,557 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,557 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,557 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,557 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-fyw6dhjr
+2025-09-14 15:59:55,557 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,557 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,557 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,558 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,558 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,559 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,561 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,562 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,562 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,563 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,563 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,564 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,564 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,565 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,571 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,572 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,572 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,573 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,580 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:43397
+2025-09-14 15:59:55,580 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:43397
+2025-09-14 15:59:55,580 - distributed.worker - INFO -          dashboard at:            10.6.5.27:38529
+2025-09-14 15:59:55,580 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,580 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,580 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,580 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,580 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-_8871v_x
+2025-09-14 15:59:55,581 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,597 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,597 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,597 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,598 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,600 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:34611
+2025-09-14 15:59:55,600 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:34611
+2025-09-14 15:59:55,600 - distributed.worker - INFO -          dashboard at:            10.6.5.27:45803
+2025-09-14 15:59:55,600 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,600 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,600 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,600 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,601 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-rujve9is
+2025-09-14 15:59:55,601 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,618 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,619 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,619 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,621 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,670 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:46771
+2025-09-14 15:59:55,671 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:46771
+2025-09-14 15:59:55,671 - distributed.worker - INFO -          dashboard at:            10.6.5.27:46679
+2025-09-14 15:59:55,671 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,671 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,671 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,671 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,671 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-5puppgxd
+2025-09-14 15:59:55,671 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,692 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,694 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,694 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,695 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,713 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:41027
+2025-09-14 15:59:55,713 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:41027
+2025-09-14 15:59:55,713 - distributed.worker - INFO -          dashboard at:            10.6.5.27:32931
+2025-09-14 15:59:55,713 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,713 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,713 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,713 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,713 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-2dprj51g
+2025-09-14 15:59:55,714 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,729 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,730 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,730 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,731 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 15:59:55,754 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:36725
+2025-09-14 15:59:55,755 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:36725
+2025-09-14 15:59:55,755 - distributed.worker - INFO -          dashboard at:            10.6.5.27:35865
+2025-09-14 15:59:55,755 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,755 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,755 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 15:59:55,755 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 15:59:55,756 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-1pw5rmhq
+2025-09-14 15:59:55,756 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,775 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 15:59:55,776 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 15:59:55,776 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 15:59:55,777 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 16:00:08,092 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,094 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,095 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,095 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,095 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,096 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,096 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,096 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,095 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,097 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,096 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,097 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,098 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,098 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,098 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,099 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,098 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,099 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,100 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,100 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,101 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,101 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,102 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,102 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,102 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,102 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,102 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,103 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,102 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,103 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,103 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,104 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,105 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,104 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,106 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,106 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,106 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,107 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,105 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,107 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,106 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,107 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,107 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,108 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,108 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,109 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,108 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,110 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,110 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,110 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,111 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,111 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,112 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,112 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,112 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,112 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,113 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,112 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,115 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,113 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,116 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:00:08,120 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,121 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:08,121 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:00:11,555 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.48s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,555 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.45s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,556 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.48s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,558 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.48s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,558 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.46s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,560 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.46s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,562 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,564 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,571 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,571 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,576 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.50s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,586 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,594 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.50s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,603 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.50s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,637 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.56s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,637 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.54s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,642 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.53s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,649 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.57s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,660 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.56s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,663 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.56s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,667 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.59s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,674 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.58s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,681 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.58s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,689 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.60s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,694 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.61s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,694 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.60s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,721 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.62s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,736 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.64s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,747 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.66s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,750 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.64s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,815 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,818 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:00:11,893 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,894 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,894 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,896 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,896 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,896 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,896 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,895 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,896 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,897 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,898 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,898 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,898 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,899 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,899 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,899 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,898 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,899 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,900 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,901 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,899 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,900 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,900 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,901 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,901 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,902 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,903 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,903 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,904 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,903 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,904 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,904 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,904 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,905 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,904 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,905 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,904 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,905 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,906 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,906 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,905 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,907 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,907 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,906 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,908 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,907 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,907 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,908 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,910 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,910 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,909 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,910 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,910 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,909 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,910 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,910 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,912 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,911 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,911 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:00:11,913 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,913 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,913 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,915 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,915 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:00:11,985 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,985 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,986 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,986 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,986 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,987 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,988 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,988 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,988 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,988 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,988 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,988 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,989 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,989 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,989 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,989 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,989 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,990 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,990 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,990 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,990 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,991 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,991 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,991 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,991 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,992 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,992 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,992 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,992 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,992 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,993 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,993 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,993 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,993 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,993 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,994 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,994 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,994 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,994 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,994 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,994 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,994 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,995 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,995 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,995 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,995 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,995 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,996 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,996 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,996 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,997 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,997 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,997 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,997 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,997 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,998 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,998 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:11,998 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:00:11,999 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:12,000 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:12,001 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:12,001 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:12,002 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:12,006 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:00:12,080 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,080 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,081 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,081 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,082 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,082 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,082 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,082 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,083 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,083 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,083 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,083 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,084 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,084 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,084 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,084 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,085 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,085 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,085 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,086 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,086 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,086 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,086 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,087 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,087 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,087 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,087 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,088 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,088 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,088 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,089 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,089 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,089 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,089 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,090 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,090 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,090 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,090 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,091 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,091 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,091 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,092 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,092 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,092 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,092 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,093 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,093 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,093 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,093 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,094 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,094 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,095 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,094 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,095 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,095 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,095 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,096 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,096 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,096 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,096 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,097 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,097 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:00:12,097 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:00:12,098 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:04:03,570 - distributed.worker.memory - WARNING - gc.collect() took 1.141s. This is usually a sign that some tasks handle too many Python objects at the same time. Rechunking the work into smaller tasks might help.
+2025-09-14 16:04:03,571 - distributed.worker.memory - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 77.88 GiB -- Worker memory limit: 93.75 GiB
+2025-09-14 16:04:09,012 - distributed.nanny.memory - WARNING - Worker tcp://10.6.5.27:43395 (pid=1743844) exceeded 95% memory budget. Restarting...
+2025-09-14 16:04:09,472 - distributed.nanny - INFO - Worker process 1743844 was killed by signal 15
+2025-09-14 16:04:09,745 - distributed.nanny - WARNING - Restarting worker
+2025-09-14 16:04:11,818 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:38623
+2025-09-14 16:04:11,819 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:38623
+2025-09-14 16:04:11,819 - distributed.worker - INFO -          dashboard at:            10.6.5.27:37635
+2025-09-14 16:04:11,819 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 16:04:11,819 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 16:04:11,819 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 16:04:11,819 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 16:04:11,819 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-uk53espr
+2025-09-14 16:04:11,819 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 16:04:11,841 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 16:04:11,842 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:04:11,844 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:04:14,326 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:04:14,332 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:04:14,334 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:04:14,335 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:04:14,336 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:04:14,341 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:04:14,345 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 16:04:14,345 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 16:04:14,349 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 16:04:19,219 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.59s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:05:28,878 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 78.79 GiB -- Worker memory limit: 93.75 GiB
+2025-09-14 16:05:33,395 - distributed.nanny.memory - WARNING - Worker tcp://10.6.5.27:45515 (pid=1743931) exceeded 95% memory budget. Restarting...
+2025-09-14 16:05:33,906 - distributed.nanny - INFO - Worker process 1743931 was killed by signal 15
+2025-09-14 16:05:34,166 - distributed.nanny - WARNING - Restarting worker
+2025-09-14 16:05:36,082 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:34885
+2025-09-14 16:05:36,083 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:34885
+2025-09-14 16:05:36,083 - distributed.worker - INFO -          dashboard at:            10.6.5.27:42985
+2025-09-14 16:05:36,083 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 16:05:36,083 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 16:05:36,083 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 16:05:36,083 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 16:05:36,083 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-o1z2pu4y
+2025-09-14 16:05:36,083 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 16:05:36,105 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 16:05:36,105 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:05:36,106 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:05:38,026 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:05:38,027 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:05:38,028 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:05:38,029 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:05:38,029 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:05:38,032 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:05:38,036 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 16:05:38,036 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 16:05:38,037 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 16:05:52,133 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.29s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:06:47,885 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 79.48 GiB -- Worker memory limit: 93.75 GiB
+2025-09-14 16:06:51,897 - distributed.nanny.memory - WARNING - Worker tcp://10.6.5.27:33717 (pid=1743940) exceeded 95% memory budget. Restarting...
+2025-09-14 16:06:52,582 - distributed.nanny - INFO - Worker process 1743940 was killed by signal 15
+2025-09-14 16:06:52,776 - distributed.nanny - WARNING - Restarting worker
+2025-09-14 16:06:58,644 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:42801
+2025-09-14 16:06:58,644 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:42801
+2025-09-14 16:06:58,644 - distributed.worker - INFO -          dashboard at:            10.6.5.27:40981
+2025-09-14 16:06:58,644 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 16:06:58,644 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 16:06:58,645 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 16:06:58,645 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 16:06:58,645 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-f31abp2b
+2025-09-14 16:06:58,645 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 16:06:58,961 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 16:06:58,962 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:06:58,963 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:07:01,184 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:07:01,186 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:07:01,186 - distributed.worker.memory - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 78.35 GiB -- Worker memory limit: 93.75 GiB
+2025-09-14 16:07:01,187 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:07:01,188 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:07:01,189 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:07:01,193 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:07:01,199 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 16:07:01,199 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 16:07:01,201 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 16:07:06,350 - distributed.nanny.memory - WARNING - Worker tcp://10.6.5.27:44363 (pid=1743897) exceeded 95% memory budget. Restarting...
+2025-09-14 16:07:07,037 - distributed.nanny - INFO - Worker process 1743897 was killed by signal 15
+2025-09-14 16:07:07,336 - distributed.nanny - WARNING - Restarting worker
+2025-09-14 16:07:09,405 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.27:45745
+2025-09-14 16:07:09,406 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.27:45745
+2025-09-14 16:07:09,406 - distributed.worker - INFO -          dashboard at:            10.6.5.27:38103
+2025-09-14 16:07:09,406 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.25:8732
+2025-09-14 16:07:09,406 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 16:07:09,406 - distributed.worker - INFO -               Threads:                          1
+2025-09-14 16:07:09,406 - distributed.worker - INFO -                Memory:                  93.75 GiB
+2025-09-14 16:07:09,406 - distributed.worker - INFO -       Local Directory: /jobfs/149553567.gadi-pbs/dask-scratch-space/worker-cmekt7si
+2025-09-14 16:07:09,406 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 16:07:09,428 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-14 16:07:09,429 - distributed.worker - INFO - Starting Worker plugin qme_utils.py56e85498-bbda-453c-964e-537d70301367
+2025-09-14 16:07:09,430 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-14 16:07:10,177 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.12s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-14 16:07:11,825 - distributed.worker - INFO - Starting Worker plugin qme_vars.py02a41d74-2373-41a6-b066-5f4f4cda80c4
+2025-09-14 16:07:11,826 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-14 16:07:11,828 - distributed.worker - INFO - Starting Worker plugin qme_train.pyb1ba3e4b-c6b2-4116-a34a-c70216733369
+2025-09-14 16:07:11,828 - distributed.worker - INFO - Starting Worker plugin qme_apply.pyc17f9bb4-39f3-4d1f-aa9d-586c202c7fbb
+2025-09-14 16:07:11,829 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-14 16:07:11,833 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-14 16:07:11,840 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.25:8732
+2025-09-14 16:07:11,840 - distributed.worker - INFO - -------------------------------------------------
+2025-09-14 16:07:11,841 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:8732
+2025-09-14 16:08:16,014 - distributed.worker.memory - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 78.58 GiB -- Worker memory limit: 93.75 GiB
+2025-09-14 16:08:20,796 - distributed.nanny.memory - WARNING - Worker tcp://10.6.5.27:42801 (pid=1744821) exceeded 95% memory budget. Restarting...

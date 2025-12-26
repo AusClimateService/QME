@@ -1,0 +1,308 @@
+2025-10-10 12:41:12,980 - distributed.scheduler - INFO - -----------------------------------------------
+2025-10-10 12:41:13,618 - distributed.scheduler - INFO - State start
+2025-10-10 12:41:13,621 - distributed.scheduler - INFO - -----------------------------------------------
+2025-10-10 12:41:13,622 - distributed.scheduler - INFO -   Scheduler at:      tcp://10.6.5.30:8750
+2025-10-10 12:41:13,622 - distributed.scheduler - INFO -   dashboard at:          proxy/8885/status
+2025-10-10 12:41:13,624 - distributed.scheduler - INFO - Registering Worker plugin shuffle
+2025-10-10 12:41:18,859 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:45563 name: tcp://10.6.5.30:45563
+2025-10-10 12:41:18,871 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:45563
+2025-10-10 12:41:18,871 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:45886
+2025-10-10 12:41:18,883 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:43313 name: tcp://10.6.5.30:43313
+2025-10-10 12:41:18,883 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:43313
+2025-10-10 12:41:18,884 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:45902
+2025-10-10 12:41:18,884 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:38779 name: tcp://10.6.5.30:38779
+2025-10-10 12:41:18,884 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:38779
+2025-10-10 12:41:18,884 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:45930
+2025-10-10 12:41:18,885 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:39483 name: tcp://10.6.5.30:39483
+2025-10-10 12:41:18,885 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:39483
+2025-10-10 12:41:18,885 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:45916
+2025-10-10 12:41:18,886 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:42881 name: tcp://10.6.5.30:42881
+2025-10-10 12:41:18,886 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:42881
+2025-10-10 12:41:18,887 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:45934
+2025-10-10 12:41:18,896 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:42295 name: tcp://10.6.5.30:42295
+2025-10-10 12:41:18,896 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:42295
+2025-10-10 12:41:18,897 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:45946
+2025-10-10 12:41:18,981 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:33365 name: tcp://10.6.5.30:33365
+2025-10-10 12:41:18,981 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:33365
+2025-10-10 12:41:18,981 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:45960
+2025-10-10 12:41:19,115 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:38705 name: tcp://10.6.5.30:38705
+2025-10-10 12:41:19,116 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:38705
+2025-10-10 12:41:19,116 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:45968
+2025-10-10 12:41:19,117 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:45333 name: tcp://10.6.5.30:45333
+2025-10-10 12:41:19,117 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:45333
+2025-10-10 12:41:19,117 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:45994
+2025-10-10 12:41:19,119 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:34165 name: tcp://10.6.5.30:34165
+2025-10-10 12:41:19,120 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:34165
+2025-10-10 12:41:19,120 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:45996
+2025-10-10 12:41:19,122 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:37629 name: tcp://10.6.5.30:37629
+2025-10-10 12:41:19,123 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:37629
+2025-10-10 12:41:19,123 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:45982
+2025-10-10 12:41:19,124 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:46439 name: tcp://10.6.5.30:46439
+2025-10-10 12:41:19,124 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:46439
+2025-10-10 12:41:19,124 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46006
+2025-10-10 12:41:19,129 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:40825 name: tcp://10.6.5.30:40825
+2025-10-10 12:41:19,131 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:40825
+2025-10-10 12:41:19,131 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46010
+2025-10-10 12:41:19,161 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:38175 name: tcp://10.6.5.30:38175
+2025-10-10 12:41:19,162 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:38175
+2025-10-10 12:41:19,162 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46018
+2025-10-10 12:41:19,167 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:35719 name: tcp://10.6.5.30:35719
+2025-10-10 12:41:19,168 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:35719
+2025-10-10 12:41:19,168 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46040
+2025-10-10 12:41:19,169 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:38701 name: tcp://10.6.5.30:38701
+2025-10-10 12:41:19,170 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:38701
+2025-10-10 12:41:19,170 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46026
+2025-10-10 12:41:19,170 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:45001 name: tcp://10.6.5.30:45001
+2025-10-10 12:41:19,171 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:45001
+2025-10-10 12:41:19,171 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46056
+2025-10-10 12:41:19,172 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:39311 name: tcp://10.6.5.30:39311
+2025-10-10 12:41:19,173 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:39311
+2025-10-10 12:41:19,173 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46048
+2025-10-10 12:41:19,235 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:39441 name: tcp://10.6.5.30:39441
+2025-10-10 12:41:19,236 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:39441
+2025-10-10 12:41:19,236 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46060
+2025-10-10 12:41:19,241 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:43823 name: tcp://10.6.5.30:43823
+2025-10-10 12:41:19,242 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:43823
+2025-10-10 12:41:19,242 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46068
+2025-10-10 12:41:19,269 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:37743 name: tcp://10.6.5.30:37743
+2025-10-10 12:41:19,270 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:37743
+2025-10-10 12:41:19,270 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46080
+2025-10-10 12:41:19,276 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:37259 name: tcp://10.6.5.30:37259
+2025-10-10 12:41:19,277 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:37259
+2025-10-10 12:41:19,277 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46084
+2025-10-10 12:41:19,314 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:34625 name: tcp://10.6.5.30:34625
+2025-10-10 12:41:19,315 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:34625
+2025-10-10 12:41:19,315 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46086
+2025-10-10 12:41:19,322 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:38911 name: tcp://10.6.5.30:38911
+2025-10-10 12:41:19,322 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:38911
+2025-10-10 12:41:19,322 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46100
+2025-10-10 12:41:19,323 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:40659 name: tcp://10.6.5.30:40659
+2025-10-10 12:41:19,324 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:40659
+2025-10-10 12:41:19,324 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46096
+2025-10-10 12:41:19,349 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:34261 name: tcp://10.6.5.30:34261
+2025-10-10 12:41:19,350 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:34261
+2025-10-10 12:41:19,350 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46104
+2025-10-10 12:41:19,366 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:38601 name: tcp://10.6.5.30:38601
+2025-10-10 12:41:19,367 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:38601
+2025-10-10 12:41:19,367 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46118
+2025-10-10 12:41:19,380 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:39799 name: tcp://10.6.5.30:39799
+2025-10-10 12:41:19,381 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:39799
+2025-10-10 12:41:19,381 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46128
+2025-10-10 12:41:19,382 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:37563 name: tcp://10.6.5.30:37563
+2025-10-10 12:41:19,383 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:37563
+2025-10-10 12:41:19,383 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46160
+2025-10-10 12:41:19,386 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:46095 name: tcp://10.6.5.30:46095
+2025-10-10 12:41:19,387 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:46095
+2025-10-10 12:41:19,387 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46184
+2025-10-10 12:41:19,388 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:37403 name: tcp://10.6.5.30:37403
+2025-10-10 12:41:19,389 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:37403
+2025-10-10 12:41:19,389 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46134
+2025-10-10 12:41:19,389 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:42929 name: tcp://10.6.5.30:42929
+2025-10-10 12:41:19,390 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:42929
+2025-10-10 12:41:19,390 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46150
+2025-10-10 12:41:19,391 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:37631 name: tcp://10.6.5.30:37631
+2025-10-10 12:41:19,392 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:37631
+2025-10-10 12:41:19,392 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46158
+2025-10-10 12:41:19,393 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:42985 name: tcp://10.6.5.30:42985
+2025-10-10 12:41:19,394 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:42985
+2025-10-10 12:41:19,394 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46174
+2025-10-10 12:41:19,395 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:40505 name: tcp://10.6.5.30:40505
+2025-10-10 12:41:19,395 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:40505
+2025-10-10 12:41:19,395 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46176
+2025-10-10 12:41:19,396 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:45271 name: tcp://10.6.5.30:45271
+2025-10-10 12:41:19,397 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:45271
+2025-10-10 12:41:19,397 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46190
+2025-10-10 12:41:19,403 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:43681 name: tcp://10.6.5.30:43681
+2025-10-10 12:41:19,403 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:43681
+2025-10-10 12:41:19,403 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46202
+2025-10-10 12:41:19,415 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:39569 name: tcp://10.6.5.30:39569
+2025-10-10 12:41:19,415 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:39569
+2025-10-10 12:41:19,415 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46214
+2025-10-10 12:41:19,421 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:35343 name: tcp://10.6.5.30:35343
+2025-10-10 12:41:19,422 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:35343
+2025-10-10 12:41:19,422 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46260
+2025-10-10 12:41:19,424 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:43751 name: tcp://10.6.5.30:43751
+2025-10-10 12:41:19,424 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:43751
+2025-10-10 12:41:19,424 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46226
+2025-10-10 12:41:19,425 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:40041 name: tcp://10.6.5.30:40041
+2025-10-10 12:41:19,426 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:40041
+2025-10-10 12:41:19,426 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46242
+2025-10-10 12:41:19,427 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:36653 name: tcp://10.6.5.30:36653
+2025-10-10 12:41:19,427 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:36653
+2025-10-10 12:41:19,428 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46236
+2025-10-10 12:41:19,428 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:41891 name: tcp://10.6.5.30:41891
+2025-10-10 12:41:19,429 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:41891
+2025-10-10 12:41:19,429 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46266
+2025-10-10 12:41:19,431 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:35073 name: tcp://10.6.5.30:35073
+2025-10-10 12:41:19,431 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:35073
+2025-10-10 12:41:19,431 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46258
+2025-10-10 12:41:19,432 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:45413 name: tcp://10.6.5.30:45413
+2025-10-10 12:41:19,433 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:45413
+2025-10-10 12:41:19,433 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46264
+2025-10-10 12:41:19,436 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:45837 name: tcp://10.6.5.30:45837
+2025-10-10 12:41:19,436 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:45837
+2025-10-10 12:41:19,436 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46276
+2025-10-10 12:41:19,446 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:34703 name: tcp://10.6.5.30:34703
+2025-10-10 12:41:19,447 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:34703
+2025-10-10 12:41:19,447 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46288
+2025-10-10 12:41:19,458 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.30:44419 name: tcp://10.6.5.30:44419
+2025-10-10 12:41:19,458 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.30:44419
+2025-10-10 12:41:19,459 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:46304
+2025-10-10 12:41:20,345 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:40671 name: tcp://10.6.5.31:40671
+2025-10-10 12:41:20,346 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:40671
+2025-10-10 12:41:20,346 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51658
+2025-10-10 12:41:20,504 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:41309 name: tcp://10.6.5.31:41309
+2025-10-10 12:41:20,505 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:41309
+2025-10-10 12:41:20,505 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51676
+2025-10-10 12:41:20,506 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:35781 name: tcp://10.6.5.31:35781
+2025-10-10 12:41:20,507 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:35781
+2025-10-10 12:41:20,507 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51684
+2025-10-10 12:41:20,508 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:33919 name: tcp://10.6.5.31:33919
+2025-10-10 12:41:20,508 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:33919
+2025-10-10 12:41:20,508 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51700
+2025-10-10 12:41:20,509 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:32953 name: tcp://10.6.5.31:32953
+2025-10-10 12:41:20,510 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:32953
+2025-10-10 12:41:20,510 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51710
+2025-10-10 12:41:20,513 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:40673 name: tcp://10.6.5.31:40673
+2025-10-10 12:41:20,514 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:40673
+2025-10-10 12:41:20,514 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51726
+2025-10-10 12:41:20,516 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:35903 name: tcp://10.6.5.31:35903
+2025-10-10 12:41:20,517 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:35903
+2025-10-10 12:41:20,517 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51662
+2025-10-10 12:41:20,520 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:36069 name: tcp://10.6.5.31:36069
+2025-10-10 12:41:20,520 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:36069
+2025-10-10 12:41:20,520 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51742
+2025-10-10 12:41:20,521 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:40659 name: tcp://10.6.5.31:40659
+2025-10-10 12:41:20,521 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:40659
+2025-10-10 12:41:20,521 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51730
+2025-10-10 12:41:20,523 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:45911 name: tcp://10.6.5.31:45911
+2025-10-10 12:41:20,524 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:45911
+2025-10-10 12:41:20,524 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51758
+2025-10-10 12:41:20,525 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:41173 name: tcp://10.6.5.31:41173
+2025-10-10 12:41:20,526 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:41173
+2025-10-10 12:41:20,526 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51764
+2025-10-10 12:41:20,526 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:33871 name: tcp://10.6.5.31:33871
+2025-10-10 12:41:20,527 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:33871
+2025-10-10 12:41:20,527 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51776
+2025-10-10 12:41:20,531 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:38303 name: tcp://10.6.5.31:38303
+2025-10-10 12:41:20,531 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:38303
+2025-10-10 12:41:20,531 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51798
+2025-10-10 12:41:20,535 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:41875 name: tcp://10.6.5.31:41875
+2025-10-10 12:41:20,535 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:41875
+2025-10-10 12:41:20,535 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51792
+2025-10-10 12:41:20,537 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:35853 name: tcp://10.6.5.31:35853
+2025-10-10 12:41:20,537 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:35853
+2025-10-10 12:41:20,538 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51808
+2025-10-10 12:41:20,551 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:40817 name: tcp://10.6.5.31:40817
+2025-10-10 12:41:20,551 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:40817
+2025-10-10 12:41:20,551 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51832
+2025-10-10 12:41:20,553 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:43483 name: tcp://10.6.5.31:43483
+2025-10-10 12:41:20,554 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:43483
+2025-10-10 12:41:20,554 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51822
+2025-10-10 12:41:20,555 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:34275 name: tcp://10.6.5.31:34275
+2025-10-10 12:41:20,556 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:34275
+2025-10-10 12:41:20,556 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51838
+2025-10-10 12:41:20,560 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:39421 name: tcp://10.6.5.31:39421
+2025-10-10 12:41:20,561 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:39421
+2025-10-10 12:41:20,561 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51844
+2025-10-10 12:41:20,566 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:43489 name: tcp://10.6.5.31:43489
+2025-10-10 12:41:20,566 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:43489
+2025-10-10 12:41:20,566 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51840
+2025-10-10 12:41:20,568 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:34309 name: tcp://10.6.5.31:34309
+2025-10-10 12:41:20,568 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:34309
+2025-10-10 12:41:20,568 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51854
+2025-10-10 12:41:20,570 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:42243 name: tcp://10.6.5.31:42243
+2025-10-10 12:41:20,571 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:42243
+2025-10-10 12:41:20,571 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51862
+2025-10-10 12:41:20,595 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:33233 name: tcp://10.6.5.31:33233
+2025-10-10 12:41:20,596 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:33233
+2025-10-10 12:41:20,596 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51874
+2025-10-10 12:41:20,611 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:38481 name: tcp://10.6.5.31:38481
+2025-10-10 12:41:20,612 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:38481
+2025-10-10 12:41:20,612 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51888
+2025-10-10 12:41:20,619 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:38587 name: tcp://10.6.5.31:38587
+2025-10-10 12:41:20,620 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:38587
+2025-10-10 12:41:20,620 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51890
+2025-10-10 12:41:20,685 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:36163 name: tcp://10.6.5.31:36163
+2025-10-10 12:41:20,686 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:36163
+2025-10-10 12:41:20,686 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51908
+2025-10-10 12:41:20,687 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:42901 name: tcp://10.6.5.31:42901
+2025-10-10 12:41:20,688 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:42901
+2025-10-10 12:41:20,688 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51904
+2025-10-10 12:41:20,700 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:39963 name: tcp://10.6.5.31:39963
+2025-10-10 12:41:20,701 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:39963
+2025-10-10 12:41:20,701 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51916
+2025-10-10 12:41:20,747 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:38837 name: tcp://10.6.5.31:38837
+2025-10-10 12:41:20,748 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:38837
+2025-10-10 12:41:20,748 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51938
+2025-10-10 12:41:20,749 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:45413 name: tcp://10.6.5.31:45413
+2025-10-10 12:41:20,750 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:45413
+2025-10-10 12:41:20,750 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51948
+2025-10-10 12:41:20,753 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:36189 name: tcp://10.6.5.31:36189
+2025-10-10 12:41:20,754 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:36189
+2025-10-10 12:41:20,754 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51952
+2025-10-10 12:41:20,757 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:41501 name: tcp://10.6.5.31:41501
+2025-10-10 12:41:20,758 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:41501
+2025-10-10 12:41:20,758 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51922
+2025-10-10 12:41:20,765 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:33613 name: tcp://10.6.5.31:33613
+2025-10-10 12:41:20,766 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:33613
+2025-10-10 12:41:20,766 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51994
+2025-10-10 12:41:20,769 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:41589 name: tcp://10.6.5.31:41589
+2025-10-10 12:41:20,770 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:41589
+2025-10-10 12:41:20,770 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51968
+2025-10-10 12:41:20,771 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:42075 name: tcp://10.6.5.31:42075
+2025-10-10 12:41:20,772 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:42075
+2025-10-10 12:41:20,772 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:51984
+2025-10-10 12:41:20,776 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:40739 name: tcp://10.6.5.31:40739
+2025-10-10 12:41:20,777 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:40739
+2025-10-10 12:41:20,777 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:52006
+2025-10-10 12:41:20,787 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:37435 name: tcp://10.6.5.31:37435
+2025-10-10 12:41:20,788 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:37435
+2025-10-10 12:41:20,788 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:52022
+2025-10-10 12:41:20,790 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:42637 name: tcp://10.6.5.31:42637
+2025-10-10 12:41:20,791 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:42637
+2025-10-10 12:41:20,791 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:52036
+2025-10-10 12:41:20,792 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:35683 name: tcp://10.6.5.31:35683
+2025-10-10 12:41:20,793 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:35683
+2025-10-10 12:41:20,793 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:52100
+2025-10-10 12:41:20,794 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:35619 name: tcp://10.6.5.31:35619
+2025-10-10 12:41:20,795 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:35619
+2025-10-10 12:41:20,795 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:52072
+2025-10-10 12:41:20,796 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:41537 name: tcp://10.6.5.31:41537
+2025-10-10 12:41:20,797 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:41537
+2025-10-10 12:41:20,797 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:52048
+2025-10-10 12:41:20,797 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:40589 name: tcp://10.6.5.31:40589
+2025-10-10 12:41:20,798 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:40589
+2025-10-10 12:41:20,798 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:52120
+2025-10-10 12:41:20,799 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:35961 name: tcp://10.6.5.31:35961
+2025-10-10 12:41:20,800 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:35961
+2025-10-10 12:41:20,800 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:52062
+2025-10-10 12:41:20,801 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:33933 name: tcp://10.6.5.31:33933
+2025-10-10 12:41:20,801 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:33933
+2025-10-10 12:41:20,801 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:52084
+2025-10-10 12:41:20,802 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:46721 name: tcp://10.6.5.31:46721
+2025-10-10 12:41:20,802 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:46721
+2025-10-10 12:41:20,802 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:52110
+2025-10-10 12:41:20,820 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:35761 name: tcp://10.6.5.31:35761
+2025-10-10 12:41:20,821 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:35761
+2025-10-10 12:41:20,821 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:52130
+2025-10-10 12:41:20,826 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:42729 name: tcp://10.6.5.31:42729
+2025-10-10 12:41:20,827 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:42729
+2025-10-10 12:41:20,827 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:52138
+2025-10-10 12:41:20,879 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.31:33549 name: tcp://10.6.5.31:33549
+2025-10-10 12:41:20,880 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.31:33549
+2025-10-10 12:41:20,880 - distributed.core - INFO - Starting established connection to tcp://10.6.5.31:52142
+2025-10-10 12:41:24,213 - distributed.scheduler - INFO - Receive client connection: Client-3aef2308-a57a-11f0-b4fe-0000008bfe80
+2025-10-10 12:41:24,214 - distributed.core - INFO - Starting established connection to tcp://10.6.5.30:55504
+2025-10-10 12:41:24,219 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-10-10 12:41:25,356 - distributed.scheduler - INFO - Registering Worker plugin qme_utils.py2e127bf6-6cef-4b3e-9d45-102cf32f54fe
+2025-10-10 12:41:27,850 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-10-10 12:41:27,853 - distributed.scheduler - INFO - Registering Worker plugin qme_vars.py7bbdd210-8c44-44e2-ae7e-4e21680bcd5f
+2025-10-10 12:41:27,914 - distributed.scheduler - INFO - Registering Worker plugin qme_train.pyf6cbf09e-425c-40e6-91bf-4795a60dc797
+2025-10-10 12:41:27,927 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-10-10 12:41:27,968 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-10-10 12:41:27,970 - distributed.scheduler - INFO - Registering Worker plugin qme_apply.py63c7b175-dd0d-46b9-a215-6f79c01af7b0
+2025-10-10 14:47:22,394 - distributed.scheduler - INFO - Remove client Client-3aef2308-a57a-11f0-b4fe-0000008bfe80
+2025-10-10 14:47:22,680 - distributed.core - INFO - Received 'close-stream' from tcp://10.6.5.30:55504; closing.
+2025-10-10 14:47:22,682 - distributed.scheduler - INFO - Remove client Client-3aef2308-a57a-11f0-b4fe-0000008bfe80
+2025-10-10 14:47:22,693 - distributed.scheduler - INFO - Close client connection: Client-3aef2308-a57a-11f0-b4fe-0000008bfe80

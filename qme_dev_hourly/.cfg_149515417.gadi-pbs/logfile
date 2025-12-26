@@ -1,0 +1,325 @@
+2025-09-12 10:16:22,144 - distributed.scheduler - INFO - -----------------------------------------------
+2025-09-12 10:16:23,411 - distributed.scheduler - INFO - State start
+2025-09-12 10:16:23,419 - distributed.scheduler - INFO - -----------------------------------------------
+2025-09-12 10:16:23,421 - distributed.scheduler - INFO -   Scheduler at:      tcp://10.6.5.25:8760
+2025-09-12 10:16:23,421 - distributed.scheduler - INFO -   dashboard at:          proxy/8850/status
+2025-09-12 10:16:23,437 - distributed.scheduler - INFO - Registering Worker plugin shuffle
+2025-09-12 10:16:29,585 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:42681 name: tcp://10.6.5.25:42681
+2025-09-12 10:16:29,597 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:42681
+2025-09-12 10:16:29,597 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37524
+2025-09-12 10:16:29,598 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:41149 name: tcp://10.6.5.25:41149
+2025-09-12 10:16:29,598 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:41149
+2025-09-12 10:16:29,598 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37536
+2025-09-12 10:16:29,612 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:37395 name: tcp://10.6.5.25:37395
+2025-09-12 10:16:29,612 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:37395
+2025-09-12 10:16:29,612 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37552
+2025-09-12 10:16:29,641 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:38613 name: tcp://10.6.5.25:38613
+2025-09-12 10:16:29,641 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:38613
+2025-09-12 10:16:29,642 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37558
+2025-09-12 10:16:29,642 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:34101 name: tcp://10.6.5.25:34101
+2025-09-12 10:16:29,643 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:34101
+2025-09-12 10:16:29,643 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37566
+2025-09-12 10:16:29,674 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:39257 name: tcp://10.6.5.25:39257
+2025-09-12 10:16:29,674 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:39257
+2025-09-12 10:16:29,675 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37582
+2025-09-12 10:16:29,680 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:35985 name: tcp://10.6.5.25:35985
+2025-09-12 10:16:29,680 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:35985
+2025-09-12 10:16:29,680 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37598
+2025-09-12 10:16:29,699 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:43003 name: tcp://10.6.5.25:43003
+2025-09-12 10:16:29,700 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:43003
+2025-09-12 10:16:29,700 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37608
+2025-09-12 10:16:29,701 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:41305 name: tcp://10.6.5.25:41305
+2025-09-12 10:16:29,701 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:41305
+2025-09-12 10:16:29,701 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37602
+2025-09-12 10:16:29,702 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:38197 name: tcp://10.6.5.25:38197
+2025-09-12 10:16:29,702 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:38197
+2025-09-12 10:16:29,702 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37618
+2025-09-12 10:16:29,705 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:33143 name: tcp://10.6.5.25:33143
+2025-09-12 10:16:29,705 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:33143
+2025-09-12 10:16:29,705 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37642
+2025-09-12 10:16:29,706 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:45613 name: tcp://10.6.5.25:45613
+2025-09-12 10:16:29,706 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:45613
+2025-09-12 10:16:29,706 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37628
+2025-09-12 10:16:29,727 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:36887 name: tcp://10.6.5.25:36887
+2025-09-12 10:16:29,729 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:36887
+2025-09-12 10:16:29,730 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37660
+2025-09-12 10:16:29,730 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:46253 name: tcp://10.6.5.25:46253
+2025-09-12 10:16:29,730 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:46253
+2025-09-12 10:16:29,731 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37652
+2025-09-12 10:16:29,733 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:34429 name: tcp://10.6.5.25:34429
+2025-09-12 10:16:29,734 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:34429
+2025-09-12 10:16:29,734 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37656
+2025-09-12 10:16:29,736 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:33977 name: tcp://10.6.5.25:33977
+2025-09-12 10:16:29,736 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:33977
+2025-09-12 10:16:29,737 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37672
+2025-09-12 10:16:29,738 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:45877 name: tcp://10.6.5.25:45877
+2025-09-12 10:16:29,738 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:45877
+2025-09-12 10:16:29,738 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37680
+2025-09-12 10:16:29,751 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:43005 name: tcp://10.6.5.25:43005
+2025-09-12 10:16:29,751 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:43005
+2025-09-12 10:16:29,751 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37694
+2025-09-12 10:16:29,759 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:42297 name: tcp://10.6.5.25:42297
+2025-09-12 10:16:29,759 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:42297
+2025-09-12 10:16:29,759 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37698
+2025-09-12 10:16:29,761 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:36539 name: tcp://10.6.5.25:36539
+2025-09-12 10:16:29,761 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:36539
+2025-09-12 10:16:29,762 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37700
+2025-09-12 10:16:29,763 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:37937 name: tcp://10.6.5.25:37937
+2025-09-12 10:16:29,763 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:37937
+2025-09-12 10:16:29,764 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37724
+2025-09-12 10:16:29,769 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:34033 name: tcp://10.6.5.25:34033
+2025-09-12 10:16:29,769 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:34033
+2025-09-12 10:16:29,769 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37740
+2025-09-12 10:16:29,777 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:33159 name: tcp://10.6.5.25:33159
+2025-09-12 10:16:29,778 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:33159
+2025-09-12 10:16:29,778 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37748
+2025-09-12 10:16:29,789 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:40009 name: tcp://10.6.5.25:40009
+2025-09-12 10:16:29,789 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:40009
+2025-09-12 10:16:29,789 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37760
+2025-09-12 10:16:29,794 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:35999 name: tcp://10.6.5.25:35999
+2025-09-12 10:16:29,794 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:35999
+2025-09-12 10:16:29,794 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37766
+2025-09-12 10:16:29,799 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:35173 name: tcp://10.6.5.25:35173
+2025-09-12 10:16:29,800 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:35173
+2025-09-12 10:16:29,800 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37778
+2025-09-12 10:16:29,807 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:37305 name: tcp://10.6.5.25:37305
+2025-09-12 10:16:29,808 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:37305
+2025-09-12 10:16:29,808 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37780
+2025-09-12 10:16:29,908 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:43525 name: tcp://10.6.5.25:43525
+2025-09-12 10:16:29,908 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:43525
+2025-09-12 10:16:29,909 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:37782
+2025-09-12 10:16:29,946 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:43929 name: tcp://10.6.5.25:43929
+2025-09-12 10:16:29,946 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:43929
+2025-09-12 10:16:29,946 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:34882
+2025-09-12 10:16:29,975 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:35363 name: tcp://10.6.5.25:35363
+2025-09-12 10:16:29,975 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:35363
+2025-09-12 10:16:29,976 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:34894
+2025-09-12 10:16:30,034 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:37007 name: tcp://10.6.5.25:37007
+2025-09-12 10:16:30,034 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:37007
+2025-09-12 10:16:30,034 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:34896
+2025-09-12 10:16:30,044 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:34571 name: tcp://10.6.5.25:34571
+2025-09-12 10:16:30,045 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:34571
+2025-09-12 10:16:30,045 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:34902
+2025-09-12 10:16:40,081 - distributed.scheduler - INFO - Receive client connection: Client-c0fc3d07-8f6d-11f0-b02b-000008f7fe80
+2025-09-12 10:16:40,083 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:44880
+2025-09-12 10:16:40,108 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-12 10:16:42,028 - distributed.scheduler - INFO - Registering Worker plugin qme_utils.py6b2993a6-c918-41ec-8865-f0a1b3bbaa72
+2025-09-12 10:16:44,939 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-12 10:16:44,943 - distributed.scheduler - INFO - Registering Worker plugin qme_vars.py1b2260e4-dbde-463d-91ae-c6dcf1c86510
+2025-09-12 10:16:45,049 - distributed.scheduler - INFO - Registering Worker plugin qme_train.py23f0f3ec-7943-4f0f-b154-49f47250c423
+2025-09-12 10:16:45,065 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-12 10:16:45,134 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-12 10:16:45,138 - distributed.scheduler - INFO - Registering Worker plugin qme_apply.pya27fa5a2-a812-4120-b9bb-c3f40251d1f6
+2025-09-12 10:17:44,889 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.25s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-12 10:56:23,443 - distributed.scheduler - WARNING - Worker failed to heartbeat for 312s; attempting restart: <WorkerState 'tcp://10.6.5.25:33977', status: running, memory: 2, processing: 2>
+2025-09-12 10:56:23,445 - distributed.scheduler - WARNING - Worker failed to heartbeat for 320s; attempting restart: <WorkerState 'tcp://10.6.5.25:34033', status: running, memory: 2, processing: 2>
+2025-09-12 10:56:23,445 - distributed.scheduler - WARNING - Worker failed to heartbeat for 332s; attempting restart: <WorkerState 'tcp://10.6.5.25:34101', status: running, memory: 2, processing: 2>
+2025-09-12 10:56:23,445 - distributed.scheduler - WARNING - Worker failed to heartbeat for 323s; attempting restart: <WorkerState 'tcp://10.6.5.25:34429', status: running, memory: 2, processing: 2>
+2025-09-12 10:56:23,445 - distributed.scheduler - WARNING - Worker failed to heartbeat for 313s; attempting restart: <WorkerState 'tcp://10.6.5.25:35173', status: running, memory: 2, processing: 2>
+2025-09-12 10:56:23,445 - distributed.scheduler - WARNING - Worker failed to heartbeat for 305s; attempting restart: <WorkerState 'tcp://10.6.5.25:35985', status: running, memory: 144, processing: 1>
+2025-09-12 10:56:23,446 - distributed.scheduler - WARNING - Worker failed to heartbeat for 339s; attempting restart: <WorkerState 'tcp://10.6.5.25:36539', status: running, memory: 2, processing: 2>
+2025-09-12 10:56:23,446 - distributed.scheduler - WARNING - Worker failed to heartbeat for 326s; attempting restart: <WorkerState 'tcp://10.6.5.25:37007', status: running, memory: 2, processing: 2>
+2025-09-12 10:56:23,446 - distributed.scheduler - WARNING - Worker failed to heartbeat for 305s; attempting restart: <WorkerState 'tcp://10.6.5.25:37395', status: running, memory: 2, processing: 3>
+2025-09-12 10:56:23,446 - distributed.scheduler - WARNING - Worker failed to heartbeat for 316s; attempting restart: <WorkerState 'tcp://10.6.5.25:40009', status: running, memory: 2, processing: 2>
+2025-09-12 10:56:23,446 - distributed.scheduler - WARNING - Worker failed to heartbeat for 303s; attempting restart: <WorkerState 'tcp://10.6.5.25:41305', status: running, memory: 2, processing: 3>
+2025-09-12 10:56:23,446 - distributed.scheduler - WARNING - Worker failed to heartbeat for 348s; attempting restart: <WorkerState 'tcp://10.6.5.25:42297', status: running, memory: 2, processing: 2>
+2025-09-12 10:56:23,446 - distributed.scheduler - WARNING - Worker failed to heartbeat for 350s; attempting restart: <WorkerState 'tcp://10.6.5.25:42681', status: running, memory: 2, processing: 2>
+2025-09-12 10:56:23,446 - distributed.scheduler - WARNING - Worker failed to heartbeat for 360s; attempting restart: <WorkerState 'tcp://10.6.5.25:43003', status: running, memory: 2, processing: 3>
+2025-09-12 10:56:23,454 - distributed.scheduler - WARNING - Worker failed to heartbeat for 357s; attempting restart: <WorkerState 'tcp://10.6.5.25:43525', status: running, memory: 2, processing: 2>
+2025-09-12 10:56:23,454 - distributed.scheduler - WARNING - Worker failed to heartbeat for 316s; attempting restart: <WorkerState 'tcp://10.6.5.25:45877', status: running, memory: 2, processing: 3>
+2025-09-12 10:56:23,454 - distributed.scheduler - INFO - Restarting 16 workers: ['tcp://10.6.5.25:36539', 'tcp://10.6.5.25:37395', 'tcp://10.6.5.25:42297', 'tcp://10.6.5.25:33977', 'tcp://10.6.5.25:43525', 'tcp://10.6.5.25:40009', 'tcp://10.6.5.25:43003', 'tcp://10.6.5.25:42681', 'tcp://10.6.5.25:35173', 'tcp://10.6.5.25:34429', 'tcp://10.6.5.25:45877', 'tcp://10.6.5.25:34101', 'tcp://10.6.5.25:35985', 'tcp://10.6.5.25:41305', 'tcp://10.6.5.25:37007', 'tcp://10.6.5.25:34033'] (stimulus_id='check-worker-ttl-1757638583.4436677'
+2025-09-12 10:56:28,112 - distributed.core - INFO - Connection to tcp://10.6.5.25:37598 has been closed.
+2025-09-12 10:56:28,118 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:35985 name: tcp://10.6.5.25:35985 (stimulus_id='handle-worker-cleanup-1757638588.1178017')
+2025-09-12 10:56:28,121 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:35985' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('concatenate-35c5f90a3e064f33631da8bd9b46d430', 110, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 8, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 123, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 82, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 111, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 105, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 95, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 67, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 22, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 47, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 6, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 113, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 35, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 126, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 29, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 17, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 93, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 81, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 75, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 65, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 106, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 88, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 139, 0, 0), ('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 19, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 76, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 134, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 0, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 124, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 15, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 28, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 12, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 74, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 58, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 64, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 132, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 71, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 30, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 59, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 135, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 133, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 117, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 130, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 72, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 56, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 85, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 44, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 51, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 57, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 80, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 131, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 115, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 128, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 103, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 87, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 52, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 19, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 116, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 39, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 78, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 37, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 27, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 50, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 34, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 40, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 114, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 98, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 137, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 96, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 86, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 109, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 2, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 99, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 21, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 48, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 5, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 61, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 20, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 10, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 4, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 94, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 33, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 107, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 79, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 69, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 92, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 18, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 41, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 138, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 31, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 13, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 3, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 118, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 77, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 100, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 90, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 49, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 62, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 136, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 120, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 11, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 108, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 1, 0, 0), ('transpose-ada2084528307c951504f93abfbe7d71', 0, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 24, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 121, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 14, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 70, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 60, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 83, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 73, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 42, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 32, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 55, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 45, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 129, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 119, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 101, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 91, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 68, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 7, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 104, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 63, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 26, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 53, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 16, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 43, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 127, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 66, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 25, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 54, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 140, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 38, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 89, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 122, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 112, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 102, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 125, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 84, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 97, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 23, 0, 0), ('concatenate-34f4291d72e86f3b014517ad9657c08d', 32, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 46, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 9, 0, 0), ('concatenate-35c5f90a3e064f33631da8bd9b46d430', 36, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638588.1178017')
+2025-09-12 10:56:28,302 - distributed.core - INFO - Connection to tcp://10.6.5.25:37524 has been closed.
+2025-09-12 10:56:28,303 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:42681 name: tcp://10.6.5.25:42681 (stimulus_id='handle-worker-cleanup-1757638588.3029978')
+2025-09-12 10:56:28,304 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:42681' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 28, 0, 0), ('open_dataset-tas-original-concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 36, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638588.3029978')
+2025-09-12 10:56:28,325 - distributed.core - INFO - Connection to tcp://10.6.5.25:37566 has been closed.
+2025-09-12 10:56:28,325 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:34101 name: tcp://10.6.5.25:34101 (stimulus_id='handle-worker-cleanup-1757638588.3253872')
+2025-09-12 10:56:28,325 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:34101' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 4, 0, 0), ('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 20, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638588.3253872')
+2025-09-12 10:56:28,368 - distributed.core - INFO - Connection to tcp://10.6.5.25:37672 has been closed.
+2025-09-12 10:56:28,369 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:33977 name: tcp://10.6.5.25:33977 (stimulus_id='handle-worker-cleanup-1757638588.369119')
+2025-09-12 10:56:28,369 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:33977' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('concatenate-34f4291d72e86f3b014517ad9657c08d', 21, 0, 0), ('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 29, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638588.369119')
+2025-09-12 10:56:28,542 - distributed.core - INFO - Connection to tcp://10.6.5.25:37700 has been closed.
+2025-09-12 10:56:28,543 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:36539 name: tcp://10.6.5.25:36539 (stimulus_id='handle-worker-cleanup-1757638588.543348')
+2025-09-12 10:56:28,543 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:36539' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 16, 0, 0), ('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 35, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638588.543348')
+2025-09-12 10:56:28,669 - distributed.core - INFO - Connection to tcp://10.6.5.25:37698 has been closed.
+2025-09-12 10:56:28,670 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:42297 name: tcp://10.6.5.25:42297 (stimulus_id='handle-worker-cleanup-1757638588.6699715')
+2025-09-12 10:56:28,670 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:42297' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 38, 0, 0), ('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 0, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638588.6699715')
+2025-09-12 10:56:28,769 - distributed.core - INFO - Connection to tcp://10.6.5.25:37608 has been closed.
+2025-09-12 10:56:28,770 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:43003 name: tcp://10.6.5.25:43003 (stimulus_id='handle-worker-cleanup-1757638588.7702973')
+2025-09-12 10:56:28,770 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:43003' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 23, 0, 0), ('open_dataset-tas-original-concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 39, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638588.7702973')
+2025-09-12 10:56:28,891 - distributed.core - INFO - Connection to tcp://10.6.5.25:37760 has been closed.
+2025-09-12 10:56:28,891 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:40009 name: tcp://10.6.5.25:40009 (stimulus_id='handle-worker-cleanup-1757638588.8914652')
+2025-09-12 10:56:28,892 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:40009' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 30, 0, 0), ('concatenate-34f4291d72e86f3b014517ad9657c08d', 33, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638588.8914652')
+2025-09-12 10:56:28,906 - distributed.core - INFO - Connection to tcp://10.6.5.25:37740 has been closed.
+2025-09-12 10:56:28,906 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:34033 name: tcp://10.6.5.25:34033 (stimulus_id='handle-worker-cleanup-1757638588.906647')
+2025-09-12 10:56:28,907 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:34033' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('concatenate-34f4291d72e86f3b014517ad9657c08d', 2, 0, 0), ('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 34, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638588.906647')
+2025-09-12 10:56:29,579 - distributed.core - INFO - Connection to tcp://10.6.5.25:37782 has been closed.
+2025-09-12 10:56:29,579 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:43525 name: tcp://10.6.5.25:43525 (stimulus_id='handle-worker-cleanup-1757638589.5797255')
+2025-09-12 10:56:29,580 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:43525' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 26, 0, 0), ('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 12, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638589.5797255')
+2025-09-12 10:56:29,618 - distributed.core - INFO - Connection to tcp://10.6.5.25:37552 has been closed.
+2025-09-12 10:56:29,619 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:37395 name: tcp://10.6.5.25:37395 (stimulus_id='handle-worker-cleanup-1757638589.6191611')
+2025-09-12 10:56:29,619 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:37395' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 17, 0, 0), ('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 24, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638589.6191611')
+2025-09-12 10:56:29,862 - distributed.core - INFO - Connection to tcp://10.6.5.25:37656 has been closed.
+2025-09-12 10:56:29,862 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:34429 name: tcp://10.6.5.25:34429 (stimulus_id='handle-worker-cleanup-1757638589.8625271')
+2025-09-12 10:56:29,862 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:34429' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 2, 0, 0), ('concatenate-34f4291d72e86f3b014517ad9657c08d', 11, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638589.8625271')
+2025-09-12 10:56:29,880 - distributed.core - INFO - Connection to tcp://10.6.5.25:37680 has been closed.
+2025-09-12 10:56:29,881 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:45877 name: tcp://10.6.5.25:45877 (stimulus_id='handle-worker-cleanup-1757638589.8809803')
+2025-09-12 10:56:29,881 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:45877' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 22, 0, 0), ('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 36, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638589.8809803')
+2025-09-12 10:56:30,151 - distributed.core - INFO - Connection to tcp://10.6.5.25:34896 has been closed.
+2025-09-12 10:56:30,151 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:37007 name: tcp://10.6.5.25:37007 (stimulus_id='handle-worker-cleanup-1757638590.1516292')
+2025-09-12 10:56:30,152 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:37007' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 5, 0, 0), ('concatenate-34f4291d72e86f3b014517ad9657c08d', 18, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638590.1516292')
+2025-09-12 10:56:30,198 - distributed.core - INFO - Connection to tcp://10.6.5.25:37602 has been closed.
+2025-09-12 10:56:30,199 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:41305 name: tcp://10.6.5.25:41305 (stimulus_id='handle-worker-cleanup-1757638590.1991591')
+2025-09-12 10:56:30,199 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:41305' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 38, 0, 0), ('open_dataset-tas-original-concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 29, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638590.1991591')
+2025-09-12 10:56:30,429 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:40345 name: tcp://10.6.5.25:40345
+2025-09-12 10:56:30,430 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:40345
+2025-09-12 10:56:30,430 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:45764
+2025-09-12 10:56:30,846 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:33267 name: tcp://10.6.5.25:33267
+2025-09-12 10:56:30,847 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:33267
+2025-09-12 10:56:30,847 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:45772
+2025-09-12 10:56:31,001 - distributed.core - INFO - Connection to tcp://10.6.5.25:37778 has been closed.
+2025-09-12 10:56:31,002 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:35173 name: tcp://10.6.5.25:35173 (stimulus_id='handle-worker-cleanup-1757638591.0023267')
+2025-09-12 10:56:31,002 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:35173' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-34f4291d72e86f3b014517ad9657c08d', 40, 0, 0), ('open_dataset-tas-original-concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 20, 0, 0)} (stimulus_id='handle-worker-cleanup-1757638591.0023267')
+2025-09-12 10:56:43,644 - distributed.scheduler - ERROR - Workers ['tcp://10.6.5.25:36539', 'tcp://10.6.5.25:37395', 'tcp://10.6.5.25:42297', 'tcp://10.6.5.25:33977', 'tcp://10.6.5.25:43525', 'tcp://10.6.5.25:43003', 'tcp://10.6.5.25:35173', 'tcp://10.6.5.25:34429', 'tcp://10.6.5.25:45877', 'tcp://10.6.5.25:41305', 'tcp://10.6.5.25:40009', 'tcp://10.6.5.25:37007', 'tcp://10.6.5.25:34033'] did not shut down within 30s; force closing
+2025-09-12 10:56:43,688 - distributed.scheduler - ERROR - 13/16 nanny worker(s) did not shut down within 30s: {'tcp://10.6.5.25:36539', 'tcp://10.6.5.25:37395', 'tcp://10.6.5.25:42297', 'tcp://10.6.5.25:33977', 'tcp://10.6.5.25:43525', 'tcp://10.6.5.25:43003', 'tcp://10.6.5.25:35173', 'tcp://10.6.5.25:34429', 'tcp://10.6.5.25:45877', 'tcp://10.6.5.25:41305', 'tcp://10.6.5.25:40009', 'tcp://10.6.5.25:37007', 'tcp://10.6.5.25:34033'}
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/utils.py", line 818, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/scheduler.py", line 6666, in restart_workers
+    raise TimeoutError(
+TimeoutError: 13/16 nanny worker(s) did not shut down within 30s: {'tcp://10.6.5.25:36539', 'tcp://10.6.5.25:37395', 'tcp://10.6.5.25:42297', 'tcp://10.6.5.25:33977', 'tcp://10.6.5.25:43525', 'tcp://10.6.5.25:43003', 'tcp://10.6.5.25:35173', 'tcp://10.6.5.25:34429', 'tcp://10.6.5.25:45877', 'tcp://10.6.5.25:41305', 'tcp://10.6.5.25:40009', 'tcp://10.6.5.25:37007', 'tcp://10.6.5.25:34033'}
+2025-09-12 10:56:43,690 - distributed.scheduler - ERROR - 13/16 nanny worker(s) did not shut down within 30s: {'tcp://10.6.5.25:36539', 'tcp://10.6.5.25:37395', 'tcp://10.6.5.25:42297', 'tcp://10.6.5.25:33977', 'tcp://10.6.5.25:43525', 'tcp://10.6.5.25:43003', 'tcp://10.6.5.25:35173', 'tcp://10.6.5.25:34429', 'tcp://10.6.5.25:45877', 'tcp://10.6.5.25:41305', 'tcp://10.6.5.25:40009', 'tcp://10.6.5.25:37007', 'tcp://10.6.5.25:34033'}
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/utils.py", line 818, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/scheduler.py", line 8724, in check_worker_ttl
+    await self.restart_workers(
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/utils.py", line 818, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/scheduler.py", line 6666, in restart_workers
+    raise TimeoutError(
+TimeoutError: 13/16 nanny worker(s) did not shut down within 30s: {'tcp://10.6.5.25:36539', 'tcp://10.6.5.25:37395', 'tcp://10.6.5.25:42297', 'tcp://10.6.5.25:33977', 'tcp://10.6.5.25:43525', 'tcp://10.6.5.25:43003', 'tcp://10.6.5.25:35173', 'tcp://10.6.5.25:34429', 'tcp://10.6.5.25:45877', 'tcp://10.6.5.25:41305', 'tcp://10.6.5.25:40009', 'tcp://10.6.5.25:37007', 'tcp://10.6.5.25:34033'}
+2025-09-12 10:56:43,691 - tornado.application - ERROR - Exception in callback <bound method Scheduler.check_worker_ttl of <Scheduler 'tcp://10.6.5.25:8760', workers: 18, cores: 18, tasks: 462>>
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/ioloop.py", line 947, in _run
+    await val
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/utils.py", line 818, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/scheduler.py", line 8724, in check_worker_ttl
+    await self.restart_workers(
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/utils.py", line 818, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/scheduler.py", line 6666, in restart_workers
+    raise TimeoutError(
+TimeoutError: 13/16 nanny worker(s) did not shut down within 30s: {'tcp://10.6.5.25:36539', 'tcp://10.6.5.25:37395', 'tcp://10.6.5.25:42297', 'tcp://10.6.5.25:33977', 'tcp://10.6.5.25:43525', 'tcp://10.6.5.25:43003', 'tcp://10.6.5.25:35173', 'tcp://10.6.5.25:34429', 'tcp://10.6.5.25:45877', 'tcp://10.6.5.25:41305', 'tcp://10.6.5.25:40009', 'tcp://10.6.5.25:37007', 'tcp://10.6.5.25:34033'}
+2025-09-12 10:56:45,563 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:41617 name: tcp://10.6.5.25:41617
+2025-09-12 10:56:45,564 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:41617
+2025-09-12 10:56:45,564 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33102
+2025-09-12 10:56:45,658 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:38383 name: tcp://10.6.5.25:38383
+2025-09-12 10:56:45,658 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:38383
+2025-09-12 10:56:45,658 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33106
+2025-09-12 10:56:45,691 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:37897 name: tcp://10.6.5.25:37897
+2025-09-12 10:56:45,692 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:37897
+2025-09-12 10:56:45,692 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33108
+2025-09-12 10:56:45,743 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:32789 name: tcp://10.6.5.25:32789
+2025-09-12 10:56:45,744 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:32789
+2025-09-12 10:56:45,745 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33114
+2025-09-12 10:56:45,760 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:35753 name: tcp://10.6.5.25:35753
+2025-09-12 10:56:45,761 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:35753
+2025-09-12 10:56:45,761 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33122
+2025-09-12 10:56:45,783 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:39801 name: tcp://10.6.5.25:39801
+2025-09-12 10:56:45,784 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:39801
+2025-09-12 10:56:45,784 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33130
+2025-09-12 10:56:45,801 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:38689 name: tcp://10.6.5.25:38689
+2025-09-12 10:56:45,802 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:38689
+2025-09-12 10:56:45,802 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33144
+2025-09-12 10:56:45,834 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:46843 name: tcp://10.6.5.25:46843
+2025-09-12 10:56:45,835 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:46843
+2025-09-12 10:56:45,835 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33150
+2025-09-12 10:56:45,875 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:44447 name: tcp://10.6.5.25:44447
+2025-09-12 10:56:45,876 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:44447
+2025-09-12 10:56:45,876 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33158
+2025-09-12 10:56:45,916 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:35935 name: tcp://10.6.5.25:35935
+2025-09-12 10:56:45,917 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:35935
+2025-09-12 10:56:45,917 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33172
+2025-09-12 10:56:45,951 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:44477 name: tcp://10.6.5.25:44477
+2025-09-12 10:56:45,952 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:44477
+2025-09-12 10:56:45,952 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33188
+2025-09-12 10:56:46,023 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:37741 name: tcp://10.6.5.25:37741
+2025-09-12 10:56:46,024 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:37741
+2025-09-12 10:56:46,024 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33190
+2025-09-12 10:56:46,045 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:35471 name: tcp://10.6.5.25:35471
+2025-09-12 10:56:46,045 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:35471
+2025-09-12 10:56:46,046 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33206
+2025-09-12 10:56:46,326 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:34593 name: tcp://10.6.5.25:34593
+2025-09-12 10:56:46,330 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:34593
+2025-09-12 10:56:46,331 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:33222
+2025-09-12 11:06:04,024 - distributed.core - INFO - Connection to tcp://10.6.5.25:37628 has been closed.
+2025-09-12 11:06:04,025 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:45613 name: tcp://10.6.5.25:45613 (stimulus_id='handle-worker-cleanup-1757639164.0253565')
+2025-09-12 11:06:04,026 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:45613' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 9, 0, 0), ('concatenate-34f4291d72e86f3b014517ad9657c08d', 6, 0, 0), ('concatenate-34f4291d72e86f3b014517ad9657c08d', 8, 0, 0)} (stimulus_id='handle-worker-cleanup-1757639164.0253565')
+2025-09-12 11:06:08,343 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:36855 name: tcp://10.6.5.25:36855
+2025-09-12 11:06:08,345 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:36855
+2025-09-12 11:06:08,345 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:50492
+2025-09-12 11:07:25,400 - distributed.core - INFO - Connection to tcp://10.6.5.25:37748 has been closed.
+2025-09-12 11:07:25,401 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:33159 name: tcp://10.6.5.25:33159 (stimulus_id='handle-worker-cleanup-1757639245.4009864')
+2025-09-12 11:07:25,401 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:33159' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('open_dataset-tas-original-concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 13, 0, 0), ('concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 17, 0, 0), ('concatenate-34f4291d72e86f3b014517ad9657c08d', 37, 0, 0)} (stimulus_id='handle-worker-cleanup-1757639245.4009864')
+2025-09-12 11:07:30,048 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:44833 name: tcp://10.6.5.25:44833
+2025-09-12 11:07:30,050 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:44833
+2025-09-12 11:07:30,050 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:39120
+2025-09-12 11:36:23,441 - distributed.scheduler - WARNING - Worker failed to heartbeat for 315s; attempting restart: <WorkerState 'tcp://10.6.5.25:39801', status: running, memory: 2, processing: 1>
+2025-09-12 11:36:23,443 - distributed.scheduler - INFO - Restarting 1 workers: ['tcp://10.6.5.25:39801'] (stimulus_id='check-worker-ttl-1757640983.4416735'
+2025-09-12 11:36:27,147 - distributed.scheduler - ERROR - Task ('getitem-rechunk-merge-vectorize_count_dist-vectorize_count_dist_0-transpose-08b6aead29360464d1cff8476cac2e37', 0, 0, 0, 0) has 859.70 GiB worth of input dependencies, but worker tcp://10.6.5.25:34571 has memory_limit set to 93.75 GiB.
+2025-09-12 11:36:28,458 - distributed.scheduler - ERROR - Workers ['tcp://10.6.5.25:39801'] did not shut down within 30s; force closing
+2025-09-12 11:36:28,459 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.25:39801 name: tcp://10.6.5.25:39801 (stimulus_id='check-worker-ttl-1757640983.4416735')
+2025-09-12 11:36:28,459 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.25:39801' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('concatenate-d81e846ab8ca9c73da1f30031e2ce18e', 17, 0, 0)} (stimulus_id='check-worker-ttl-1757640983.4416735')
+2025-09-12 11:36:28,473 - distributed.scheduler - ERROR - 1/1 nanny worker(s) did not shut down within 30s: {'tcp://10.6.5.25:39801'}
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/utils.py", line 818, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/scheduler.py", line 6666, in restart_workers
+    raise TimeoutError(
+TimeoutError: 1/1 nanny worker(s) did not shut down within 30s: {'tcp://10.6.5.25:39801'}
+2025-09-12 11:36:28,475 - distributed.scheduler - ERROR - 1/1 nanny worker(s) did not shut down within 30s: {'tcp://10.6.5.25:39801'}
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/utils.py", line 818, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/scheduler.py", line 8724, in check_worker_ttl
+    await self.restart_workers(
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/utils.py", line 818, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/scheduler.py", line 6666, in restart_workers
+    raise TimeoutError(
+TimeoutError: 1/1 nanny worker(s) did not shut down within 30s: {'tcp://10.6.5.25:39801'}
+2025-09-12 11:36:28,476 - tornado.application - ERROR - Exception in callback <bound method Scheduler.check_worker_ttl of <Scheduler 'tcp://10.6.5.25:8760', workers: 31, cores: 31, tasks: 462>>
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/ioloop.py", line 947, in _run
+    await val
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/utils.py", line 818, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/scheduler.py", line 8724, in check_worker_ttl
+    await self.restart_workers(
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/utils.py", line 818, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/scheduler.py", line 6666, in restart_workers
+    raise TimeoutError(
+TimeoutError: 1/1 nanny worker(s) did not shut down within 30s: {'tcp://10.6.5.25:39801'}
+2025-09-12 11:36:30,328 - distributed.core - INFO - Connection to tcp://10.6.5.25:33130 has been closed.
+2025-09-12 11:36:34,818 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.25:33589 name: tcp://10.6.5.25:33589
+2025-09-12 11:36:34,819 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.25:33589
+2025-09-12 11:36:34,819 - distributed.core - INFO - Starting established connection to tcp://10.6.5.25:48210
+2025-09-12 11:36:36,589 - distributed.scheduler - INFO - Remove client Client-c0fc3d07-8f6d-11f0-b02b-000008f7fe80
+2025-09-12 11:36:36,608 - distributed.core - INFO - Received 'close-stream' from tcp://10.6.5.25:44880; closing.
+2025-09-12 11:36:36,609 - distributed.scheduler - INFO - Remove client Client-c0fc3d07-8f6d-11f0-b02b-000008f7fe80
+2025-09-12 11:36:36,615 - distributed.scheduler - INFO - Close client connection: Client-c0fc3d07-8f6d-11f0-b02b-000008f7fe80

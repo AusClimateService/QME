@@ -1,0 +1,510 @@
+2025-10-02 12:26:58,663 - distributed.scheduler - INFO - -----------------------------------------------
+2025-10-02 12:26:59,306 - distributed.scheduler - INFO - State start
+2025-10-02 12:26:59,308 - distributed.scheduler - INFO - -----------------------------------------------
+2025-10-02 12:26:59,309 - distributed.scheduler - INFO -   Scheduler at:      tcp://10.6.5.28:8735
+2025-10-02 12:26:59,310 - distributed.scheduler - INFO -   dashboard at:          proxy/8870/status
+2025-10-02 12:26:59,312 - distributed.scheduler - INFO - Registering Worker plugin shuffle
+2025-10-02 12:27:04,547 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:33995 name: tcp://10.6.5.28:33995
+2025-10-02 12:27:04,555 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:33995
+2025-10-02 12:27:04,555 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43226
+2025-10-02 12:27:04,568 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:42665 name: tcp://10.6.5.28:42665
+2025-10-02 12:27:04,568 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:42665
+2025-10-02 12:27:04,568 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43244
+2025-10-02 12:27:04,569 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:41749 name: tcp://10.6.5.28:41749
+2025-10-02 12:27:04,569 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:41749
+2025-10-02 12:27:04,569 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43232
+2025-10-02 12:27:04,570 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:46041 name: tcp://10.6.5.28:46041
+2025-10-02 12:27:04,570 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:46041
+2025-10-02 12:27:04,570 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43254
+2025-10-02 12:27:04,572 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:39209 name: tcp://10.6.5.28:39209
+2025-10-02 12:27:04,572 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:39209
+2025-10-02 12:27:04,572 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43270
+2025-10-02 12:27:04,591 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:33965 name: tcp://10.6.5.28:33965
+2025-10-02 12:27:04,591 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:33965
+2025-10-02 12:27:04,591 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43294
+2025-10-02 12:27:04,592 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:35849 name: tcp://10.6.5.28:35849
+2025-10-02 12:27:04,592 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:35849
+2025-10-02 12:27:04,592 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43284
+2025-10-02 12:27:04,653 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:39791 name: tcp://10.6.5.28:39791
+2025-10-02 12:27:04,654 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:39791
+2025-10-02 12:27:04,654 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43304
+2025-10-02 12:27:04,788 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:43843 name: tcp://10.6.5.28:43843
+2025-10-02 12:27:04,789 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:43843
+2025-10-02 12:27:04,789 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43328
+2025-10-02 12:27:04,792 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:44061 name: tcp://10.6.5.28:44061
+2025-10-02 12:27:04,792 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:44061
+2025-10-02 12:27:04,792 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43318
+2025-10-02 12:27:04,797 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:43951 name: tcp://10.6.5.28:43951
+2025-10-02 12:27:04,798 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:43951
+2025-10-02 12:27:04,798 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43342
+2025-10-02 12:27:04,801 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:34991 name: tcp://10.6.5.28:34991
+2025-10-02 12:27:04,802 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:34991
+2025-10-02 12:27:04,802 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43350
+2025-10-02 12:27:04,810 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:43015 name: tcp://10.6.5.28:43015
+2025-10-02 12:27:04,810 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:43015
+2025-10-02 12:27:04,810 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43364
+2025-10-02 12:27:04,812 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:38705 name: tcp://10.6.5.28:38705
+2025-10-02 12:27:04,813 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:38705
+2025-10-02 12:27:04,813 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43380
+2025-10-02 12:27:04,819 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:43753 name: tcp://10.6.5.28:43753
+2025-10-02 12:27:04,820 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:43753
+2025-10-02 12:27:04,820 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43396
+2025-10-02 12:27:04,848 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:45497 name: tcp://10.6.5.28:45497
+2025-10-02 12:27:04,849 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:45497
+2025-10-02 12:27:04,849 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43412
+2025-10-02 12:27:04,860 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:41129 name: tcp://10.6.5.28:41129
+2025-10-02 12:27:04,861 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:41129
+2025-10-02 12:27:04,861 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43416
+2025-10-02 12:27:04,864 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:41233 name: tcp://10.6.5.28:41233
+2025-10-02 12:27:04,865 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:41233
+2025-10-02 12:27:04,865 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43418
+2025-10-02 12:27:04,877 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:41227 name: tcp://10.6.5.28:41227
+2025-10-02 12:27:04,877 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:41227
+2025-10-02 12:27:04,878 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43426
+2025-10-02 12:27:04,940 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:34577 name: tcp://10.6.5.28:34577
+2025-10-02 12:27:04,940 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:34577
+2025-10-02 12:27:04,941 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43434
+2025-10-02 12:27:04,944 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:43999 name: tcp://10.6.5.28:43999
+2025-10-02 12:27:04,945 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:43999
+2025-10-02 12:27:04,945 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43444
+2025-10-02 12:27:04,949 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:41643 name: tcp://10.6.5.28:41643
+2025-10-02 12:27:04,950 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:41643
+2025-10-02 12:27:04,950 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43452
+2025-10-02 12:27:04,953 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:36543 name: tcp://10.6.5.28:36543
+2025-10-02 12:27:04,953 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:36543
+2025-10-02 12:27:04,953 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43456
+2025-10-02 12:27:04,984 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:43929 name: tcp://10.6.5.28:43929
+2025-10-02 12:27:04,984 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:43929
+2025-10-02 12:27:04,985 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43478
+2025-10-02 12:27:04,985 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:40623 name: tcp://10.6.5.28:40623
+2025-10-02 12:27:04,986 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:40623
+2025-10-02 12:27:04,986 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43464
+2025-10-02 12:27:05,020 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:38223 name: tcp://10.6.5.28:38223
+2025-10-02 12:27:05,020 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:38223
+2025-10-02 12:27:05,020 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43490
+2025-10-02 12:27:05,025 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:42847 name: tcp://10.6.5.28:42847
+2025-10-02 12:27:05,025 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:42847
+2025-10-02 12:27:05,025 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43498
+2025-10-02 12:27:05,040 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:42047 name: tcp://10.6.5.28:42047
+2025-10-02 12:27:05,041 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:42047
+2025-10-02 12:27:05,041 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43514
+2025-10-02 12:27:05,066 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:37701 name: tcp://10.6.5.28:37701
+2025-10-02 12:27:05,067 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:37701
+2025-10-02 12:27:05,067 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43520
+2025-10-02 12:27:05,076 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:32979 name: tcp://10.6.5.28:32979
+2025-10-02 12:27:05,076 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:32979
+2025-10-02 12:27:05,076 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43534
+2025-10-02 12:27:05,080 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:36403 name: tcp://10.6.5.28:36403
+2025-10-02 12:27:05,080 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:36403
+2025-10-02 12:27:05,081 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43546
+2025-10-02 12:27:05,085 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:45547 name: tcp://10.6.5.28:45547
+2025-10-02 12:27:05,085 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:45547
+2025-10-02 12:27:05,085 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43558
+2025-10-02 12:27:05,087 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:34059 name: tcp://10.6.5.28:34059
+2025-10-02 12:27:05,087 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:34059
+2025-10-02 12:27:05,087 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43570
+2025-10-02 12:27:05,088 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:33461 name: tcp://10.6.5.28:33461
+2025-10-02 12:27:05,088 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:33461
+2025-10-02 12:27:05,089 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43604
+2025-10-02 12:27:05,089 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:40427 name: tcp://10.6.5.28:40427
+2025-10-02 12:27:05,089 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:40427
+2025-10-02 12:27:05,089 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43594
+2025-10-02 12:27:05,091 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:41977 name: tcp://10.6.5.28:41977
+2025-10-02 12:27:05,092 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:41977
+2025-10-02 12:27:05,092 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43578
+2025-10-02 12:27:05,094 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:43661 name: tcp://10.6.5.28:43661
+2025-10-02 12:27:05,094 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:43661
+2025-10-02 12:27:05,094 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43598
+2025-10-02 12:27:05,095 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:36375 name: tcp://10.6.5.28:36375
+2025-10-02 12:27:05,095 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:36375
+2025-10-02 12:27:05,095 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43612
+2025-10-02 12:27:05,099 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:35855 name: tcp://10.6.5.28:35855
+2025-10-02 12:27:05,099 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:35855
+2025-10-02 12:27:05,099 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43630
+2025-10-02 12:27:05,100 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:40213 name: tcp://10.6.5.28:40213
+2025-10-02 12:27:05,100 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:40213
+2025-10-02 12:27:05,100 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43616
+2025-10-02 12:27:05,103 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:44015 name: tcp://10.6.5.28:44015
+2025-10-02 12:27:05,103 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:44015
+2025-10-02 12:27:05,103 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43644
+2025-10-02 12:27:05,115 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:44813 name: tcp://10.6.5.28:44813
+2025-10-02 12:27:05,115 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:44813
+2025-10-02 12:27:05,116 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43648
+2025-10-02 12:27:05,130 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:35791 name: tcp://10.6.5.28:35791
+2025-10-02 12:27:05,131 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:35791
+2025-10-02 12:27:05,131 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43654
+2025-10-02 12:27:05,134 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:41691 name: tcp://10.6.5.28:41691
+2025-10-02 12:27:05,135 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:41691
+2025-10-02 12:27:05,135 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43666
+2025-10-02 12:27:05,136 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:44605 name: tcp://10.6.5.28:44605
+2025-10-02 12:27:05,136 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:44605
+2025-10-02 12:27:05,136 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43674
+2025-10-02 12:27:05,144 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:34297 name: tcp://10.6.5.28:34297
+2025-10-02 12:27:05,144 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:34297
+2025-10-02 12:27:05,144 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43684
+2025-10-02 12:27:05,155 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:38365 name: tcp://10.6.5.28:38365
+2025-10-02 12:27:05,155 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:38365
+2025-10-02 12:27:05,156 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43696
+2025-10-02 12:27:05,194 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.5.28:33749 name: tcp://10.6.5.28:33749
+2025-10-02 12:27:05,195 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.5.28:33749
+2025-10-02 12:27:05,195 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:43710
+2025-10-02 12:27:10,182 - distributed.scheduler - INFO - Receive client connection: Client-4c5ae0bb-9f37-11f0-91a7-00000088fe80
+2025-10-02 12:27:10,183 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:44126
+2025-10-02 12:27:10,205 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-10-02 12:27:11,349 - distributed.scheduler - INFO - Registering Worker plugin qme_utils.pycd90ed3d-47ad-4e80-a907-4d2ccbca5664
+2025-10-02 12:27:13,871 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-10-02 12:27:13,875 - distributed.scheduler - INFO - Registering Worker plugin qme_vars.py52c910cc-eabf-4fd0-bed3-a7c9a5761263
+2025-10-02 12:27:13,914 - distributed.scheduler - INFO - Registering Worker plugin qme_train.py3bfcda75-0341-4c9f-9fd8-8158b69a5d77
+2025-10-02 12:27:13,921 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-10-02 12:27:13,955 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-10-02 12:27:13,958 - distributed.scheduler - INFO - Registering Worker plugin qme_apply.py4b9a69af-13e4-49b5-8a5c-574b69373742
+2025-10-03 07:47:34,052 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-10-03 07:47:34,159 - distributed.scheduler - INFO - Closing scheduler. Reason: signal-15
+2025-10-03 07:47:34,163 - distributed.core - INFO - Connection to tcp://10.6.5.28:43294 has been closed.
+2025-10-03 07:47:34,164 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:33965 name: tcp://10.6.5.28:33965 (stimulus_id='handle-worker-cleanup-1759441654.1640024')
+2025-10-03 07:47:34,164 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:33965' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 3, 11, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 15, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 9, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 9, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 4, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 6, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 14, 22, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 21, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 5, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 10, 0), ('vectorize_factors-vectorize_factors_0-transpose-c9baf544e4fb2455107e11817c091ef7', 13, 6, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 1, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 13, 0), ('getitem-xarray-tas-transpose-ee24450b06095e9701264a07ac55464d', 12, 3, 0)} (stimulus_id='handle-worker-cleanup-1759441654.1640024')
+2025-10-03 07:47:34,173 - distributed.core - INFO - Connection to tcp://10.6.5.28:43284 has been closed.
+2025-10-03 07:47:34,173 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:35849 name: tcp://10.6.5.28:35849 (stimulus_id='handle-worker-cleanup-1759441654.1738172')
+2025-10-03 07:47:34,174 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:35849' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 15, 1, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 13, 10, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 19, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 15, 10, 0, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 3, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 15, 10, 0)} (stimulus_id='handle-worker-cleanup-1759441654.1738172')
+2025-10-03 07:47:34,177 - distributed.core - INFO - Connection to tcp://10.6.5.28:43232 has been closed.
+2025-10-03 07:47:34,177 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:41749 name: tcp://10.6.5.28:41749 (stimulus_id='handle-worker-cleanup-1759441654.1777356')
+2025-10-03 07:47:34,178 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:41749' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 7, 4, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 15, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 14, 1, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 20, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 21, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 21, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 1, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 9, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 14, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 3, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 4, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 16, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 12, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 16, 4, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 13, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 19, 0)} (stimulus_id='handle-worker-cleanup-1759441654.1777356')
+2025-10-03 07:47:34,182 - distributed.core - INFO - Connection to tcp://10.6.5.28:43674 has been closed.
+2025-10-03 07:47:34,182 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:44605 name: tcp://10.6.5.28:44605 (stimulus_id='handle-worker-cleanup-1759441654.1827018')
+2025-10-03 07:47:34,182 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:44605' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('transpose-ee24450b06095e9701264a07ac55464d', 14, 18, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 14, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 13, 16, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 12, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 8, 0), ('transpose-b96e810c809ee6f674372a61e71c6a58', 14, 11, 0, 0)} (stimulus_id='handle-worker-cleanup-1759441654.1827018')
+2025-10-03 07:47:34,185 - distributed.core - INFO - Connection to tcp://10.6.5.28:43412 has been closed.
+2025-10-03 07:47:34,185 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:45497 name: tcp://10.6.5.28:45497 (stimulus_id='handle-worker-cleanup-1759441654.1851234')
+2025-10-03 07:47:34,185 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:45497' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 4, 19, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 21, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 19, 0), ('vectorize_factors-vectorize_factors_0-transpose-c9baf544e4fb2455107e11817c091ef7', 16, 4, 0, 0)} (stimulus_id='handle-worker-cleanup-1759441654.1851234')
+2025-10-03 07:47:34,187 - distributed.core - INFO - Connection to tcp://10.6.5.28:43396 has been closed.
+2025-10-03 07:47:34,187 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:43753 name: tcp://10.6.5.28:43753 (stimulus_id='handle-worker-cleanup-1759441654.1871643')
+2025-10-03 07:47:34,187 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:43753' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 7, 9, 0), ('vectorize_factors-vectorize_factors_0-transpose-c9baf544e4fb2455107e11817c091ef7', 14, 18, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 12, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 14, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 16, 17, 0)} (stimulus_id='handle-worker-cleanup-1759441654.1871643')
+2025-10-03 07:47:34,188 - distributed.core - INFO - Connection to tcp://10.6.5.28:43630 has been closed.
+2025-10-03 07:47:34,189 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:35855 name: tcp://10.6.5.28:35855 (stimulus_id='handle-worker-cleanup-1759441654.1890478')
+2025-10-03 07:47:34,189 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:35855' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 2, 6, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 13, 9, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 13, 9, 0, 0), ('getitem-xarray-tas-transpose-ee24450b06095e9701264a07ac55464d', 12, 9, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 22, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 6, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 7, 0)} (stimulus_id='handle-worker-cleanup-1759441654.1890478')
+2025-10-03 07:47:34,194 - distributed.core - INFO - Connection to tcp://10.6.5.28:43696 has been closed.
+2025-10-03 07:47:34,194 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:38365 name: tcp://10.6.5.28:38365 (stimulus_id='handle-worker-cleanup-1759441654.1948795')
+2025-10-03 07:47:34,195 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:38365' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 4, 16, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 22, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 7, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 12, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 16, 21, 0)} (stimulus_id='handle-worker-cleanup-1759441654.1948795')
+2025-10-03 07:47:34,196 - distributed.core - INFO - Connection to tcp://10.6.5.28:43604 has been closed.
+2025-10-03 07:47:34,196 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:33461 name: tcp://10.6.5.28:33461 (stimulus_id='handle-worker-cleanup-1759441654.1968381')
+2025-10-03 07:47:34,196 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:33461' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-xarray-tas-transpose-ee24450b06095e9701264a07ac55464d', 14, 16, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 16, 18, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 18, 0)} (stimulus_id='handle-worker-cleanup-1759441654.1968381')
+2025-10-03 07:47:34,198 - distributed.core - INFO - Connection to tcp://10.6.5.28:43598 has been closed.
+2025-10-03 07:47:34,198 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:43661 name: tcp://10.6.5.28:43661 (stimulus_id='handle-worker-cleanup-1759441654.19822')
+2025-10-03 07:47:34,198 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:43661' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 7, 10, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 16, 15, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 14, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 6, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 17, 0), ('getitem-xarray-tas-transpose-ee24450b06095e9701264a07ac55464d', 13, 15, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 2, 0)} (stimulus_id='handle-worker-cleanup-1759441654.19822')
+2025-10-03 07:47:34,199 - distributed.core - INFO - Connection to tcp://10.6.5.28:43558 has been closed.
+2025-10-03 07:47:34,200 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:45547 name: tcp://10.6.5.28:45547 (stimulus_id='handle-worker-cleanup-1759441654.2000432')
+2025-10-03 07:47:34,200 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:45547' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 5, 7, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 15, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 7, 0), ('vectorize_factors-vectorize_factors_0-transpose-c9baf544e4fb2455107e11817c091ef7', 13, 7, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 8, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2000432')
+2025-10-03 07:47:34,201 - distributed.core - INFO - Connection to tcp://10.6.5.28:43464 has been closed.
+2025-10-03 07:47:34,201 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:40623 name: tcp://10.6.5.28:40623 (stimulus_id='handle-worker-cleanup-1759441654.2016904')
+2025-10-03 07:47:34,201 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:40623' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 16, 14, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 4, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 14, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 2, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 1, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 6, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 20, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 17, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2016904')
+2025-10-03 07:47:34,203 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43604>
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 298, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+             ^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+            ^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 308, in write
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43604>: Stream is closed
+2025-10-03 07:47:34,209 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43696>
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 298, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+             ^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+            ^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 308, in write
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43696>: Stream is closed
+2025-10-03 07:47:34,211 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43464>
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 298, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+             ^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+            ^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 308, in write
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43464>: Stream is closed
+2025-10-03 07:47:34,213 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43598>
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 298, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+             ^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+            ^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 308, in write
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43598>: Stream is closed
+2025-10-03 07:47:34,215 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43558>
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 298, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+             ^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+            ^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 308, in write
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43558>: Stream is closed
+2025-10-03 07:47:34,219 - distributed.scheduler - INFO - Scheduler closing all comms
+2025-10-03 07:47:34,220 - distributed.core - INFO - Connection to tcp://10.6.5.28:43684 has been closed.
+2025-10-03 07:47:34,220 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:34297 name: tcp://10.6.5.28:34297 (stimulus_id='handle-worker-cleanup-1759441654.2208958')
+2025-10-03 07:47:34,221 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:34297' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 15, 13, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 21, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 1, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 3, 0), ('vectorize_factors-vectorize_factors_0-transpose-c9baf544e4fb2455107e11817c091ef7', 13, 22, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 11, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 5, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 15, 11, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2208958')
+2025-10-03 07:47:34,224 - distributed.core - INFO - Connection to tcp://10.6.5.28:43534 has been closed.
+2025-10-03 07:47:34,224 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:32979 name: tcp://10.6.5.28:32979 (stimulus_id='handle-worker-cleanup-1759441654.224331')
+2025-10-03 07:47:34,224 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:32979' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('transpose-c9baf544e4fb2455107e11817c091ef7', 14, 15, 0, 0), ('getitem-xarray-tas-transpose-ee24450b06095e9701264a07ac55464d', 13, 22, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 9, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 15, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 15, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 20, 0)} (stimulus_id='handle-worker-cleanup-1759441654.224331')
+2025-10-03 07:47:34,226 - distributed.core - INFO - Connection to tcp://10.6.5.28:43570 has been closed.
+2025-10-03 07:47:34,226 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:34059 name: tcp://10.6.5.28:34059 (stimulus_id='handle-worker-cleanup-1759441654.2267969')
+2025-10-03 07:47:34,227 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:34059' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 4, 6, 0), ('getitem-xarray-tas-transpose-ee24450b06095e9701264a07ac55464d', 13, 14, 0), ('vectorize_factors-vectorize_factors_0-transpose-c9baf544e4fb2455107e11817c091ef7', 15, 11, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 20, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2267969')
+2025-10-03 07:47:34,229 - distributed.core - INFO - Connection to tcp://10.6.5.28:43478 has been closed.
+2025-10-03 07:47:34,229 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:43929 name: tcp://10.6.5.28:43929 (stimulus_id='handle-worker-cleanup-1759441654.2295983')
+2025-10-03 07:47:34,229 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:43929' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 2, 2, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 15, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 5, 0), ('transpose-b96e810c809ee6f674372a61e71c6a58', 14, 19, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 2, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 22, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 8, 0), ('transpose-8ed21b9130c99dbf2e08f6c98849c361', 14, 19, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 18, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 16, 6, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2295983')
+2025-10-03 07:47:34,235 - distributed.core - INFO - Connection to tcp://10.6.5.28:43444 has been closed.
+2025-10-03 07:47:34,235 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:43999 name: tcp://10.6.5.28:43999 (stimulus_id='handle-worker-cleanup-1759441654.2354913')
+2025-10-03 07:47:34,235 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:43999' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('transpose-ee24450b06095e9701264a07ac55464d', 15, 18, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 11, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 17, 0), ('vectorize_apply-vectorize_apply_0-store-map-c014f2adae72968a89475825ac1cf378', 16, 1, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 15, 18, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 8, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 21, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2354913')
+2025-10-03 07:47:34,237 - distributed.core - INFO - Connection to tcp://10.6.5.28:43416 has been closed.
+2025-10-03 07:47:34,237 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:41129 name: tcp://10.6.5.28:41129 (stimulus_id='handle-worker-cleanup-1759441654.2377076')
+2025-10-03 07:47:34,237 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:41129' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('transpose-8ed21b9130c99dbf2e08f6c98849c361', 14, 13, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 16, 3, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 1, 0), ('transpose-b96e810c809ee6f674372a61e71c6a58', 14, 13, 0, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2377076')
+2025-10-03 07:47:34,238 - distributed.core - INFO - Connection to tcp://10.6.5.28:43594 has been closed.
+2025-10-03 07:47:34,238 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:40427 name: tcp://10.6.5.28:40427 (stimulus_id='handle-worker-cleanup-1759441654.2389417')
+2025-10-03 07:47:34,239 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:40427' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('transpose-c9baf544e4fb2455107e11817c091ef7', 13, 8, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 12, 0), ('getitem-xarray-tas-transpose-ee24450b06095e9701264a07ac55464d', 13, 1, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 3, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 20, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 13, 8, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 16, 13, 0), ('vectorize_factors-vectorize_factors_0-transpose-c9baf544e4fb2455107e11817c091ef7', 14, 0, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 21, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2389417')
+2025-10-03 07:47:34,240 - distributed.core - INFO - Connection to tcp://10.6.5.28:43520 has been closed.
+2025-10-03 07:47:34,240 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:37701 name: tcp://10.6.5.28:37701 (stimulus_id='handle-worker-cleanup-1759441654.2406924')
+2025-10-03 07:47:34,240 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:37701' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 4, 10, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 19, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 10, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 11, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 10, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 2, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 14, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 0, 0), ('getitem-xarray-tas-transpose-ee24450b06095e9701264a07ac55464d', 13, 19, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2406924')
+2025-10-03 07:47:34,242 - distributed.core - INFO - Connection to tcp://10.6.5.28:43342 has been closed.
+2025-10-03 07:47:34,242 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:43951 name: tcp://10.6.5.28:43951 (stimulus_id='handle-worker-cleanup-1759441654.2428389')
+2025-10-03 07:47:34,242 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:43951' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 7, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 9, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 7, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 5, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 5, 0), ('transpose-8ed21b9130c99dbf2e08f6c98849c361', 13, 5, 0, 0), ('transpose-b96e810c809ee6f674372a61e71c6a58', 13, 5, 0, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2428389')
+2025-10-03 07:47:34,244 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43520>
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 298, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+             ^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+            ^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 308, in write
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43520>: Stream is closed
+2025-10-03 07:47:34,245 - distributed.core - INFO - Connection to tcp://10.6.5.28:43380 has been closed.
+2025-10-03 07:47:34,245 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:38705 name: tcp://10.6.5.28:38705 (stimulus_id='handle-worker-cleanup-1759441654.2453856')
+2025-10-03 07:47:34,245 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:38705' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 4, 3, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 1, 0), ('vectorize_factors-vectorize_factors_0-transpose-c9baf544e4fb2455107e11817c091ef7', 14, 14, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 16, 12, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2453856')
+2025-10-03 07:47:34,246 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43594>
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 298, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+             ^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+            ^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 308, in write
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43594>: Stream is closed
+2025-10-03 07:47:34,247 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43416>
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 298, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+             ^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+            ^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 308, in write
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43416>: Stream is closed
+2025-10-03 07:47:34,248 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43342>
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 298, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+             ^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+            ^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 308, in write
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43342>: Stream is closed
+2025-10-03 07:47:34,248 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43444>
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 298, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+             ^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+            ^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 308, in write
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Scheduler connection to worker local=tcp://10.6.5.28:8735 remote=tcp://10.6.5.28:43444>: Stream is closed
+2025-10-03 07:47:34,250 - distributed.core - INFO - Connection to tcp://10.6.5.28:43350 has been closed.
+2025-10-03 07:47:34,250 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:34991 name: tcp://10.6.5.28:34991 (stimulus_id='handle-worker-cleanup-1759441654.2506337')
+2025-10-03 07:47:34,250 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:34991' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 16, 22, 0), ('vectorize_factors-vectorize_factors_0-transpose-c9baf544e4fb2455107e11817c091ef7', 14, 21, 0, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 13, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 14, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 11, 0), ('getitem-xarray-tas-transpose-ee24450b06095e9701264a07ac55464d', 13, 20, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 19, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 15, 20, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2506337')
+2025-10-03 07:47:34,253 - distributed.core - INFO - Connection to tcp://10.6.5.28:43434 has been closed.
+2025-10-03 07:47:34,253 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:34577 name: tcp://10.6.5.28:34577 (stimulus_id='handle-worker-cleanup-1759441654.2537167')
+2025-10-03 07:47:34,253 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:34577' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 7, 21, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 19, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 18, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 15, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 22, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 14, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 20, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 8, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 5, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 16, 2, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2537167')
+2025-10-03 07:47:34,255 - distributed.core - INFO - Connection to tcp://10.6.5.28:43612 has been closed.
+2025-10-03 07:47:34,256 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:36375 name: tcp://10.6.5.28:36375 (stimulus_id='handle-worker-cleanup-1759441654.2560089')
+2025-10-03 07:47:34,256 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:36375' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 7, 14, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 15, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 10, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 7, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 11, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 1, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 13, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 15, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 2, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 17, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 8, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 16, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 16, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 12, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 2, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 18, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 3, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2560089')
+2025-10-03 07:47:34,260 - distributed.core - INFO - Connection to tcp://10.6.5.28:43710 has been closed.
+2025-10-03 07:47:34,261 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:33749 name: tcp://10.6.5.28:33749 (stimulus_id='handle-worker-cleanup-1759441654.2610583')
+2025-10-03 07:47:34,261 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:33749' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('transpose-ee24450b06095e9701264a07ac55464d', 12, 4, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 6, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 3, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 16, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 13, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 12, 22, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2610583')
+2025-10-03 07:47:34,262 - distributed.core - INFO - Connection to tcp://10.6.5.28:43226 has been closed.
+2025-10-03 07:47:34,262 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:33995 name: tcp://10.6.5.28:33995 (stimulus_id='handle-worker-cleanup-1759441654.2625525')
+2025-10-03 07:47:34,262 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:33995' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 4, 9, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 4, 0), ('vectorize_apply-vectorize_apply_0-store-map-c014f2adae72968a89475825ac1cf378', 16, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 14, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 6, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 3, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 16, 11, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2625525')
+2025-10-03 07:47:34,264 - distributed.core - INFO - Connection to tcp://10.6.5.28:43654 has been closed.
+2025-10-03 07:47:34,264 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:35791 name: tcp://10.6.5.28:35791 (stimulus_id='handle-worker-cleanup-1759441654.2645404')
+2025-10-03 07:47:34,264 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:35791' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 8, 11, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 16, 5, 0), ('vectorize_factors-vectorize_factors_0-transpose-c9baf544e4fb2455107e11817c091ef7', 14, 12, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 9, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 22, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 12, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2645404')
+2025-10-03 07:47:34,266 - distributed.core - INFO - Connection to tcp://10.6.5.28:43546 has been closed.
+2025-10-03 07:47:34,266 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:36403 name: tcp://10.6.5.28:36403 (stimulus_id='handle-worker-cleanup-1759441654.2662075')
+2025-10-03 07:47:34,266 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:36403' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 3, 6, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 14, 10, 0, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 10, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 1, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 18, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 3, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2662075')
+2025-10-03 07:47:34,267 - distributed.core - INFO - Connection to tcp://10.6.5.28:43456 has been closed.
+2025-10-03 07:47:34,267 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:36543 name: tcp://10.6.5.28:36543 (stimulus_id='handle-worker-cleanup-1759441654.2677615')
+2025-10-03 07:47:34,267 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:36543' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 2, 11, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 7, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 18, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 2, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2677615')
+2025-10-03 07:47:34,268 - distributed.core - INFO - Connection to tcp://10.6.5.28:43490 has been closed.
+2025-10-03 07:47:34,269 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:38223 name: tcp://10.6.5.28:38223 (stimulus_id='handle-worker-cleanup-1759441654.268998')
+2025-10-03 07:47:34,269 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:38223' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 4, 7, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 16, 10, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 7, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 10, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 14, 7, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 8, 0)} (stimulus_id='handle-worker-cleanup-1759441654.268998')
+2025-10-03 07:47:34,270 - distributed.core - INFO - Connection to tcp://10.6.5.28:43270 has been closed.
+2025-10-03 07:47:34,270 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:39209 name: tcp://10.6.5.28:39209 (stimulus_id='handle-worker-cleanup-1759441654.2704484')
+2025-10-03 07:47:34,270 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:39209' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-xarray-tas-transpose-ee24450b06095e9701264a07ac55464d', 13, 13, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 12, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 18, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 12, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 20, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2704484')
+2025-10-03 07:47:34,271 - distributed.core - INFO - Connection to tcp://10.6.5.28:43304 has been closed.
+2025-10-03 07:47:34,271 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:39791 name: tcp://10.6.5.28:39791 (stimulus_id='handle-worker-cleanup-1759441654.2717395')
+2025-10-03 07:47:34,271 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:39791' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 4, 4, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 4, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 5, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 19, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 7, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 14, 5, 0, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2717395')
+2025-10-03 07:47:34,273 - distributed.core - INFO - Connection to tcp://10.6.5.28:43616 has been closed.
+2025-10-03 07:47:34,273 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:40213 name: tcp://10.6.5.28:40213 (stimulus_id='handle-worker-cleanup-1759441654.2732775')
+2025-10-03 07:47:34,273 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:40213' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 6, 15, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 13, 6, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 16, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 13, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 4, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 13, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2732775')
+2025-10-03 07:47:34,275 - distributed.core - INFO - Connection to tcp://10.6.5.28:43426 has been closed.
+2025-10-03 07:47:34,275 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:41227 name: tcp://10.6.5.28:41227 (stimulus_id='handle-worker-cleanup-1759441654.2751524')
+2025-10-03 07:47:34,275 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:41227' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 7, 3, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 16, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 16, 19, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 21, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 22, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 16, 19, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2751524')
+2025-10-03 07:47:34,276 - distributed.core - INFO - Connection to tcp://10.6.5.28:43418 has been closed.
+2025-10-03 07:47:34,276 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:41233 name: tcp://10.6.5.28:41233 (stimulus_id='handle-worker-cleanup-1759441654.2766898')
+2025-10-03 07:47:34,276 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:41233' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 16, 9, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 9, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 2, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 20, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 14, 9, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 14, 4, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2766898')
+2025-10-03 07:47:34,277 - distributed.core - INFO - Connection to tcp://10.6.5.28:43452 has been closed.
+2025-10-03 07:47:34,278 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:41643 name: tcp://10.6.5.28:41643 (stimulus_id='handle-worker-cleanup-1759441654.2780583')
+2025-10-03 07:47:34,278 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:41643' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('transpose-b96e810c809ee6f674372a61e71c6a58', 14, 6, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 22, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 16, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 1, 0), ('transpose-8ed21b9130c99dbf2e08f6c98849c361', 14, 6, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 6, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 13, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 19, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 13, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 4, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 12, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 17, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 3, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 16, 7, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2780583')
+2025-10-03 07:47:34,280 - distributed.core - INFO - Connection to tcp://10.6.5.28:43666 has been closed.
+2025-10-03 07:47:34,280 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:41691 name: tcp://10.6.5.28:41691 (stimulus_id='handle-worker-cleanup-1759441654.2807672')
+2025-10-03 07:47:34,280 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:41691' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('transpose-ee24450b06095e9701264a07ac55464d', 13, 5, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 13, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 13, 18, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 13, 4, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 10, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2807672')
+2025-10-03 07:47:34,281 - distributed.core - INFO - Connection to tcp://10.6.5.28:43578 has been closed.
+2025-10-03 07:47:34,281 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:41977 name: tcp://10.6.5.28:41977 (stimulus_id='handle-worker-cleanup-1759441654.2818472')
+2025-10-03 07:47:34,281 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:41977' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('transpose-ee24450b06095e9701264a07ac55464d', 14, 8, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 9, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 14, 8, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 10, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 14, 16, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 8, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2818472')
+2025-10-03 07:47:34,283 - distributed.core - INFO - Connection to tcp://10.6.5.28:43514 has been closed.
+2025-10-03 07:47:34,283 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:42047 name: tcp://10.6.5.28:42047 (stimulus_id='handle-worker-cleanup-1759441654.2830877')
+2025-10-03 07:47:34,283 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:42047' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 4, 14, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 18, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 15, 15, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 17, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 16, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 15, 15, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2830877')
+2025-10-03 07:47:34,284 - distributed.core - INFO - Connection to tcp://10.6.5.28:43244 has been closed.
+2025-10-03 07:47:34,284 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:42665 name: tcp://10.6.5.28:42665 (stimulus_id='handle-worker-cleanup-1759441654.2843668')
+2025-10-03 07:47:34,284 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:42665' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('transpose-b96e810c809ee6f674372a61e71c6a58', 14, 2, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 17, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 14, 20, 0, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 20, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 18, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 2, 0), ('transpose-8ed21b9130c99dbf2e08f6c98849c361', 14, 2, 0, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2843668')
+2025-10-03 07:47:34,285 - distributed.core - INFO - Connection to tcp://10.6.5.28:43498 has been closed.
+2025-10-03 07:47:34,285 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:42847 name: tcp://10.6.5.28:42847 (stimulus_id='handle-worker-cleanup-1759441654.2856226')
+2025-10-03 07:47:34,285 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:42847' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 8, 5, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 7, 1, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 8, 0), ('vectorize_apply-vectorize_apply_0-store-map-c014f2adae72968a89475825ac1cf378', 16, 16, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 22, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2856226')
+2025-10-03 07:47:34,286 - distributed.core - INFO - Connection to tcp://10.6.5.28:43364 has been closed.
+2025-10-03 07:47:34,286 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:43015 name: tcp://10.6.5.28:43015 (stimulus_id='handle-worker-cleanup-1759441654.2869177')
+2025-10-03 07:47:34,287 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:43015' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 17, 22, 0), ('vectorize_factors-vectorize_factors_0-transpose-c9baf544e4fb2455107e11817c091ef7', 15, 20, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 9, 12, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 19, 0), ('getitem-xarray-tas-transpose-ee24450b06095e9701264a07ac55464d', 13, 21, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2869177')
+2025-10-03 07:47:34,288 - distributed.core - INFO - Connection to tcp://10.6.5.28:43328 has been closed.
+2025-10-03 07:47:34,288 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:43843 name: tcp://10.6.5.28:43843 (stimulus_id='handle-worker-cleanup-1759441654.2880878')
+2025-10-03 07:47:34,288 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:43843' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 16, 20, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 8, 16, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 8, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 15, 17, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 11, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 15, 17, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2880878')
+2025-10-03 07:47:34,289 - distributed.core - INFO - Connection to tcp://10.6.5.28:43644 has been closed.
+2025-10-03 07:47:34,289 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:44015 name: tcp://10.6.5.28:44015 (stimulus_id='handle-worker-cleanup-1759441654.2893772')
+2025-10-03 07:47:34,289 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:44015' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 17, 2, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 5, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 17, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 13, 17, 0), ('transpose-b96e810c809ee6f674372a61e71c6a58', 13, 4, 0, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2893772')
+2025-10-03 07:47:34,290 - distributed.core - INFO - Connection to tcp://10.6.5.28:43318 has been closed.
+2025-10-03 07:47:34,290 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:44061 name: tcp://10.6.5.28:44061 (stimulus_id='handle-worker-cleanup-1759441654.2903843')
+2025-10-03 07:47:34,290 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:44061' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 16, 8, 0), ('vectorize_factors-vectorize_factors_0-transpose-c9baf544e4fb2455107e11817c091ef7', 14, 3, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 9, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 7, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 3, 17, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2903843')
+2025-10-03 07:47:34,291 - distributed.core - INFO - Connection to tcp://10.6.5.28:43648 has been closed.
+2025-10-03 07:47:34,291 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:44813 name: tcp://10.6.5.28:44813 (stimulus_id='handle-worker-cleanup-1759441654.2915752')
+2025-10-03 07:47:34,291 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:44813' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('transpose-ee24450b06095e9701264a07ac55464d', 12, 20, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 13, 3, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 21, 0), ('vectorize_factors-vectorize_factors_0-transpose-c9baf544e4fb2455107e11817c091ef7', 12, 22, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 17, 11, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 4, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 15, 5, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2915752')
+2025-10-03 07:47:34,292 - distributed.core - INFO - Connection to tcp://10.6.5.28:43254 has been closed.
+2025-10-03 07:47:34,292 - distributed.scheduler - INFO - Remove worker addr: tcp://10.6.5.28:46041 name: tcp://10.6.5.28:46041 (stimulus_id='handle-worker-cleanup-1759441654.2928975')
+2025-10-03 07:47:34,293 - distributed.scheduler - WARNING - Removing worker 'tcp://10.6.5.28:46041' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('store-map-c014f2adae72968a89475825ac1cf378', 3, 20, 0), 'original-xarray-tas-a54563e4c54448795a84889d9ffa1b39', ('store-map-c014f2adae72968a89475825ac1cf378', 7, 5, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 4, 21, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 2, 19, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 5, 6, 0), ('transpose-ee24450b06095e9701264a07ac55464d', 14, 17, 0), ('transpose-c9baf544e4fb2455107e11817c091ef7', 14, 17, 0, 0), ('store-map-c014f2adae72968a89475825ac1cf378', 6, 22, 0), 'original-open_dataset-tas-a4fcabb67abd1b784b90aa50b52859c2', 'original-open_dataset-tas-fc3a28e63813444fc2cdc7065e1309ea', ('transpose-ee24450b06095e9701264a07ac55464d', 13, 7, 0)} (stimulus_id='handle-worker-cleanup-1759441654.2928975')
+2025-10-03 07:47:34,316 - distributed.scheduler - INFO - Lost all workers
+2025-10-03 07:47:34,427 - distributed.scheduler - INFO - Stopped scheduler at 'tcp://10.6.5.28:8735'
+2025-10-03 07:47:34,427 - distributed.scheduler - INFO - End scheduler

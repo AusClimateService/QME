@@ -1,0 +1,44 @@
+2025-09-09 15:09:07,474 - distributed.nanny.memory - WARNING - Ignoring provided memory limit 3210488053760 due to system memory limit of 2.91 TiB
+2025-09-09 15:09:07,478 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.5.28:45361'
+2025-09-09 15:09:08,632 - distributed.worker - INFO -       Start worker at:      tcp://10.6.5.28:42899
+2025-09-09 15:09:08,632 - distributed.worker - INFO -          Listening to:      tcp://10.6.5.28:42899
+2025-09-09 15:09:08,632 - distributed.worker - INFO -          dashboard at:            10.6.5.28:46639
+2025-09-09 15:09:08,632 - distributed.worker - INFO - Waiting to connect to:       tcp://10.6.5.28:8771
+2025-09-09 15:09:08,632 - distributed.worker - INFO - -------------------------------------------------
+2025-09-09 15:09:08,632 - distributed.worker - INFO -               Threads:                          1
+2025-09-09 15:09:08,632 - distributed.worker - INFO -                Memory:                   2.91 TiB
+2025-09-09 15:09:08,632 - distributed.worker - INFO -       Local Directory: /jobfs/149246462.gadi-pbs/dask-scratch-space/worker-71ufu_ig
+2025-09-09 15:09:08,632 - distributed.worker - INFO - -------------------------------------------------
+2025-09-09 15:09:08,673 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-09-09 15:09:08,673 - distributed.worker - INFO -         Registered to:       tcp://10.6.5.28:8771
+2025-09-09 15:09:08,673 - distributed.worker - INFO - -------------------------------------------------
+2025-09-09 15:09:08,675 - distributed.core - INFO - Starting established connection to tcp://10.6.5.28:8771
+2025-09-09 15:09:14,272 - distributed.worker - INFO - Starting Worker plugin qme_utils.py2e1bbb8f-c775-4c99-b733-3578518c7e66
+2025-09-09 15:09:14,273 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-09-09 15:09:15,447 - distributed.worker - INFO - Starting Worker plugin qme_vars.py433d0cd8-5e2d-4cfc-ac69-dfe0869b0b5c
+2025-09-09 15:09:15,448 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-09-09 15:09:15,453 - distributed.worker - INFO - Starting Worker plugin qme_train.pyde0c7468-d82f-4f77-a777-9b5963ca9c53
+2025-09-09 15:09:15,458 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-09-09 15:09:15,466 - distributed.worker - INFO - Starting Worker plugin qme_apply.py8606776f-a5d9-4dcc-8dc5-92db3e0abdf7
+2025-09-09 15:09:15,466 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-09-09 16:16:09,402 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.37s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 16:26:53,878 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.89s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 16:38:17,221 - distributed.core - INFO - Event loop was unresponsive in Worker for 4.41s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 16:52:19,623 - distributed.core - INFO - Event loop was unresponsive in Worker for 5.04s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 17:08:12,146 - distributed.core - INFO - Event loop was unresponsive in Worker for 5.82s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 17:26:31,978 - distributed.core - INFO - Event loop was unresponsive in Worker for 6.67s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 17:47:18,165 - distributed.core - INFO - Event loop was unresponsive in Worker for 7.62s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 18:11:17,450 - distributed.core - INFO - Event loop was unresponsive in Worker for 8.83s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 18:39:42,089 - distributed.core - INFO - Event loop was unresponsive in Worker for 10.13s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 19:10:44,050 - distributed.core - INFO - Event loop was unresponsive in Worker for 11.61s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 19:47:54,422 - distributed.core - INFO - Event loop was unresponsive in Worker for 13.52s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 20:28:52,176 - distributed.core - INFO - Event loop was unresponsive in Worker for 15.44s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 21:16:36,233 - distributed.core - INFO - Event loop was unresponsive in Worker for 17.88s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 22:09:40,803 - distributed.core - INFO - Event loop was unresponsive in Worker for 20.77s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-09 23:10:42,914 - distributed.core - INFO - Event loop was unresponsive in Worker for 24.03s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-10 00:21:06,655 - distributed.core - INFO - Event loop was unresponsive in Worker for 28.07s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-09-10 01:10:44,506 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-09-10 01:10:44,506 - distributed.nanny - INFO - Closing Nanny at 'tcp://10.6.5.28:45361'. Reason: signal-15
+2025-09-10 01:10:44,507 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
