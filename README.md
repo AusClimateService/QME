@@ -34,10 +34,12 @@ Extra notes:
 # Branches
 Two branches have been added to the repository:
 
-1) qme_dev_daily
+1) `qme_dev_daily`
+
 An updated version of qme_dev (forked from M. Black's NCI-GitLab) for daily bias correction of ACS data.
 
-2) qme_dev_hourly
+2) `qme_dev_hourly`
+
 A newly implemented hourly QME bias correction code for ACS data, adapted from qme_dev_daily.
 
 
