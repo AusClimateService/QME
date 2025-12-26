@@ -1,0 +1,88 @@
+ACS_BC:
+    format_dirs: 
+    - "/g/data/kj66/CORDEX/output/CMIP6/bias-adjusted-output/{grid}/{org}/{gcm}/{scenario}/{mdl_run}/{rcm}/{ver:5}-{bc_org}-{bc}-{ref}-{bc_period}/{timescale}/"
+    - "/g/data/ia39/australian-climate-service/release/CORDEX/output-Adjust/CMIP6/bias-adjusted-output/{grid}/{org}/{gcm}/{scenario}/{mdl_run}/{rcm}/{ver:5}-{bc_org}-{bc}-{ref}-{bc_period}/{timescale}/"
+    - "/g/data/ia39/national-hydrological-projections/release/CORDEX/output-Adjust/CMIP6/bias-adjusted-output/{grid}/{org}/{gcm}/{scenario}/{mdl_run}/{rcm}/{ver:5}-{bc_org}-{bc}-{ref}-{bc_period}/{timescale}/"
+    format_file: "/{var}/{date_created}/{var}_{grid}_{gcm}_{scenario}_{mdl_run}_{org}_{rcm}_{ver:5}-{bc_org}-{bc}-{ref}-{bc_period}_{timescale}_{year!start}0101-{year!end}1231.nc"
+    unique:
+        date_created:
+            preferences: 
+            - "latest"
+            default: "high"
+
+NHP:
+    format_dirs: 
+    - "/g/data/ia39/national-hydrological-projections/release/CORDEX/output-Adjust/CMIP6/bias-adjusted-output/{grid}/{org}/{gcm}/{scenario}/{mdl_run}/{rcm}/{ver:5}-{bc_org}-{bc}-{ref}-{bc_period}/{timescale}/"
+    format_file: "/{var}/{date_created}/{var}_{grid}_{gcm}_{scenario}_{mdl_run}_{org}_{rcm}_{ver:5}-{bc_org}-{bc}-{ref}-{bc_period}_{timescale}_{year!start}0101-{year!end}1231.nc"
+    unique:
+        date_created:
+            preferences: 
+            - "latest"
+            default: "high"
+
+ACS_DS:
+   format_dirs: 
+   - "/g/data/py18/BARPA/output/CMIP6/DD/{grid}/{org}/{gcm}/{scenario}/{mdl_run}/{rcm}/{ver}/{timescale}/"
+   - "/g/data/hq89/CCAM/output/CMIP6/DD/{grid}/{org}/{gcm}/{scenario}/{mdl_run}/{rcm}/{ver}/{timescale}/"
+   - "/g/data/zz63/NARCliM2-0/output/CMIP6/DD/{grid}/{org}/{gcm}/{scenario}/{mdl_run}/{rcm}/{ver}/{timescale}/"
+   - "/g/data/ig45/QldFCP-2/output/CMIP6/DD/{grid}/{org}/{gcm}/{scenario}/{mdl_run}/{rcm}/{ver}/{timescale}/"
+   - "/g/data/ob53/BARRA2/output/reanalysis/{grid}/{org}/{gcm}/{scenario}/{mdl_run}/{rcm}/{ver}/{timescale}/"
+   format_file: 
+   - "/{var}/{date_created}/{var}_{grid}_{gcm}_{scenario}_{mdl_run}_{org}_{rcm}_{ver}_{timescale}_{year!start:4}{month!start:2}-{year!end:4}{month!end:2}.nc"
+   - "/{var}/{date_created}/{var}_{grid}_{gcm}_{scenario}_{mdl_run}_{org}_{rcm}_{ver}_{timescale}_{year!start:4}{month!start:2}01-{year!end:4}{month!end:2}31.nc"
+   unique:
+       date_created:
+           preferences: 
+           - "latest"
+           default: "high"
+
+ACS_DD:
+    format_dirs: 
+    - "/g/data/kj66/CORDEX/output/CMIP6/DD/{grid}/{org}/{gcm}/{scenario}/{mdl_run}/{rcm}/{ver}/{timescale}/"
+    - "/g/data/ia39/australian-climate-service/release/CORDEX/output-Adjust/CMIP6/bias-adjusted-input/{grid}/{org}/{gcm}/{scenario}/{mdl_run}/{rcm}/{ver}/{timescale}/"
+    format_file: 
+    - "/{var}/{date_created}/{var}_{grid}_{gcm}_{scenario}_{mdl_run}_{org}_{rcm}_{ver}_{timescale}_{year!start}0101-{year!end}1231.nc"
+    - "/{var}/{date_created}/{var}_{grid}_{gcm}_{scenario}_{mdl_run}_{org}_{rcm}_{ver}_{timescale}.nc"
+    unique:
+        date_created:
+            preferences: 
+            - "latest"
+            default: "high"
+
+AGCD:
+    format_dirs: "/g/data/xv83/agcd-csiro/"
+    format_file: "/{var}/daily/{var}_AGCD-CSIRO_r005_{year!start}0101-{year!end}1231_daily.nc"
+
+# if used without any kind of filtering this will take a very long time to run! At the very least I recommend using timescale = day (and exact_match = True).
+GCM:
+    format_dirs: 
+    - "/g/data/oi10/replicas/CMIP6/CMIP/{org}/{gcm}/{scenario}/{mdl_run}/{timescale}/"
+    - "/g/data/oi10/replicas/CMIP6/ScenarioMIP/{org}/{gcm}/{scenario}/{mdl_run}/{timescale}/"
+    - "/g/data/fs38/publications/CMIP6/CMIP/{org}/{gcm}/{scenario}/{mdl_run}/{timescale}/"
+    - "/g/data/fs38/publications/CMIP6/ScenarioMIP/{org}/{gcm}/{scenario}/{mdl_run}/{timescale}/"
+    format_file: "/{var}/{grid}/{date_created}/{var}_{timescale}_{gcm}_{scenario}_{mdl_run}_{grid}_{year!start:4}0101-{year!end:4}{*}.nc"
+    unique:
+        date_created:
+            preferences: 
+            - "latest"
+            default: "high"
+
+CORDEX-CMIP6_Regridded:
+    format_dirs: "/g/data/lp01/CORDEX-CMIP6/CMIP6/DD/{grid}/{org}/{gcm}/{scenario}/{mdl_run}/{rcm}/{ver}/{timescale}/"
+    format_file: "/{var}/{date_created}/{var}_{grid}_{gcm}_{scenario}_{mdl_run}_{org}_{rcm}_{ver}_{timescale}_{year!start:4}01-{year!end:4}12.nc"
+    unique:
+        date_created:
+            preferences: 
+            - "latest"
+            default: "high"
+
+GCM_Regridded:
+    format_dirs: 
+    - "/g/data/lp01/CMIP6/CMIP/{org}/{gcm}/{scenario}/{mdl_run}/{timescale}/"
+    - "/g/data/lp01/CMIP6/ScenarioMIP/{org}/{gcm}/{scenario}/{mdl_run}/{timescale}/"
+    format_file: "/{var}/{grid}/{date_created}/{var}_{timescale}_{gcm}_{scenario}_{mdl_run}_{grid}_{year!start:4}01-{year!end:4}12.nc"
+    unique:
+        date_created:
+            preferences: 
+            - "latest"
+            default: "high"
