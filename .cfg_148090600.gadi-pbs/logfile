@@ -1,0 +1,948 @@
+2025-08-28 12:07:18,092 - distributed.scheduler - INFO - -----------------------------------------------
+2025-08-28 12:07:18,875 - distributed.scheduler - INFO - State start
+2025-08-28 12:07:18,877 - distributed.scheduler - INFO - -----------------------------------------------
+2025-08-28 12:07:18,878 - distributed.scheduler - INFO -   Scheduler at:     tcp://10.6.102.5:8706
+2025-08-28 12:07:18,878 - distributed.scheduler - INFO -   dashboard at:          proxy/8899/status
+2025-08-28 12:07:18,900 - distributed.scheduler - INFO - Registering Worker plugin shuffle
+2025-08-28 12:07:22,932 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:42687 name: tcp://10.6.102.5:42687
+2025-08-28 12:07:22,947 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:42687
+2025-08-28 12:07:22,948 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35568
+2025-08-28 12:07:22,949 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:33381 name: tcp://10.6.102.5:33381
+2025-08-28 12:07:22,950 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:33381
+2025-08-28 12:07:22,950 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35530
+2025-08-28 12:07:22,951 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:39351 name: tcp://10.6.102.5:39351
+2025-08-28 12:07:22,951 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:39351
+2025-08-28 12:07:22,951 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35538
+2025-08-28 12:07:22,952 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:45107 name: tcp://10.6.102.5:45107
+2025-08-28 12:07:22,952 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:45107
+2025-08-28 12:07:22,952 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35528
+2025-08-28 12:07:22,953 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:33795 name: tcp://10.6.102.5:33795
+2025-08-28 12:07:22,953 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:33795
+2025-08-28 12:07:22,953 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35580
+2025-08-28 12:07:22,954 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:43345 name: tcp://10.6.102.5:43345
+2025-08-28 12:07:22,954 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:43345
+2025-08-28 12:07:22,954 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35566
+2025-08-28 12:07:22,954 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:42143 name: tcp://10.6.102.5:42143
+2025-08-28 12:07:22,955 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:42143
+2025-08-28 12:07:22,955 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35550
+2025-08-28 12:07:23,076 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:42679 name: tcp://10.6.102.5:42679
+2025-08-28 12:07:23,077 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:42679
+2025-08-28 12:07:23,077 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35594
+2025-08-28 12:07:23,079 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:42263 name: tcp://10.6.102.5:42263
+2025-08-28 12:07:23,079 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:42263
+2025-08-28 12:07:23,080 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35584
+2025-08-28 12:07:23,090 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:34127 name: tcp://10.6.102.5:34127
+2025-08-28 12:07:23,090 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:34127
+2025-08-28 12:07:23,090 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35600
+2025-08-28 12:07:23,091 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:45119 name: tcp://10.6.102.5:45119
+2025-08-28 12:07:23,092 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:45119
+2025-08-28 12:07:23,092 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35604
+2025-08-28 12:07:23,102 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:44797 name: tcp://10.6.102.5:44797
+2025-08-28 12:07:23,102 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:44797
+2025-08-28 12:07:23,102 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35614
+2025-08-28 12:07:23,103 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:45123 name: tcp://10.6.102.5:45123
+2025-08-28 12:07:23,104 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:45123
+2025-08-28 12:07:23,104 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35660
+2025-08-28 12:07:23,105 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:46419 name: tcp://10.6.102.5:46419
+2025-08-28 12:07:23,105 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:46419
+2025-08-28 12:07:23,105 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35608
+2025-08-28 12:07:23,106 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:45097 name: tcp://10.6.102.5:45097
+2025-08-28 12:07:23,106 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:45097
+2025-08-28 12:07:23,106 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35630
+2025-08-28 12:07:23,107 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:33207 name: tcp://10.6.102.5:33207
+2025-08-28 12:07:23,108 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:33207
+2025-08-28 12:07:23,108 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35636
+2025-08-28 12:07:23,109 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:37059 name: tcp://10.6.102.5:37059
+2025-08-28 12:07:23,109 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:37059
+2025-08-28 12:07:23,109 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35644
+2025-08-28 12:07:23,147 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:40445 name: tcp://10.6.102.5:40445
+2025-08-28 12:07:23,148 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:40445
+2025-08-28 12:07:23,148 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35674
+2025-08-28 12:07:23,193 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:43555 name: tcp://10.6.102.5:43555
+2025-08-28 12:07:23,193 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:43555
+2025-08-28 12:07:23,193 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35676
+2025-08-28 12:07:23,233 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:37513 name: tcp://10.6.102.5:37513
+2025-08-28 12:07:23,234 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:37513
+2025-08-28 12:07:23,234 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35684
+2025-08-28 12:07:23,259 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:46801 name: tcp://10.6.102.5:46801
+2025-08-28 12:07:23,259 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:46801
+2025-08-28 12:07:23,259 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35710
+2025-08-28 12:07:23,269 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:34239 name: tcp://10.6.102.5:34239
+2025-08-28 12:07:23,269 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:34239
+2025-08-28 12:07:23,269 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35700
+2025-08-28 12:07:23,273 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:45711 name: tcp://10.6.102.5:45711
+2025-08-28 12:07:23,273 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:45711
+2025-08-28 12:07:23,273 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35714
+2025-08-28 12:07:23,282 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:39633 name: tcp://10.6.102.5:39633
+2025-08-28 12:07:23,283 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:39633
+2025-08-28 12:07:23,283 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35726
+2025-08-28 12:07:23,343 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:38385 name: tcp://10.6.102.5:38385
+2025-08-28 12:07:23,344 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:38385
+2025-08-28 12:07:23,344 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35734
+2025-08-28 12:07:23,349 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:46259 name: tcp://10.6.102.5:46259
+2025-08-28 12:07:23,350 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:46259
+2025-08-28 12:07:23,350 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35746
+2025-08-28 12:07:23,451 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:45201 name: tcp://10.6.102.5:45201
+2025-08-28 12:07:23,452 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:45201
+2025-08-28 12:07:23,452 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35760
+2025-08-28 12:07:23,513 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:40557 name: tcp://10.6.102.5:40557
+2025-08-28 12:07:23,514 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:40557
+2025-08-28 12:07:23,514 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35770
+2025-08-28 12:07:23,515 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:42413 name: tcp://10.6.102.5:42413
+2025-08-28 12:07:23,516 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:42413
+2025-08-28 12:07:23,516 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35778
+2025-08-28 12:07:23,518 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:44869 name: tcp://10.6.102.5:44869
+2025-08-28 12:07:23,519 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:44869
+2025-08-28 12:07:23,519 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35792
+2025-08-28 12:07:23,521 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:38099 name: tcp://10.6.102.5:38099
+2025-08-28 12:07:23,521 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:38099
+2025-08-28 12:07:23,522 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35806
+2025-08-28 12:07:23,525 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:45881 name: tcp://10.6.102.5:45881
+2025-08-28 12:07:23,525 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:45881
+2025-08-28 12:07:23,525 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35814
+2025-08-28 12:07:23,526 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:44609 name: tcp://10.6.102.5:44609
+2025-08-28 12:07:23,527 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:44609
+2025-08-28 12:07:23,527 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35818
+2025-08-28 12:07:23,528 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:43149 name: tcp://10.6.102.5:43149
+2025-08-28 12:07:23,528 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:43149
+2025-08-28 12:07:23,528 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35836
+2025-08-28 12:07:23,529 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:33423 name: tcp://10.6.102.5:33423
+2025-08-28 12:07:23,530 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:33423
+2025-08-28 12:07:23,530 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35830
+2025-08-28 12:07:23,530 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:37837 name: tcp://10.6.102.5:37837
+2025-08-28 12:07:23,531 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:37837
+2025-08-28 12:07:23,531 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35834
+2025-08-28 12:07:23,539 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:44631 name: tcp://10.6.102.5:44631
+2025-08-28 12:07:23,539 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:44631
+2025-08-28 12:07:23,539 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35852
+2025-08-28 12:07:23,540 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:37689 name: tcp://10.6.102.5:37689
+2025-08-28 12:07:23,540 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:37689
+2025-08-28 12:07:23,540 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35858
+2025-08-28 12:07:23,542 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:44801 name: tcp://10.6.102.5:44801
+2025-08-28 12:07:23,542 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:44801
+2025-08-28 12:07:23,542 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35864
+2025-08-28 12:07:23,544 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:46737 name: tcp://10.6.102.5:46737
+2025-08-28 12:07:23,545 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:46737
+2025-08-28 12:07:23,545 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35866
+2025-08-28 12:07:23,545 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:33599 name: tcp://10.6.102.5:33599
+2025-08-28 12:07:23,546 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:33599
+2025-08-28 12:07:23,546 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35872
+2025-08-28 12:07:23,546 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:45591 name: tcp://10.6.102.5:45591
+2025-08-28 12:07:23,547 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:45591
+2025-08-28 12:07:23,547 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35926
+2025-08-28 12:07:23,547 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:46199 name: tcp://10.6.102.5:46199
+2025-08-28 12:07:23,548 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:46199
+2025-08-28 12:07:23,548 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35878
+2025-08-28 12:07:23,549 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:46341 name: tcp://10.6.102.5:46341
+2025-08-28 12:07:23,549 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:46341
+2025-08-28 12:07:23,549 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35890
+2025-08-28 12:07:23,550 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:37575 name: tcp://10.6.102.5:37575
+2025-08-28 12:07:23,550 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:37575
+2025-08-28 12:07:23,550 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35888
+2025-08-28 12:07:23,551 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:42677 name: tcp://10.6.102.5:42677
+2025-08-28 12:07:23,551 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:42677
+2025-08-28 12:07:23,551 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35928
+2025-08-28 12:07:23,552 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:45779 name: tcp://10.6.102.5:45779
+2025-08-28 12:07:23,552 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:45779
+2025-08-28 12:07:23,552 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35892
+2025-08-28 12:07:23,554 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:40819 name: tcp://10.6.102.5:40819
+2025-08-28 12:07:23,555 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:40819
+2025-08-28 12:07:23,555 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35900
+2025-08-28 12:07:23,555 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:42987 name: tcp://10.6.102.5:42987
+2025-08-28 12:07:23,556 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:42987
+2025-08-28 12:07:23,556 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35916
+2025-08-28 12:07:23,566 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:41563 name: tcp://10.6.102.5:41563
+2025-08-28 12:07:23,567 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:41563
+2025-08-28 12:07:23,567 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35952
+2025-08-28 12:07:23,567 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:36693 name: tcp://10.6.102.5:36693
+2025-08-28 12:07:23,567 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:36693
+2025-08-28 12:07:23,567 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35936
+2025-08-28 12:07:23,570 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.5:43161 name: tcp://10.6.102.5:43161
+2025-08-28 12:07:23,571 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.5:43161
+2025-08-28 12:07:23,571 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:35968
+2025-08-28 12:07:28,145 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:44249 name: tcp://10.6.102.7:44249
+2025-08-28 12:07:28,146 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:44249
+2025-08-28 12:07:28,146 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37364
+2025-08-28 12:07:28,147 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:33637 name: tcp://10.6.102.7:33637
+2025-08-28 12:07:28,148 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:33637
+2025-08-28 12:07:28,148 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37330
+2025-08-28 12:07:28,149 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:42851 name: tcp://10.6.102.7:42851
+2025-08-28 12:07:28,149 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:42851
+2025-08-28 12:07:28,149 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37256
+2025-08-28 12:07:28,150 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:40041 name: tcp://10.6.102.7:40041
+2025-08-28 12:07:28,152 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:40041
+2025-08-28 12:07:28,152 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37298
+2025-08-28 12:07:28,153 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:40209 name: tcp://10.6.102.7:40209
+2025-08-28 12:07:28,153 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:40209
+2025-08-28 12:07:28,154 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37284
+2025-08-28 12:07:28,154 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:35715 name: tcp://10.6.102.7:35715
+2025-08-28 12:07:28,155 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:35715
+2025-08-28 12:07:28,155 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37244
+2025-08-28 12:07:28,156 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:37217 name: tcp://10.6.102.7:37217
+2025-08-28 12:07:28,156 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:37217
+2025-08-28 12:07:28,156 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37252
+2025-08-28 12:07:28,157 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:38505 name: tcp://10.6.102.7:38505
+2025-08-28 12:07:28,157 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:38505
+2025-08-28 12:07:28,158 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37314
+2025-08-28 12:07:28,159 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:43181 name: tcp://10.6.102.7:43181
+2025-08-28 12:07:28,159 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:43181
+2025-08-28 12:07:28,159 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37282
+2025-08-28 12:07:28,160 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:36471 name: tcp://10.6.102.7:36471
+2025-08-28 12:07:28,160 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:36471
+2025-08-28 12:07:28,160 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37332
+2025-08-28 12:07:28,161 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:32861 name: tcp://10.6.102.7:32861
+2025-08-28 12:07:28,161 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:32861
+2025-08-28 12:07:28,161 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37262
+2025-08-28 12:07:28,162 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:43569 name: tcp://10.6.102.7:43569
+2025-08-28 12:07:28,162 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:43569
+2025-08-28 12:07:28,162 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37352
+2025-08-28 12:07:28,163 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:40569 name: tcp://10.6.102.7:40569
+2025-08-28 12:07:28,163 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:40569
+2025-08-28 12:07:28,163 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37348
+2025-08-28 12:07:28,163 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:34239 name: tcp://10.6.102.7:34239
+2025-08-28 12:07:28,164 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:34239
+2025-08-28 12:07:28,164 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37268
+2025-08-28 12:07:28,164 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:38529 name: tcp://10.6.102.7:38529
+2025-08-28 12:07:28,165 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:38529
+2025-08-28 12:07:28,165 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37316
+2025-08-28 12:07:28,165 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:41999 name: tcp://10.6.102.7:41999
+2025-08-28 12:07:28,166 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:41999
+2025-08-28 12:07:28,166 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37392
+2025-08-28 12:07:28,166 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:43051 name: tcp://10.6.102.7:43051
+2025-08-28 12:07:28,167 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:43051
+2025-08-28 12:07:28,167 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37376
+2025-08-28 12:07:28,168 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:37381 name: tcp://10.6.102.7:37381
+2025-08-28 12:07:28,169 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:37381
+2025-08-28 12:07:28,169 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37328
+2025-08-28 12:07:28,188 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:37223 name: tcp://10.6.102.7:37223
+2025-08-28 12:07:28,189 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:37223
+2025-08-28 12:07:28,189 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37406
+2025-08-28 12:07:28,215 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:32989 name: tcp://10.6.102.7:32989
+2025-08-28 12:07:28,216 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:32989
+2025-08-28 12:07:28,216 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37418
+2025-08-28 12:07:28,223 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:39381 name: tcp://10.6.102.7:39381
+2025-08-28 12:07:28,224 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:39381
+2025-08-28 12:07:28,224 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37420
+2025-08-28 12:07:28,311 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:43625 name: tcp://10.6.102.7:43625
+2025-08-28 12:07:28,312 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:43625
+2025-08-28 12:07:28,312 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37436
+2025-08-28 12:07:28,313 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:45549 name: tcp://10.6.102.7:45549
+2025-08-28 12:07:28,314 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:45549
+2025-08-28 12:07:28,314 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37450
+2025-08-28 12:07:28,337 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:46519 name: tcp://10.6.102.7:46519
+2025-08-28 12:07:28,338 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:46519
+2025-08-28 12:07:28,338 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37466
+2025-08-28 12:07:28,465 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:46073 name: tcp://10.6.102.7:46073
+2025-08-28 12:07:28,466 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:46073
+2025-08-28 12:07:28,466 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37476
+2025-08-28 12:07:28,467 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:45623 name: tcp://10.6.102.7:45623
+2025-08-28 12:07:28,467 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:45623
+2025-08-28 12:07:28,467 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37474
+2025-08-28 12:07:28,511 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:43669 name: tcp://10.6.102.7:43669
+2025-08-28 12:07:28,512 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:43669
+2025-08-28 12:07:28,513 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37482
+2025-08-28 12:07:28,527 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:41815 name: tcp://10.6.102.7:41815
+2025-08-28 12:07:28,528 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:41815
+2025-08-28 12:07:28,528 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37498
+2025-08-28 12:07:28,608 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:43655 name: tcp://10.6.102.7:43655
+2025-08-28 12:07:28,609 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:43655
+2025-08-28 12:07:28,609 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37514
+2025-08-28 12:07:28,610 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:37415 name: tcp://10.6.102.7:37415
+2025-08-28 12:07:28,611 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:37415
+2025-08-28 12:07:28,611 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37532
+2025-08-28 12:07:28,614 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:42263 name: tcp://10.6.102.7:42263
+2025-08-28 12:07:28,615 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:42263
+2025-08-28 12:07:28,615 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37530
+2025-08-28 12:07:28,624 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:43337 name: tcp://10.6.102.7:43337
+2025-08-28 12:07:28,624 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:43337
+2025-08-28 12:07:28,625 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37536
+2025-08-28 12:07:28,628 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:36961 name: tcp://10.6.102.7:36961
+2025-08-28 12:07:28,629 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:36961
+2025-08-28 12:07:28,629 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37546
+2025-08-28 12:07:28,630 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:34213 name: tcp://10.6.102.7:34213
+2025-08-28 12:07:28,630 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:34213
+2025-08-28 12:07:28,631 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37552
+2025-08-28 12:07:28,636 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:32769 name: tcp://10.6.102.7:32769
+2025-08-28 12:07:28,637 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:32769
+2025-08-28 12:07:28,637 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37554
+2025-08-28 12:07:28,642 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:44529 name: tcp://10.6.102.7:44529
+2025-08-28 12:07:28,643 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:44529
+2025-08-28 12:07:28,643 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37570
+2025-08-28 12:07:28,659 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:45221 name: tcp://10.6.102.7:45221
+2025-08-28 12:07:28,660 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:45221
+2025-08-28 12:07:28,660 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37572
+2025-08-28 12:07:28,668 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:35021 name: tcp://10.6.102.7:35021
+2025-08-28 12:07:28,669 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:35021
+2025-08-28 12:07:28,669 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37608
+2025-08-28 12:07:28,672 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:43363 name: tcp://10.6.102.7:43363
+2025-08-28 12:07:28,673 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:43363
+2025-08-28 12:07:28,673 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37578
+2025-08-28 12:07:28,674 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:40017 name: tcp://10.6.102.7:40017
+2025-08-28 12:07:28,675 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:40017
+2025-08-28 12:07:28,675 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37586
+2025-08-28 12:07:28,679 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:45047 name: tcp://10.6.102.7:45047
+2025-08-28 12:07:28,680 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:45047
+2025-08-28 12:07:28,680 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37602
+2025-08-28 12:07:28,682 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:41105 name: tcp://10.6.102.7:41105
+2025-08-28 12:07:28,683 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:41105
+2025-08-28 12:07:28,683 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37626
+2025-08-28 12:07:28,683 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:34575 name: tcp://10.6.102.7:34575
+2025-08-28 12:07:28,684 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:34575
+2025-08-28 12:07:28,684 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37616
+2025-08-28 12:07:28,684 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:41129 name: tcp://10.6.102.7:41129
+2025-08-28 12:07:28,685 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:41129
+2025-08-28 12:07:28,685 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37622
+2025-08-28 12:07:28,686 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:38401 name: tcp://10.6.102.7:38401
+2025-08-28 12:07:28,686 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:38401
+2025-08-28 12:07:28,686 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37634
+2025-08-28 12:07:28,687 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:35375 name: tcp://10.6.102.7:35375
+2025-08-28 12:07:28,688 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:35375
+2025-08-28 12:07:28,688 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37674
+2025-08-28 12:07:28,688 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:37905 name: tcp://10.6.102.7:37905
+2025-08-28 12:07:28,689 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:37905
+2025-08-28 12:07:28,689 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37660
+2025-08-28 12:07:28,690 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:34681 name: tcp://10.6.102.7:34681
+2025-08-28 12:07:28,690 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:34681
+2025-08-28 12:07:28,691 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37644
+2025-08-28 12:07:28,691 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:39171 name: tcp://10.6.102.7:39171
+2025-08-28 12:07:28,692 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:39171
+2025-08-28 12:07:28,692 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37692
+2025-08-28 12:07:28,694 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:34823 name: tcp://10.6.102.7:34823
+2025-08-28 12:07:28,695 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:34823
+2025-08-28 12:07:28,695 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37654
+2025-08-28 12:07:28,695 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:46811 name: tcp://10.6.102.7:46811
+2025-08-28 12:07:28,696 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:46811
+2025-08-28 12:07:28,696 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37690
+2025-08-28 12:07:28,708 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.7:41893 name: tcp://10.6.102.7:41893
+2025-08-28 12:07:28,709 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.7:41893
+2025-08-28 12:07:28,709 - distributed.core - INFO - Starting established connection to tcp://10.6.102.7:37698
+2025-08-28 12:07:29,822 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:37041 name: tcp://10.6.102.9:37041
+2025-08-28 12:07:29,823 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:37041
+2025-08-28 12:07:29,823 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58676
+2025-08-28 12:07:29,824 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:36257 name: tcp://10.6.102.9:36257
+2025-08-28 12:07:29,825 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:36257
+2025-08-28 12:07:29,826 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58576
+2025-08-28 12:07:29,826 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:33947 name: tcp://10.6.102.9:33947
+2025-08-28 12:07:29,827 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:33947
+2025-08-28 12:07:29,827 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58606
+2025-08-28 12:07:29,828 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:33839 name: tcp://10.6.102.9:33839
+2025-08-28 12:07:29,829 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:33839
+2025-08-28 12:07:29,829 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58578
+2025-08-28 12:07:29,829 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:43593 name: tcp://10.6.102.9:43593
+2025-08-28 12:07:29,830 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:43593
+2025-08-28 12:07:29,830 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58528
+2025-08-28 12:07:29,832 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:35141 name: tcp://10.6.102.9:35141
+2025-08-28 12:07:29,832 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:35141
+2025-08-28 12:07:29,833 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58586
+2025-08-28 12:07:29,833 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:34913 name: tcp://10.6.102.9:34913
+2025-08-28 12:07:29,834 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:34913
+2025-08-28 12:07:29,834 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58530
+2025-08-28 12:07:29,834 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:40817 name: tcp://10.6.102.9:40817
+2025-08-28 12:07:29,835 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:40817
+2025-08-28 12:07:29,835 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58544
+2025-08-28 12:07:29,835 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:36667 name: tcp://10.6.102.9:36667
+2025-08-28 12:07:29,836 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:36667
+2025-08-28 12:07:29,836 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58656
+2025-08-28 12:07:29,836 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:34937 name: tcp://10.6.102.9:34937
+2025-08-28 12:07:29,837 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:34937
+2025-08-28 12:07:29,837 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58640
+2025-08-28 12:07:29,838 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:42203 name: tcp://10.6.102.9:42203
+2025-08-28 12:07:29,838 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:42203
+2025-08-28 12:07:29,838 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58646
+2025-08-28 12:07:29,839 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:38349 name: tcp://10.6.102.9:38349
+2025-08-28 12:07:29,839 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:38349
+2025-08-28 12:07:29,839 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58600
+2025-08-28 12:07:29,840 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:46733 name: tcp://10.6.102.9:46733
+2025-08-28 12:07:29,841 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:46733
+2025-08-28 12:07:29,841 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58608
+2025-08-28 12:07:29,841 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:39845 name: tcp://10.6.102.9:39845
+2025-08-28 12:07:29,842 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:39845
+2025-08-28 12:07:29,842 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58556
+2025-08-28 12:07:29,843 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:35589 name: tcp://10.6.102.9:35589
+2025-08-28 12:07:29,843 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:35589
+2025-08-28 12:07:29,844 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58630
+2025-08-28 12:07:29,844 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:34757 name: tcp://10.6.102.9:34757
+2025-08-28 12:07:29,844 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:34757
+2025-08-28 12:07:29,844 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58566
+2025-08-28 12:07:29,845 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:35511 name: tcp://10.6.102.9:35511
+2025-08-28 12:07:29,845 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:35511
+2025-08-28 12:07:29,845 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58672
+2025-08-28 12:07:29,846 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:35277 name: tcp://10.6.102.9:35277
+2025-08-28 12:07:29,846 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:35277
+2025-08-28 12:07:29,846 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58616
+2025-08-28 12:07:29,865 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:37187 name: tcp://10.6.102.9:37187
+2025-08-28 12:07:29,866 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:37187
+2025-08-28 12:07:29,866 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58686
+2025-08-28 12:07:29,895 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:32951 name: tcp://10.6.102.9:32951
+2025-08-28 12:07:29,897 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:32951
+2025-08-28 12:07:29,897 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:58698
+2025-08-28 12:07:29,951 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:46763 name: tcp://10.6.102.9:46763
+2025-08-28 12:07:29,953 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:46763
+2025-08-28 12:07:29,953 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45716
+2025-08-28 12:07:30,019 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:35351 name: tcp://10.6.102.9:35351
+2025-08-28 12:07:30,020 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:35351
+2025-08-28 12:07:30,020 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45726
+2025-08-28 12:07:30,022 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:41751 name: tcp://10.6.102.9:41751
+2025-08-28 12:07:30,023 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:41751
+2025-08-28 12:07:30,024 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45730
+2025-08-28 12:07:30,030 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:38295 name: tcp://10.6.102.9:38295
+2025-08-28 12:07:30,031 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:38295
+2025-08-28 12:07:30,031 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45734
+2025-08-28 12:07:30,037 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:41917 name: tcp://10.6.102.9:41917
+2025-08-28 12:07:30,038 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:41917
+2025-08-28 12:07:30,039 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45746
+2025-08-28 12:07:30,044 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:41349 name: tcp://10.6.102.9:41349
+2025-08-28 12:07:30,045 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:41349
+2025-08-28 12:07:30,045 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45752
+2025-08-28 12:07:30,052 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:36963 name: tcp://10.6.102.9:36963
+2025-08-28 12:07:30,053 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:36963
+2025-08-28 12:07:30,053 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45764
+2025-08-28 12:07:30,064 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:32831 name: tcp://10.6.102.9:32831
+2025-08-28 12:07:30,065 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:32831
+2025-08-28 12:07:30,065 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45770
+2025-08-28 12:07:30,113 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:36901 name: tcp://10.6.102.9:36901
+2025-08-28 12:07:30,114 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:36901
+2025-08-28 12:07:30,115 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45774
+2025-08-28 12:07:30,116 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:45195 name: tcp://10.6.102.9:45195
+2025-08-28 12:07:30,117 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:45195
+2025-08-28 12:07:30,117 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45778
+2025-08-28 12:07:30,140 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:32925 name: tcp://10.6.102.9:32925
+2025-08-28 12:07:30,141 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:32925
+2025-08-28 12:07:30,142 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45788
+2025-08-28 12:07:30,232 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:40813 name: tcp://10.6.102.9:40813
+2025-08-28 12:07:30,234 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:40813
+2025-08-28 12:07:30,234 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45804
+2025-08-28 12:07:30,246 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:33181 name: tcp://10.6.102.9:33181
+2025-08-28 12:07:30,247 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:33181
+2025-08-28 12:07:30,247 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45806
+2025-08-28 12:07:30,303 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:45617 name: tcp://10.6.102.9:45617
+2025-08-28 12:07:30,304 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:45617
+2025-08-28 12:07:30,305 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45808
+2025-08-28 12:07:30,323 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:36111 name: tcp://10.6.102.9:36111
+2025-08-28 12:07:30,325 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:36111
+2025-08-28 12:07:30,325 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45814
+2025-08-28 12:07:30,328 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:44659 name: tcp://10.6.102.9:44659
+2025-08-28 12:07:30,329 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:44659
+2025-08-28 12:07:30,329 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45820
+2025-08-28 12:07:30,330 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:37935 name: tcp://10.6.102.9:37935
+2025-08-28 12:07:30,331 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:37935
+2025-08-28 12:07:30,331 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45846
+2025-08-28 12:07:30,333 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:37295 name: tcp://10.6.102.9:37295
+2025-08-28 12:07:30,333 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:37295
+2025-08-28 12:07:30,333 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45830
+2025-08-28 12:07:30,334 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:42281 name: tcp://10.6.102.9:42281
+2025-08-28 12:07:30,335 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:42281
+2025-08-28 12:07:30,335 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45874
+2025-08-28 12:07:30,337 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:44511 name: tcp://10.6.102.9:44511
+2025-08-28 12:07:30,338 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:44511
+2025-08-28 12:07:30,338 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45880
+2025-08-28 12:07:30,339 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:44595 name: tcp://10.6.102.9:44595
+2025-08-28 12:07:30,340 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:44595
+2025-08-28 12:07:30,340 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45848
+2025-08-28 12:07:30,341 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:43989 name: tcp://10.6.102.9:43989
+2025-08-28 12:07:30,342 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:43989
+2025-08-28 12:07:30,342 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45860
+2025-08-28 12:07:30,343 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:37031 name: tcp://10.6.102.9:37031
+2025-08-28 12:07:30,344 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:37031
+2025-08-28 12:07:30,344 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45872
+2025-08-28 12:07:30,345 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:43861 name: tcp://10.6.102.9:43861
+2025-08-28 12:07:30,346 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:43861
+2025-08-28 12:07:30,346 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45886
+2025-08-28 12:07:30,347 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:39561 name: tcp://10.6.102.9:39561
+2025-08-28 12:07:30,348 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:39561
+2025-08-28 12:07:30,348 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45888
+2025-08-28 12:07:30,350 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:35865 name: tcp://10.6.102.9:35865
+2025-08-28 12:07:30,351 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:35865
+2025-08-28 12:07:30,351 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45922
+2025-08-28 12:07:30,351 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:45363 name: tcp://10.6.102.9:45363
+2025-08-28 12:07:30,352 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:45363
+2025-08-28 12:07:30,352 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45918
+2025-08-28 12:07:30,352 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:38729 name: tcp://10.6.102.9:38729
+2025-08-28 12:07:30,353 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:38729
+2025-08-28 12:07:30,353 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45904
+2025-08-28 12:07:30,354 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:36207 name: tcp://10.6.102.9:36207
+2025-08-28 12:07:30,355 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:36207
+2025-08-28 12:07:30,355 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45956
+2025-08-28 12:07:30,356 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:35595 name: tcp://10.6.102.9:35595
+2025-08-28 12:07:30,357 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:35595
+2025-08-28 12:07:30,357 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45972
+2025-08-28 12:07:30,359 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:33291 name: tcp://10.6.102.9:33291
+2025-08-28 12:07:30,359 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:33291
+2025-08-28 12:07:30,360 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45938
+2025-08-28 12:07:30,362 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.9:42293 name: tcp://10.6.102.9:42293
+2025-08-28 12:07:30,362 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.9:42293
+2025-08-28 12:07:30,362 - distributed.core - INFO - Starting established connection to tcp://10.6.102.9:45954
+2025-08-28 12:07:45,827 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:45629 name: tcp://10.6.102.8:45629
+2025-08-28 12:07:45,831 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:45629
+2025-08-28 12:07:45,831 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51326
+2025-08-28 12:07:45,833 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:33549 name: tcp://10.6.102.8:33549
+2025-08-28 12:07:45,834 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:33549
+2025-08-28 12:07:45,834 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51314
+2025-08-28 12:07:45,834 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:33279 name: tcp://10.6.102.8:33279
+2025-08-28 12:07:45,835 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:33279
+2025-08-28 12:07:45,836 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51330
+2025-08-28 12:07:45,836 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:46279 name: tcp://10.6.102.8:46279
+2025-08-28 12:07:45,837 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:46279
+2025-08-28 12:07:45,837 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51306
+2025-08-28 12:07:45,838 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:34057 name: tcp://10.6.102.8:34057
+2025-08-28 12:07:45,839 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:34057
+2025-08-28 12:07:45,839 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51344
+2025-08-28 12:07:45,841 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:40501 name: tcp://10.6.102.8:40501
+2025-08-28 12:07:45,842 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:40501
+2025-08-28 12:07:45,842 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51356
+2025-08-28 12:07:45,862 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:44017 name: tcp://10.6.102.8:44017
+2025-08-28 12:07:45,864 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:44017
+2025-08-28 12:07:45,864 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51366
+2025-08-28 12:07:45,872 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:44909 name: tcp://10.6.102.8:44909
+2025-08-28 12:07:45,873 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:44909
+2025-08-28 12:07:45,874 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51378
+2025-08-28 12:07:45,882 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:44831 name: tcp://10.6.102.8:44831
+2025-08-28 12:07:45,883 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:44831
+2025-08-28 12:07:45,883 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51392
+2025-08-28 12:07:45,888 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:35949 name: tcp://10.6.102.8:35949
+2025-08-28 12:07:45,889 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:35949
+2025-08-28 12:07:45,889 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51398
+2025-08-28 12:07:45,900 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:39409 name: tcp://10.6.102.8:39409
+2025-08-28 12:07:45,902 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:39409
+2025-08-28 12:07:45,902 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51400
+2025-08-28 12:07:45,903 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:44783 name: tcp://10.6.102.8:44783
+2025-08-28 12:07:45,904 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:44783
+2025-08-28 12:07:45,904 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51408
+2025-08-28 12:07:45,905 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:38545 name: tcp://10.6.102.8:38545
+2025-08-28 12:07:45,906 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:38545
+2025-08-28 12:07:45,906 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51436
+2025-08-28 12:07:45,907 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:46873 name: tcp://10.6.102.8:46873
+2025-08-28 12:07:45,908 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:46873
+2025-08-28 12:07:45,908 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51420
+2025-08-28 12:07:45,913 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:38789 name: tcp://10.6.102.8:38789
+2025-08-28 12:07:45,915 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:38789
+2025-08-28 12:07:45,915 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51450
+2025-08-28 12:07:45,918 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:41935 name: tcp://10.6.102.8:41935
+2025-08-28 12:07:45,919 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:41935
+2025-08-28 12:07:45,919 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51464
+2025-08-28 12:07:45,943 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:32849 name: tcp://10.6.102.8:32849
+2025-08-28 12:07:45,944 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:32849
+2025-08-28 12:07:45,944 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51478
+2025-08-28 12:07:45,946 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:39297 name: tcp://10.6.102.8:39297
+2025-08-28 12:07:45,947 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:39297
+2025-08-28 12:07:45,947 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51492
+2025-08-28 12:07:46,072 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:36581 name: tcp://10.6.102.8:36581
+2025-08-28 12:07:46,073 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:36581
+2025-08-28 12:07:46,073 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51500
+2025-08-28 12:07:46,086 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:41453 name: tcp://10.6.102.8:41453
+2025-08-28 12:07:46,087 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:41453
+2025-08-28 12:07:46,087 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51508
+2025-08-28 12:07:46,098 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:36073 name: tcp://10.6.102.8:36073
+2025-08-28 12:07:46,099 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:36073
+2025-08-28 12:07:46,099 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51518
+2025-08-28 12:07:46,296 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:36791 name: tcp://10.6.102.8:36791
+2025-08-28 12:07:46,297 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:36791
+2025-08-28 12:07:46,298 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51530
+2025-08-28 12:07:46,298 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:44225 name: tcp://10.6.102.8:44225
+2025-08-28 12:07:46,300 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:44225
+2025-08-28 12:07:46,300 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51536
+2025-08-28 12:07:46,308 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:42301 name: tcp://10.6.102.8:42301
+2025-08-28 12:07:46,310 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:42301
+2025-08-28 12:07:46,310 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51542
+2025-08-28 12:07:46,311 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:38691 name: tcp://10.6.102.8:38691
+2025-08-28 12:07:46,313 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:38691
+2025-08-28 12:07:46,313 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51556
+2025-08-28 12:07:46,321 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:46875 name: tcp://10.6.102.8:46875
+2025-08-28 12:07:46,322 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:46875
+2025-08-28 12:07:46,322 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51570
+2025-08-28 12:07:46,326 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:40475 name: tcp://10.6.102.8:40475
+2025-08-28 12:07:46,327 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:40475
+2025-08-28 12:07:46,327 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51594
+2025-08-28 12:07:46,330 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:37191 name: tcp://10.6.102.8:37191
+2025-08-28 12:07:46,331 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:37191
+2025-08-28 12:07:46,331 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51586
+2025-08-28 12:07:46,332 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:32939 name: tcp://10.6.102.8:32939
+2025-08-28 12:07:46,333 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:32939
+2025-08-28 12:07:46,333 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51576
+2025-08-28 12:07:46,340 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:38603 name: tcp://10.6.102.8:38603
+2025-08-28 12:07:46,341 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:38603
+2025-08-28 12:07:46,341 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51608
+2025-08-28 12:07:46,344 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:36357 name: tcp://10.6.102.8:36357
+2025-08-28 12:07:46,345 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:36357
+2025-08-28 12:07:46,345 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51660
+2025-08-28 12:07:46,345 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:37117 name: tcp://10.6.102.8:37117
+2025-08-28 12:07:46,346 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:37117
+2025-08-28 12:07:46,346 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51684
+2025-08-28 12:07:46,348 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:42563 name: tcp://10.6.102.8:42563
+2025-08-28 12:07:46,349 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:42563
+2025-08-28 12:07:46,349 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51662
+2025-08-28 12:07:46,352 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:36959 name: tcp://10.6.102.8:36959
+2025-08-28 12:07:46,353 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:36959
+2025-08-28 12:07:46,353 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51634
+2025-08-28 12:07:46,355 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:44929 name: tcp://10.6.102.8:44929
+2025-08-28 12:07:46,356 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:44929
+2025-08-28 12:07:46,356 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51640
+2025-08-28 12:07:46,356 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:39583 name: tcp://10.6.102.8:39583
+2025-08-28 12:07:46,357 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:39583
+2025-08-28 12:07:46,357 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51622
+2025-08-28 12:07:46,357 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:34163 name: tcp://10.6.102.8:34163
+2025-08-28 12:07:46,358 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:34163
+2025-08-28 12:07:46,358 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51646
+2025-08-28 12:07:46,359 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:39281 name: tcp://10.6.102.8:39281
+2025-08-28 12:07:46,359 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:39281
+2025-08-28 12:07:46,359 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51674
+2025-08-28 12:07:46,360 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:45609 name: tcp://10.6.102.8:45609
+2025-08-28 12:07:46,360 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:45609
+2025-08-28 12:07:46,360 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51692
+2025-08-28 12:07:46,361 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:34937 name: tcp://10.6.102.8:34937
+2025-08-28 12:07:46,362 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:34937
+2025-08-28 12:07:46,362 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51740
+2025-08-28 12:07:46,363 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:42547 name: tcp://10.6.102.8:42547
+2025-08-28 12:07:46,363 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:42547
+2025-08-28 12:07:46,363 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51706
+2025-08-28 12:07:46,364 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:36731 name: tcp://10.6.102.8:36731
+2025-08-28 12:07:46,365 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:36731
+2025-08-28 12:07:46,365 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51712
+2025-08-28 12:07:46,365 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:44329 name: tcp://10.6.102.8:44329
+2025-08-28 12:07:46,366 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:44329
+2025-08-28 12:07:46,366 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51724
+2025-08-28 12:07:46,366 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:39301 name: tcp://10.6.102.8:39301
+2025-08-28 12:07:46,367 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:39301
+2025-08-28 12:07:46,367 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51716
+2025-08-28 12:07:46,367 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:39887 name: tcp://10.6.102.8:39887
+2025-08-28 12:07:46,368 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:39887
+2025-08-28 12:07:46,368 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51714
+2025-08-28 12:07:46,368 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:41115 name: tcp://10.6.102.8:41115
+2025-08-28 12:07:46,369 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:41115
+2025-08-28 12:07:46,369 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51748
+2025-08-28 12:07:46,371 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:39289 name: tcp://10.6.102.8:39289
+2025-08-28 12:07:46,371 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:39289
+2025-08-28 12:07:46,371 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51784
+2025-08-28 12:07:46,371 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:43025 name: tcp://10.6.102.8:43025
+2025-08-28 12:07:46,372 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:43025
+2025-08-28 12:07:46,372 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51762
+2025-08-28 12:07:46,372 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:39323 name: tcp://10.6.102.8:39323
+2025-08-28 12:07:46,373 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:39323
+2025-08-28 12:07:46,373 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51766
+2025-08-28 12:07:46,373 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:45495 name: tcp://10.6.102.8:45495
+2025-08-28 12:07:46,374 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:45495
+2025-08-28 12:07:46,374 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51800
+2025-08-28 12:07:46,374 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:41859 name: tcp://10.6.102.8:41859
+2025-08-28 12:07:46,374 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:41859
+2025-08-28 12:07:46,374 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51772
+2025-08-28 12:07:46,377 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.102.8:35409 name: tcp://10.6.102.8:35409
+2025-08-28 12:07:46,378 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.102.8:35409
+2025-08-28 12:07:46,378 - distributed.core - INFO - Starting established connection to tcp://10.6.102.8:51788
+2025-08-28 12:07:51,206 - distributed.scheduler - INFO - Receive client connection: Client-cd16adf0-83b3-11f0-b3c3-00000559fe80
+2025-08-28 12:07:51,208 - distributed.core - INFO - Starting established connection to tcp://10.6.102.5:56962
+2025-08-28 12:07:51,234 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-08-28 12:07:51,975 - distributed.scheduler - INFO - Registering Worker plugin qme_utils.pya2572d01-62d4-4ede-bf64-b21c4e7db1b2
+2025-08-28 12:07:54,476 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-08-28 12:07:54,480 - distributed.scheduler - INFO - Registering Worker plugin qme_vars.py8424803f-7586-49cc-94ec-963fc7f40fcf
+2025-08-28 12:07:54,591 - distributed.scheduler - INFO - Registering Worker plugin qme_train.py9aaf9786-c857-4e8e-a15e-c6a32ac87503
+2025-08-28 12:07:54,631 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-08-28 12:07:54,705 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-08-28 12:07:54,707 - distributed.scheduler - INFO - Registering Worker plugin qme_apply.pyc422a4bf-2bbc-4d1c-8948-bab101a5f9d7
+2025-08-28 12:09:40,073 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.04s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 12:09:49,408 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.89s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 12:09:51,246 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 292e1f4630d251d05179af30092d8787 initialized by task ('rechunk-merge-rechunk-transfer-773e418d351f3e8cebc0ac969203ab3b', 0, 0, 0, 5, 0, 0) executed on worker tcp://10.6.102.9:36667
+2025-08-28 12:09:51,504 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7a0ba2747b89a1fe3c13707c497aa78b initialized by task ('rechunk-merge-rechunk-transfer-fa7ca12a91479410ae3559b6d634fb0d', 0, 0, 0, 208, 0, 0) executed on worker tcp://10.6.102.7:40017
+2025-08-28 12:12:46,526 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7a0ba2747b89a1fe3c13707c497aa78b deactivated due to stimulus 'task-finished-1756347166.5200973'
+2025-08-28 12:12:48,873 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 292e1f4630d251d05179af30092d8787 deactivated due to stimulus 'task-finished-1756347168.8670707'
+2025-08-28 12:13:17,647 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 8086601bfe9de8a030fe5219ee2c6352 initialized by task ('rechunk-merge-rechunk-transfer-46f79ade62fefc21ada851443ce1e5d1', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.7:37415
+2025-08-28 12:13:39,884 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 8086601bfe9de8a030fe5219ee2c6352 deactivated due to stimulus 'task-finished-1756347219.8808832'
+2025-08-28 12:13:49,513 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 6195d2455fa8cf8c081504daac03210e initialized by task ('rechunk-merge-rechunk-transfer-ab93816ce576076135cac8921be433b3', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.8:46279
+2025-08-28 12:14:09,875 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 6195d2455fa8cf8c081504daac03210e deactivated due to stimulus 'task-finished-1756347249.872473'
+2025-08-28 12:14:20,755 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 47c9427f71980a94bc9c84a8f4a67e1f initialized by task ('rechunk-merge-rechunk-transfer-c0bfb44b3e9492e3153be19af913b0ea', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:14:41,142 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 47c9427f71980a94bc9c84a8f4a67e1f deactivated due to stimulus 'task-finished-1756347281.139612'
+2025-08-28 12:14:50,546 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle ad2db4a96ed8f7611e1351726dfc5bc3 initialized by task ('rechunk-merge-rechunk-transfer-31f72433b88eab7a1706d8ad1e4f2e23', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:40569
+2025-08-28 12:15:12,254 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle ad2db4a96ed8f7611e1351726dfc5bc3 deactivated due to stimulus 'task-finished-1756347312.2518725'
+2025-08-28 12:15:22,450 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle a1826756387343e27806b0493ba4f40f initialized by task ('rechunk-merge-rechunk-transfer-3dc0c4271b041fb80799d5e5ffc7a175', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.9:35141
+2025-08-28 12:15:40,664 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle a1826756387343e27806b0493ba4f40f deactivated due to stimulus 'task-finished-1756347340.6623907'
+2025-08-28 12:15:51,135 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 896f363d3748ba98959a298884381fa6 initialized by task ('rechunk-merge-rechunk-transfer-068caffcaa5d41bcab91e84fa80a3c01', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.9:33291
+2025-08-28 12:16:09,677 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 896f363d3748ba98959a298884381fa6 deactivated due to stimulus 'task-finished-1756347369.6750324'
+2025-08-28 12:16:19,243 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7fc57e727f593c4f25686492173e8e30 initialized by task ('rechunk-merge-rechunk-transfer-143bc9b89cf3e259dc3245841a669f4f', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:16:41,768 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7fc57e727f593c4f25686492173e8e30 deactivated due to stimulus 'task-finished-1756347401.7664254'
+2025-08-28 12:16:53,071 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e6fa9aa13253fa3ea6aed2700e3a2ffe initialized by task ('rechunk-merge-rechunk-transfer-0bd3bac1ff4ff309f060010037731765', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.8:35409
+2025-08-28 12:17:13,416 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e6fa9aa13253fa3ea6aed2700e3a2ffe deactivated due to stimulus 'task-finished-1756347433.413069'
+2025-08-28 12:17:23,422 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4536eeb68695a6c1db9959939092503a initialized by task ('rechunk-merge-rechunk-transfer-fcffdbd81979c590594ecb58ae748f3c', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.5:37575
+2025-08-28 12:17:41,838 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4536eeb68695a6c1db9959939092503a deactivated due to stimulus 'task-finished-1756347461.8365452'
+2025-08-28 12:17:52,201 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 55befb4cdda34777427ba448fdebc69e initialized by task ('rechunk-merge-rechunk-transfer-9331491521d390e80081af2a09f96031', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:41105
+2025-08-28 12:18:13,576 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 55befb4cdda34777427ba448fdebc69e deactivated due to stimulus 'task-finished-1756347493.5746021'
+2025-08-28 12:18:24,246 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle fe4974bbc0ba4bbe3afbeb9d534e9bd4 initialized by task ('rechunk-merge-rechunk-transfer-061d9b65ad74bd9b71bca86eca1bbccc', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:41105
+2025-08-28 12:18:46,807 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle fe4974bbc0ba4bbe3afbeb9d534e9bd4 deactivated due to stimulus 'task-finished-1756347526.8043513'
+2025-08-28 12:18:58,147 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle d22e09203c67c07b207180a1f97cbe84 initialized by task ('rechunk-merge-rechunk-transfer-0427b566c6d6f8e0fa5d6b29a5e85810', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.8:35409
+2025-08-28 12:19:17,917 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle d22e09203c67c07b207180a1f97cbe84 deactivated due to stimulus 'task-finished-1756347557.914802'
+2025-08-28 12:19:27,335 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7da2b0f8795f313d8cb162c843bb30d9 initialized by task ('rechunk-merge-rechunk-transfer-bfaed9c9caad730edfb0c8ee555c8079', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.5:42263
+2025-08-28 12:19:46,638 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7da2b0f8795f313d8cb162c843bb30d9 deactivated due to stimulus 'task-finished-1756347586.6357415'
+2025-08-28 12:19:57,639 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 6da2bb89828575f4ffc6b7282a79f393 initialized by task ('rechunk-merge-rechunk-transfer-3dd829243bdc130271806efdd02e968b', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:20:18,790 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 6da2bb89828575f4ffc6b7282a79f393 deactivated due to stimulus 'task-finished-1756347618.7868736'
+2025-08-28 12:20:29,725 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 529b30a3b6291604d0ac760a6effde32 initialized by task ('rechunk-merge-rechunk-transfer-db492069aaa98e842183a1c2f1f39ef3', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:20:53,358 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 529b30a3b6291604d0ac760a6effde32 deactivated due to stimulus 'task-finished-1756347653.3553967'
+2025-08-28 12:21:02,685 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4dd722a91e061b42b6c20a6046fbfebd initialized by task ('rechunk-merge-rechunk-transfer-94d5b95ffb55c8d8a2e72e19269b8cf3', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.5:37059
+2025-08-28 12:21:21,739 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4dd722a91e061b42b6c20a6046fbfebd deactivated due to stimulus 'task-finished-1756347681.7370534'
+2025-08-28 12:21:31,933 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle b3a3bf35cfa789e7d3131b217c3f01e9 initialized by task ('rechunk-merge-rechunk-transfer-fca4c97176c219c49f97c624ea30c1b6', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.5:42263
+2025-08-28 12:21:50,226 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle b3a3bf35cfa789e7d3131b217c3f01e9 deactivated due to stimulus 'task-finished-1756347710.2240157'
+2025-08-28 12:21:59,362 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle fba03b95a5e9108dd071c8aa6aa13804 initialized by task ('rechunk-merge-rechunk-transfer-6c2d54eed9bc9f039d92e37ce44ad35c', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.9:33947
+2025-08-28 12:22:24,895 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle fba03b95a5e9108dd071c8aa6aa13804 deactivated due to stimulus 'task-finished-1756347744.8929014'
+2025-08-28 12:22:37,703 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 303d2fdf6cf0aa0befe3c49130cf28a1 initialized by task ('rechunk-merge-rechunk-transfer-4f1d72a54328e91de0ce888c26a231c0', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:41893
+2025-08-28 12:22:55,397 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 303d2fdf6cf0aa0befe3c49130cf28a1 deactivated due to stimulus 'task-finished-1756347775.3953905'
+2025-08-28 12:23:05,614 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 073316002b16d4f422feadbfac06d5e9 initialized by task ('rechunk-merge-rechunk-transfer-aab6fd03bf9bf75ee916409fc4925e42', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.5:38385
+2025-08-28 12:23:29,362 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 073316002b16d4f422feadbfac06d5e9 deactivated due to stimulus 'task-finished-1756347809.3602614'
+2025-08-28 12:23:39,812 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e2ed8e9e05789a8c4fe8e7c422764722 initialized by task ('rechunk-merge-rechunk-transfer-a71e9fd0feaa0c5eaf8bb9e8fdfc0f74', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.5:38385
+2025-08-28 12:23:57,152 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e2ed8e9e05789a8c4fe8e7c422764722 deactivated due to stimulus 'task-finished-1756347837.1502016'
+2025-08-28 12:24:07,732 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 1c95d7ab8ebda2bcb26d6d2cf96f81ae initialized by task ('rechunk-merge-rechunk-transfer-e11340c0a62bb342be275fb264a7d1c1', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:24:25,420 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 1c95d7ab8ebda2bcb26d6d2cf96f81ae deactivated due to stimulus 'task-finished-1756347865.4178715'
+2025-08-28 12:24:35,570 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 10e6dff266c420fd342453e6ae029942 initialized by task ('rechunk-merge-rechunk-transfer-5365f8b1cc797b9ffc3a4242fcb26b3a', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.9:40817
+2025-08-28 12:24:56,883 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 10e6dff266c420fd342453e6ae029942 deactivated due to stimulus 'task-finished-1756347896.8806958'
+2025-08-28 12:25:09,958 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 5fedc9ff5f647b5f093ec1476b9fb436 initialized by task ('rechunk-merge-rechunk-transfer-3d2ae0227bef4e9783f6095734ee55fa', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:25:27,412 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 5fedc9ff5f647b5f093ec1476b9fb436 deactivated due to stimulus 'task-finished-1756347927.4104686'
+2025-08-28 12:25:41,361 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle a2408eb70f269dbab9b0ba4b0e77dbfa initialized by task ('rechunk-merge-rechunk-transfer-53db74f383135eddc618bceb0a2ff84a', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:26:04,428 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle a2408eb70f269dbab9b0ba4b0e77dbfa deactivated due to stimulus 'task-finished-1756347964.4246798'
+2025-08-28 12:26:14,658 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 90cd46e3be66d6a7817919aaa599c605 initialized by task ('rechunk-merge-rechunk-transfer-a3ff0b68ec08d4def5dd4542cb99a448', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:26:33,229 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 90cd46e3be66d6a7817919aaa599c605 deactivated due to stimulus 'task-finished-1756347993.2263603'
+2025-08-28 12:26:43,263 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle b432939e9c4efacc6b2f55750552f5e5 initialized by task ('rechunk-merge-rechunk-transfer-5ac233e3ada5db0060f76953bc1a848d', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.8:41935
+2025-08-28 12:27:00,957 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle b432939e9c4efacc6b2f55750552f5e5 deactivated due to stimulus 'task-finished-1756348020.9553165'
+2025-08-28 12:27:08,945 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle a7784e27f5c9404ed199222500606939 initialized by task ('rechunk-merge-rechunk-transfer-5e56be6e822f77219cf050fbcc46d4ad', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.7:37381
+2025-08-28 12:27:33,948 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle a7784e27f5c9404ed199222500606939 deactivated due to stimulus 'task-finished-1756348053.9448555'
+2025-08-28 12:27:41,186 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.19s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 12:27:44,264 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 369f27ba06d6ab8781a8b7f8dc750b44 initialized by task ('rechunk-merge-rechunk-transfer-69d3e115f5fb8aa7773dcac7e443af93', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.5:37059
+2025-08-28 12:28:07,539 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 369f27ba06d6ab8781a8b7f8dc750b44 deactivated due to stimulus 'task-finished-1756348087.5355568'
+2025-08-28 12:28:17,181 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4632048498beda009c1272b2947b281d initialized by task ('rechunk-merge-rechunk-transfer-7fd272b97248fb60b2f69351a6f2bbef', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.5:38385
+2025-08-28 12:28:36,492 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4632048498beda009c1272b2947b281d deactivated due to stimulus 'task-finished-1756348116.4895926'
+2025-08-28 12:28:47,013 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 165e73b5fb7d817f74b1e0bb427d0d9a initialized by task ('rechunk-merge-rechunk-transfer-787eb9788ffe0f910faa08b06567a1ec', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:29:04,806 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 165e73b5fb7d817f74b1e0bb427d0d9a deactivated due to stimulus 'task-finished-1756348144.8044152'
+2025-08-28 12:29:15,197 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 6b024553e8b6b4fb35992d8e7e7ed27e initialized by task ('rechunk-merge-rechunk-transfer-2941480c365a78b99140f5ea68ee766f', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:29:32,577 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 6b024553e8b6b4fb35992d8e7e7ed27e deactivated due to stimulus 'task-finished-1756348172.5750477'
+2025-08-28 12:29:43,043 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 952c9840c225ff1a93c843737c3dfda8 initialized by task ('rechunk-merge-rechunk-transfer-e95e88bffd1a05dbf244578ac01621cc', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:30:00,911 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 952c9840c225ff1a93c843737c3dfda8 deactivated due to stimulus 'task-finished-1756348200.907765'
+2025-08-28 12:30:11,701 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7ef2de6c9ae6fb8b78b1d16fe6cd5b6e initialized by task ('rechunk-merge-rechunk-transfer-bab6248e78809615e706a887975f5d6d', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.8:39409
+2025-08-28 12:30:29,828 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7ef2de6c9ae6fb8b78b1d16fe6cd5b6e deactivated due to stimulus 'task-finished-1756348229.8250625'
+2025-08-28 12:30:39,963 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 600228084c8994b00a05878ac98f4443 initialized by task ('rechunk-merge-rechunk-transfer-33b2deae5117d5631bf476c87700e053', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.9:39561
+2025-08-28 12:31:00,480 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 600228084c8994b00a05878ac98f4443 deactivated due to stimulus 'task-finished-1756348260.4769652'
+2025-08-28 12:31:13,934 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 27db7b2fb1d3bb4ec0ffceb3a5c5c906 initialized by task ('rechunk-merge-rechunk-transfer-02f955591eb77a93321d5abdd9d92b77', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.5:34239
+2025-08-28 12:31:31,846 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 27db7b2fb1d3bb4ec0ffceb3a5c5c906 deactivated due to stimulus 'task-finished-1756348291.8440294'
+2025-08-28 12:31:42,202 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 9e4ccf891c8c4d31bdb87c9c9ffea474 initialized by task ('rechunk-merge-rechunk-transfer-e8277f066dd5c5e57da0fd87d6a88616', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:32:00,038 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 9e4ccf891c8c4d31bdb87c9c9ffea474 deactivated due to stimulus 'task-finished-1756348320.0350378'
+2025-08-28 12:32:10,349 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 5bbe54a2a7475d889e2565b5a7b110f9 initialized by task ('rechunk-merge-rechunk-transfer-00ac5bdc32bf1f675058f1b340a75963', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:32:28,151 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 5bbe54a2a7475d889e2565b5a7b110f9 deactivated due to stimulus 'task-finished-1756348348.1498284'
+2025-08-28 12:32:38,571 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 792c668377633835c4f85fd4a8ba55e9 initialized by task ('rechunk-merge-rechunk-transfer-faa164c77b0898e63bcc0649cb0c3571', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:32:55,982 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 792c668377633835c4f85fd4a8ba55e9 deactivated due to stimulus 'task-finished-1756348375.9782338'
+2025-08-28 12:33:06,379 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 806af0cdbac3d011e3ecd8498c0d6566 initialized by task ('rechunk-merge-rechunk-transfer-9b434b5371b504a087807e387907b557', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.5:33423
+2025-08-28 12:33:23,702 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 806af0cdbac3d011e3ecd8498c0d6566 deactivated due to stimulus 'task-finished-1756348403.6995778'
+2025-08-28 12:33:34,110 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e61383dd3ea676ebb197f7dd90629b5b initialized by task ('rechunk-merge-rechunk-transfer-5b71ece66ba9fbf6d9a20cb2685c7c67', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.5:45119
+2025-08-28 12:33:53,000 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e61383dd3ea676ebb197f7dd90629b5b deactivated due to stimulus 'task-finished-1756348432.9977996'
+2025-08-28 12:33:56,498 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.07s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 12:34:06,048 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 97aa36b698b1da56c3159a9f3ac1fac5 initialized by task ('rechunk-merge-rechunk-transfer-fd6f0e8c8af8cc7d02a8991c492f2525', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:34:23,863 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 97aa36b698b1da56c3159a9f3ac1fac5 deactivated due to stimulus 'task-finished-1756348463.8609138'
+2025-08-28 12:34:33,796 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 5b6966da3743f55df078db6569a95bb0 initialized by task ('rechunk-merge-rechunk-transfer-297849e3dabbdfd4c22cffaa51b68487', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:34:51,954 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 5b6966da3743f55df078db6569a95bb0 deactivated due to stimulus 'task-finished-1756348491.9511547'
+2025-08-28 12:35:02,568 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 84ae7643dead2111785ad0e9b0184b88 initialized by task ('rechunk-merge-rechunk-transfer-5e3f749941f0c2be4e29a560da8b3b16', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.9:43989
+2025-08-28 12:35:23,628 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 84ae7643dead2111785ad0e9b0184b88 deactivated due to stimulus 'task-finished-1756348523.6256533'
+2025-08-28 12:35:33,962 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle a541ebf94f46ed2e61ad6d46a90c2842 initialized by task ('rechunk-merge-rechunk-transfer-9272c418196ea3a6cbcb047c141fda87', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:35:51,891 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle a541ebf94f46ed2e61ad6d46a90c2842 deactivated due to stimulus 'task-finished-1756348551.8869574'
+2025-08-28 12:36:00,961 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 16df1fa9ea9bc8e42d55ddc5a4e85e11 initialized by task ('rechunk-merge-rechunk-transfer-c015f55205ab21fba70d4711bd6b2d00', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.5:42679
+2025-08-28 12:36:19,829 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 16df1fa9ea9bc8e42d55ddc5a4e85e11 deactivated due to stimulus 'task-finished-1756348579.826522'
+2025-08-28 12:36:28,751 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle b1f9bbe15bc988f6e40cd124895c5dd0 initialized by task ('rechunk-merge-rechunk-transfer-d79004a90ef6eb037a0eca0218a19dfc', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.8:37191
+2025-08-28 12:36:47,712 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle b1f9bbe15bc988f6e40cd124895c5dd0 deactivated due to stimulus 'task-finished-1756348607.7100303'
+2025-08-28 12:37:00,589 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 6fbb145fc824c6d15a3595c5cd235219 initialized by task ('rechunk-merge-rechunk-transfer-35fc190dd878b1540791a00aa5195c7e', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:37:18,639 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 6fbb145fc824c6d15a3595c5cd235219 deactivated due to stimulus 'task-finished-1756348638.636944'
+2025-08-28 12:37:28,289 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle ca07eb678c46d2c5ecfadc53fc309e78 initialized by task ('rechunk-merge-rechunk-transfer-fc746fcc337879b562ea238188b29934', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:37:46,359 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle ca07eb678c46d2c5ecfadc53fc309e78 deactivated due to stimulus 'task-finished-1756348666.3569636'
+2025-08-28 12:37:56,462 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 8bde936708cb8315be574a5d78901374 initialized by task ('rechunk-merge-rechunk-transfer-da251e973956fee3e804b46a68ffd08a', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:40569
+2025-08-28 12:38:16,225 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 8bde936708cb8315be574a5d78901374 deactivated due to stimulus 'task-finished-1756348696.2229016'
+2025-08-28 12:38:26,109 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 9ed4fa06395a9cfe8068f975e7eb35ac initialized by task ('rechunk-merge-rechunk-transfer-8429460d56213bb95652005eae46a8eb', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:38:44,613 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 9ed4fa06395a9cfe8068f975e7eb35ac deactivated due to stimulus 'task-finished-1756348724.6103737'
+2025-08-28 12:38:54,960 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 594fdde60020c37de71b0f682ed3cd5f initialized by task ('rechunk-merge-rechunk-transfer-8e3f9e0c6fb870682b9cc5eb508df928', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.9:41751
+2025-08-28 12:39:14,315 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 594fdde60020c37de71b0f682ed3cd5f deactivated due to stimulus 'task-finished-1756348754.3124626'
+2025-08-28 12:39:24,830 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 531dced75b2cebdf9587ea247268a9b0 initialized by task ('rechunk-merge-rechunk-transfer-784a87af5b59577df8c3144dcce4031e', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.8:35409
+2025-08-28 12:39:44,973 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 531dced75b2cebdf9587ea247268a9b0 deactivated due to stimulus 'task-finished-1756348784.9702923'
+2025-08-28 12:39:56,946 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.96s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 12:39:59,506 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 9b4947c5725f5c801a72ec956393d6c9 initialized by task ('rechunk-merge-rechunk-transfer-df6b7675cc6dfe8de665fb692a87264f', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.7:34213
+2025-08-28 12:40:15,760 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 9b4947c5725f5c801a72ec956393d6c9 deactivated due to stimulus 'task-finished-1756348815.757802'
+2025-08-28 12:40:25,577 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle c1d7e02082c2a8c3b82c464f219a261d initialized by task ('rechunk-merge-rechunk-transfer-f8ab5f8f5006735e5fa092ba82f127d7', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:40:46,492 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle c1d7e02082c2a8c3b82c464f219a261d deactivated due to stimulus 'task-finished-1756348846.488263'
+2025-08-28 12:40:56,603 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle a809e347ef5717fbf55f8665eb5f2df8 initialized by task ('rechunk-merge-rechunk-transfer-19fe07e455b649cd257bf7890ccfc6c4', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:41:14,446 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle a809e347ef5717fbf55f8665eb5f2df8 deactivated due to stimulus 'task-finished-1756348874.4445024'
+2025-08-28 12:41:24,782 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle f840455de24ed4ab924389965ac0f27d initialized by task ('rechunk-merge-rechunk-transfer-558330010e168cc87397998a4a8efa96', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:41:44,926 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle f840455de24ed4ab924389965ac0f27d deactivated due to stimulus 'task-finished-1756348904.9241838'
+2025-08-28 12:41:54,858 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 230e93a81d1c87056dc0b53fa25e2379 initialized by task ('rechunk-merge-rechunk-transfer-1a9da0787c85c34f8ad25ee75a84d1ae', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:42:13,279 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 230e93a81d1c87056dc0b53fa25e2379 deactivated due to stimulus 'task-finished-1756348933.2755356'
+2025-08-28 12:42:22,863 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 439486bbd0cde939d67074e9cbb6bece initialized by task ('rechunk-merge-rechunk-transfer-947762722a72ed463820426c92a30f38', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:42:44,742 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 439486bbd0cde939d67074e9cbb6bece deactivated due to stimulus 'task-finished-1756348964.739254'
+2025-08-28 12:42:54,683 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e50add7679424d277f81919f0498298b initialized by task ('rechunk-merge-rechunk-transfer-501c5c988baf7928ee7c085da858a8c3', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.5:42679
+2025-08-28 12:43:16,577 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e50add7679424d277f81919f0498298b deactivated due to stimulus 'task-finished-1756348996.5751393'
+2025-08-28 12:43:19,855 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.04s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 12:43:30,047 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 9f5d7b546d151cd403841362ecbd398d initialized by task ('rechunk-merge-rechunk-transfer-05ae11b9482b07c284bcf76c96d981c2', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:43:47,226 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 9f5d7b546d151cd403841362ecbd398d deactivated due to stimulus 'task-finished-1756349027.2235365'
+2025-08-28 12:43:57,645 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle f067993ac028234c93745acb38ce049c initialized by task ('rechunk-merge-rechunk-transfer-7f18ef35a8a2e5e741acec7f7fc51bd6', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:44:15,101 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle f067993ac028234c93745acb38ce049c deactivated due to stimulus 'task-finished-1756349055.0975468'
+2025-08-28 12:44:24,522 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle d9d4f6ea3606322607a5751307e281ad initialized by task ('rechunk-merge-rechunk-transfer-cea066df0edb7985464c462e86a86643', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:44:45,566 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle d9d4f6ea3606322607a5751307e281ad deactivated due to stimulus 'task-finished-1756349085.5632985'
+2025-08-28 12:44:54,359 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 2a95ca06c35c335f9faf58a1f219d4ba initialized by task ('rechunk-merge-rechunk-transfer-207f33982bcf7dd7cc93a33d862a13ce', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:45:13,050 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 2a95ca06c35c335f9faf58a1f219d4ba deactivated due to stimulus 'task-finished-1756349113.0480394'
+2025-08-28 12:45:23,302 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e3c9d2c728b568ad2330c34f5b845dcc initialized by task ('rechunk-merge-rechunk-transfer-2e5648a2dad8683fdefb780c0c30c1da', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.8:34057
+2025-08-28 12:45:42,686 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e3c9d2c728b568ad2330c34f5b845dcc deactivated due to stimulus 'task-finished-1756349142.684266'
+2025-08-28 12:45:51,362 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 6d3a5120634fa3c05cb2fabc605ed656 initialized by task ('rechunk-merge-rechunk-transfer-2139a2860d5f034d00ebb2dc0a57a5af', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.9:36963
+2025-08-28 12:46:10,322 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 6d3a5120634fa3c05cb2fabc605ed656 deactivated due to stimulus 'task-finished-1756349170.319873'
+2025-08-28 12:46:14,222 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.22s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 12:46:23,460 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle b5673656e809c34798abda324a28a451 initialized by task ('rechunk-merge-rechunk-transfer-a666348a58d417248b9fa8f41ff79597', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:46:41,170 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle b5673656e809c34798abda324a28a451 deactivated due to stimulus 'task-finished-1756349201.1682158'
+2025-08-28 12:46:50,615 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e2418202f12d745731a948113cb5ceff initialized by task ('rechunk-merge-rechunk-transfer-fac275daee4ba5af0ff22ab8921603a4', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.5:42679
+2025-08-28 12:47:08,782 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e2418202f12d745731a948113cb5ceff deactivated due to stimulus 'task-finished-1756349228.7787404'
+2025-08-28 12:47:18,763 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 1a49703f2d7535aa3b3e0146628c9a77 initialized by task ('rechunk-merge-rechunk-transfer-f779d71ccef0c3808d35d191c7b4c0f0', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:47:38,395 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 1a49703f2d7535aa3b3e0146628c9a77 deactivated due to stimulus 'task-finished-1756349258.3928943'
+2025-08-28 12:47:48,733 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 70dfa747e5973f41f9c0e8efe9df5165 initialized by task ('rechunk-merge-rechunk-transfer-4854bf12d7489db15bd90eaaae37befa', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.8:45629
+2025-08-28 12:48:05,732 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 70dfa747e5973f41f9c0e8efe9df5165 deactivated due to stimulus 'task-finished-1756349285.7289712'
+2025-08-28 12:48:16,237 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle c39749723e691c87ab792589de5e2a45 initialized by task ('rechunk-merge-rechunk-transfer-2422b7e19269bb475a5d9ace81f7ba47', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:48:33,433 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle c39749723e691c87ab792589de5e2a45 deactivated due to stimulus 'task-finished-1756349313.4309497'
+2025-08-28 12:48:42,272 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 9c619a8fea34da4b7001c572d05eed50 initialized by task ('rechunk-merge-rechunk-transfer-de7b61a7c6feb35e65c319c5a1a0f38d', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.9:33947
+2025-08-28 12:49:01,085 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 9c619a8fea34da4b7001c572d05eed50 deactivated due to stimulus 'task-finished-1756349341.082479'
+2025-08-28 12:49:05,012 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.27s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 12:49:13,589 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 5db629a1ff67568a8cc49e4422c5d844 initialized by task ('rechunk-merge-rechunk-transfer-90ccb6674236cea8a3cd98597b8ae24d', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:49:33,475 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 5db629a1ff67568a8cc49e4422c5d844 deactivated due to stimulus 'task-finished-1756349373.4729812'
+2025-08-28 12:49:42,867 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7537f48de4804ba6769bece1a3460c20 initialized by task ('rechunk-merge-rechunk-transfer-17ee5acee189d95f5f39aee27bf9b3bf', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.5:37059
+2025-08-28 12:50:00,998 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7537f48de4804ba6769bece1a3460c20 deactivated due to stimulus 'task-finished-1756349400.9956403'
+2025-08-28 12:50:10,810 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 6b1a7173f082960e78ed47ca6bf8ccb1 initialized by task ('rechunk-merge-rechunk-transfer-c32a141945f1a02cab9be296fbf81c6b', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:50:27,960 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 6b1a7173f082960e78ed47ca6bf8ccb1 deactivated due to stimulus 'task-finished-1756349427.9576364'
+2025-08-28 12:50:36,816 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 14bbb4b029bebe9b2e14080720e2f13f initialized by task ('rechunk-merge-rechunk-transfer-2a038ec8593f73c1036903f1d9926cdc', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.8:34937
+2025-08-28 12:50:57,907 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 14bbb4b029bebe9b2e14080720e2f13f deactivated due to stimulus 'task-finished-1756349457.899707'
+2025-08-28 12:51:07,469 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 9fd61ca1be8cb1f62b5c6b4eb0906585 initialized by task ('rechunk-merge-rechunk-transfer-2ac2403f5ac481b3c94dfd7349b9c9ff', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.5:42679
+2025-08-28 12:51:25,519 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 9fd61ca1be8cb1f62b5c6b4eb0906585 deactivated due to stimulus 'task-finished-1756349485.5167093'
+2025-08-28 12:51:34,523 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle d8abfa9763086b774e5e37a60d12d55c initialized by task ('rechunk-merge-rechunk-transfer-1c710b3570b7762fd3331a35ed4c583e', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.7:34681
+2025-08-28 12:51:53,080 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle d8abfa9763086b774e5e37a60d12d55c deactivated due to stimulus 'task-finished-1756349513.0776627'
+2025-08-28 12:52:02,940 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 2028f686b84c5ba8b5a1e24658e3ad4d initialized by task ('rechunk-merge-rechunk-transfer-0d2c4939f813b6c6245e0cf57cdb43cd', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:52:22,949 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 2028f686b84c5ba8b5a1e24658e3ad4d deactivated due to stimulus 'task-finished-1756349542.947614'
+2025-08-28 12:52:26,682 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.16s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 12:52:36,619 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4bf364a7d7139b14b1f4ee7c428bddda initialized by task ('rechunk-merge-rechunk-transfer-ec10f9268ff20d5d26c8521f260a7bae', 0, 0, 0, 0, 5, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:52:56,382 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4bf364a7d7139b14b1f4ee7c428bddda deactivated due to stimulus 'task-finished-1756349576.3802218'
+2025-08-28 12:53:06,712 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4bc5a189906d65c2fa8d105d3d95d411 initialized by task ('rechunk-merge-rechunk-transfer-c21d0d42bd8952e2f7dd60b1cbb2cb29', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.8:38545
+2025-08-28 12:53:23,868 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4bc5a189906d65c2fa8d105d3d95d411 deactivated due to stimulus 'task-finished-1756349603.8657777'
+2025-08-28 12:53:34,531 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 63aa68ee2ab70ed9268e17d39eabc3bb initialized by task ('rechunk-merge-rechunk-transfer-713a2fe3a62d058ac3120f87dd0a3927', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:53:51,582 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 63aa68ee2ab70ed9268e17d39eabc3bb deactivated due to stimulus 'task-finished-1756349631.5797138'
+2025-08-28 12:54:00,552 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 40e344c1f50b72c2508594f137706e8c initialized by task ('rechunk-merge-rechunk-transfer-a9874ed603a2f54c1350cacc1fb6fc2d', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.7:34213
+2025-08-28 12:54:18,815 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 40e344c1f50b72c2508594f137706e8c deactivated due to stimulus 'task-finished-1756349658.8119395'
+2025-08-28 12:54:28,305 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 887791fb847b9edce8c0fbaa3be990fc initialized by task ('rechunk-merge-rechunk-transfer-08fdc9cbcfede9ee07dc8442996101f2', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:54:45,544 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 887791fb847b9edce8c0fbaa3be990fc deactivated due to stimulus 'task-finished-1756349685.5413873'
+2025-08-28 12:54:55,176 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e9ab7cf294f22bd83469712f9d5a5a22 initialized by task ('rechunk-merge-rechunk-transfer-b1f24e24acf366687bf959f3baebfae2', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.9:39561
+2025-08-28 12:55:14,965 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e9ab7cf294f22bd83469712f9d5a5a22 deactivated due to stimulus 'task-finished-1756349714.962294'
+2025-08-28 12:55:18,968 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.32s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 12:55:27,815 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e658d0e5de79c70714e6a5a0393f39cb initialized by task ('rechunk-merge-rechunk-transfer-fe6750b31c13e00e7148d327e608e881', 0, 0, 0, 0, 5, 0) executed on worker tcp://10.6.102.5:36693
+2025-08-28 12:55:45,901 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e658d0e5de79c70714e6a5a0393f39cb deactivated due to stimulus 'task-finished-1756349745.8986259'
+2025-08-28 12:55:55,685 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4fe683521191aa44552e7c488481d1d4 initialized by task ('rechunk-merge-rechunk-transfer-a345fe46c57c5115fc0b7e2c50d2233b', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.5:44609
+2025-08-28 12:56:14,355 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4fe683521191aa44552e7c488481d1d4 deactivated due to stimulus 'task-finished-1756349774.3533294'
+2025-08-28 12:56:23,074 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 948ef9e4528cb6ef62b2323b891a6cbb initialized by task ('rechunk-merge-rechunk-transfer-726460a322d9b9dbbc8f0f846fe6eeff', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.8:34937
+2025-08-28 12:56:41,566 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 948ef9e4528cb6ef62b2323b891a6cbb deactivated due to stimulus 'task-finished-1756349801.5636094'
+2025-08-28 12:56:50,431 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 23f5dc7daac315ad780142ed7c5cf423 initialized by task ('rechunk-merge-rechunk-transfer-449cd1be07ba0ed7779ad156c588b4d8', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:43669
+2025-08-28 12:57:08,798 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 23f5dc7daac315ad780142ed7c5cf423 deactivated due to stimulus 'task-finished-1756349828.797057'
+2025-08-28 12:57:17,368 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 135fdf1f37566320e64ef9064d1ea953 initialized by task ('rechunk-merge-rechunk-transfer-6b2e9611cdbaa2ff3ade67efec966e40', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.5:33423
+2025-08-28 12:57:36,099 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 135fdf1f37566320e64ef9064d1ea953 deactivated due to stimulus 'task-finished-1756349856.0952585'
+2025-08-28 12:57:44,720 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 210ebc8bf2ec7b3b6b3788650f832ca2 initialized by task ('rechunk-merge-rechunk-transfer-40f5be16488ef2a5f00de1fb138e3ec9', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.8:41935
+2025-08-28 12:58:03,361 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 210ebc8bf2ec7b3b6b3788650f832ca2 deactivated due to stimulus 'task-finished-1756349883.3586643'
+2025-08-28 12:58:09,230 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 5.20s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 12:58:17,678 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 84cf4746b431e460a94e62288cad6a67 initialized by task ('rechunk-merge-rechunk-transfer-e3dda78b3ca7d13d62a3b87a62088e12', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.5:45119
+2025-08-28 12:58:35,119 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 84cf4746b431e460a94e62288cad6a67 deactivated due to stimulus 'task-finished-1756349915.1166444'
+2025-08-28 12:58:43,841 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle ae6e8294101ae853dce47b02c2cfa474 initialized by task ('rechunk-merge-rechunk-transfer-e0d62ac86ee6649b7c29af5a4d3dbcf0', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.8:41935
+2025-08-28 12:59:02,373 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle ae6e8294101ae853dce47b02c2cfa474 deactivated due to stimulus 'task-finished-1756349942.3711'
+2025-08-28 12:59:12,042 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle bc24ef946dc160f5e86fae42bd7f8af7 initialized by task ('rechunk-merge-rechunk-transfer-6955940863f9aefbd08bf39bb723f606', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:59:29,930 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle bc24ef946dc160f5e86fae42bd7f8af7 deactivated due to stimulus 'task-finished-1756349969.9282405'
+2025-08-28 12:59:39,555 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e040e458cd468fbc8a74bd944fac9b57 initialized by task ('rechunk-merge-rechunk-transfer-597bc3407463b0edb3942fc8f726bef3', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 12:59:58,608 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e040e458cd468fbc8a74bd944fac9b57 deactivated due to stimulus 'task-finished-1756349998.6060576'
+2025-08-28 13:00:06,312 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 8f54dd8cd8888998831b0e45e336e814 initialized by task ('rechunk-merge-rechunk-transfer-8b237e2516f24d438b08efb84b4060e8', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.7:45221
+2025-08-28 13:00:25,260 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 8f54dd8cd8888998831b0e45e336e814 deactivated due to stimulus 'task-finished-1756350025.2563705'
+2025-08-28 13:00:34,382 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 648fbf4bdb7b7c39d7841825a8b662c5 initialized by task ('rechunk-merge-rechunk-transfer-5d5ed2572fd98bc8c6dbb72ae55c974a', 0, 0, 0, 0, 5, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:00:52,188 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 648fbf4bdb7b7c39d7841825a8b662c5 deactivated due to stimulus 'task-finished-1756350052.184328'
+2025-08-28 13:01:02,124 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4a47910e555da03781a5876982275a78 initialized by task ('rechunk-merge-rechunk-transfer-0691dcc9b13f6000b4cef1994fedd45c', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:01:09,097 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.30s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 13:01:21,851 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4a47910e555da03781a5876982275a78 deactivated due to stimulus 'task-finished-1756350081.8488424'
+2025-08-28 13:01:33,132 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 5d31dac132cd711712ef98af4658c393 initialized by task ('rechunk-merge-rechunk-transfer-7be10ddd0c429b0ca4508803a9ad78c8', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.5:43555
+2025-08-28 13:01:51,766 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 5d31dac132cd711712ef98af4658c393 deactivated due to stimulus 'task-finished-1756350111.7645376'
+2025-08-28 13:02:01,086 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7a40dd4120c918151dc2b2f008daf5ca initialized by task ('rechunk-merge-rechunk-transfer-9d328f985087f6dc054af142f222df04', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.5:44801
+2025-08-28 13:02:19,406 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7a40dd4120c918151dc2b2f008daf5ca deactivated due to stimulus 'task-finished-1756350139.400431'
+2025-08-28 13:02:28,849 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 84fb485b778051616f2a2823d1803c86 initialized by task ('rechunk-merge-rechunk-transfer-7f158083177054880f34b3b548bb53f5', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.9:38729
+2025-08-28 13:02:48,421 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 84fb485b778051616f2a2823d1803c86 deactivated due to stimulus 'task-finished-1756350168.4188626'
+2025-08-28 13:02:57,039 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 17e787d5db1e2a6217fd06fb2256de36 initialized by task ('rechunk-merge-rechunk-transfer-28f1d07332210825350c4f9978ab4957', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:03:15,516 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 17e787d5db1e2a6217fd06fb2256de36 deactivated due to stimulus 'task-finished-1756350195.5117865'
+2025-08-28 13:03:24,942 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle cd2b101d826cd567bbbfef2c076e4203 initialized by task ('rechunk-merge-rechunk-transfer-cf68b49ffa02e1671779a861e4f8dd20', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.5:42413
+2025-08-28 13:03:42,293 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle cd2b101d826cd567bbbfef2c076e4203 deactivated due to stimulus 'task-finished-1756350222.290274'
+2025-08-28 13:03:52,078 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle ccd44a594fee97cc79d8e0c78203a704 initialized by task ('rechunk-merge-rechunk-transfer-1d054db677e90d35c5b8c2feff844a75', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.5:45097
+2025-08-28 13:04:09,103 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle ccd44a594fee97cc79d8e0c78203a704 deactivated due to stimulus 'task-finished-1756350249.1000345'
+2025-08-28 13:04:12,751 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.31s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 13:04:21,471 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 25ea3dca2782834b1a4707b3158cf170 initialized by task ('rechunk-merge-rechunk-transfer-1743a277844a176f6d733690d302947e', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.9:35589
+2025-08-28 13:04:39,299 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 25ea3dca2782834b1a4707b3158cf170 deactivated due to stimulus 'task-finished-1756350279.2969239'
+2025-08-28 13:04:49,040 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle cfb7be4ea7f08c3e87406994ffe7a6c7 initialized by task ('rechunk-merge-rechunk-transfer-3163ec834854ab4cfeb5334808cf8d7e', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.8:39297
+2025-08-28 13:05:05,826 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle cfb7be4ea7f08c3e87406994ffe7a6c7 deactivated due to stimulus 'task-finished-1756350305.823908'
+2025-08-28 13:05:15,787 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 76a712b0c0d0269d0bc8ccd71c287872 initialized by task ('rechunk-merge-rechunk-transfer-45d76580c84e5a0c37100144847e1a41', 0, 0, 0, 0, 5, 0) executed on worker tcp://10.6.102.8:39409
+2025-08-28 13:05:34,158 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 76a712b0c0d0269d0bc8ccd71c287872 deactivated due to stimulus 'task-finished-1756350334.1559696'
+2025-08-28 13:05:44,028 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e5e7efb2596f12a61a7fc83b77fbfd64 initialized by task ('rechunk-merge-rechunk-transfer-c0928c0e387b7af3853e39b8f8e61014', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.8:38545
+2025-08-28 13:06:01,765 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle e5e7efb2596f12a61a7fc83b77fbfd64 deactivated due to stimulus 'task-finished-1756350361.7624924'
+2025-08-28 13:06:11,188 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4c10cc01edf1b7ab7552a1d1c13e6f2d initialized by task ('rechunk-merge-rechunk-transfer-f4cdfe416a297a9c77e0b4c7739b8606', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:06:28,465 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4c10cc01edf1b7ab7552a1d1c13e6f2d deactivated due to stimulus 'task-finished-1756350388.4618254'
+2025-08-28 13:06:38,395 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle d2f99f44809498bbe11ec6cad8e2876e initialized by task ('rechunk-merge-rechunk-transfer-259103dc7bce1ee7124535f95be6c54d', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:06:56,796 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle d2f99f44809498bbe11ec6cad8e2876e deactivated due to stimulus 'task-finished-1756350416.794551'
+2025-08-28 13:07:00,822 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.36s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 13:07:08,540 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle dea2361f39b6975d6f92ce91d8fd0946 initialized by task ('rechunk-merge-rechunk-transfer-fb41e5ffe4045be025b69d5aa1e14fe0', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.8:41935
+2025-08-28 13:07:26,288 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle dea2361f39b6975d6f92ce91d8fd0946 deactivated due to stimulus 'task-finished-1756350446.285626'
+2025-08-28 13:07:35,721 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 0c0e988ccabc72b18397085178f9fc64 initialized by task ('rechunk-merge-rechunk-transfer-2935cfa34d27a2701e397790158e33b8', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:07:52,929 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 0c0e988ccabc72b18397085178f9fc64 deactivated due to stimulus 'task-finished-1756350472.9265647'
+2025-08-28 13:08:02,209 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle dfc7c9dd4cd7535d2d5c2e618e16aaa6 initialized by task ('rechunk-merge-rechunk-transfer-308c30073b69354cebe9f79b469a273f', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:08:19,554 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle dfc7c9dd4cd7535d2d5c2e618e16aaa6 deactivated due to stimulus 'task-finished-1756350499.5517123'
+2025-08-28 13:08:28,701 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 1c4733155926d1c69ae33b9ee37c661c initialized by task ('rechunk-merge-rechunk-transfer-bc8e5cc334bb95335a8d5ea1064e3273', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:08:45,609 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 1c4733155926d1c69ae33b9ee37c661c deactivated due to stimulus 'task-finished-1756350525.6065884'
+2025-08-28 13:08:54,174 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4d762860c5fdac22e7d9c6ad071693b4 initialized by task ('rechunk-merge-rechunk-transfer-b0c2b98be3ca783e50f535f1999da467', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:38529
+2025-08-28 13:09:12,190 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 4d762860c5fdac22e7d9c6ad071693b4 deactivated due to stimulus 'task-finished-1756350552.1864376'
+2025-08-28 13:09:21,458 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 77956b1dc31d2b46e79976ee1c46d55a initialized by task ('rechunk-merge-rechunk-transfer-c01394aa08d7f7e253ff9af31a782f2e', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.8:35409
+2025-08-28 13:09:39,525 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 77956b1dc31d2b46e79976ee1c46d55a deactivated due to stimulus 'task-finished-1756350579.5227444'
+2025-08-28 13:09:48,005 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 4.20s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 13:09:50,834 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 3dfd28c5048f835ada11db95ba9fe646 initialized by task ('rechunk-merge-rechunk-transfer-65e9997dfe648092a0b1b4391b3c5b82', 0, 0, 0, 0, 5, 0) executed on worker tcp://10.6.102.7:38505
+2025-08-28 13:10:08,305 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 3dfd28c5048f835ada11db95ba9fe646 deactivated due to stimulus 'task-finished-1756350608.301463'
+2025-08-28 13:10:17,551 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 3861bfe83c42e3aaa4b568225820ef94 initialized by task ('rechunk-merge-rechunk-transfer-9c951827f8ca7a357a8977b7d0bf2c97', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.5:41563
+2025-08-28 13:10:34,818 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 3861bfe83c42e3aaa4b568225820ef94 deactivated due to stimulus 'task-finished-1756350634.8149207'
+2025-08-28 13:10:43,298 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle cafbafb90ce672a2cef98079dbe49ee0 initialized by task ('rechunk-merge-rechunk-transfer-17825aa8f1dbd8548e14656cff5adbae', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.5:45119
+2025-08-28 13:11:00,776 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle cafbafb90ce672a2cef98079dbe49ee0 deactivated due to stimulus 'task-finished-1756350660.7742722'
+2025-08-28 13:11:09,962 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle acb81e36a94ca1d2a5163e6c816ee3c2 initialized by task ('rechunk-merge-rechunk-transfer-001eb63d86ace834662ffe2b07900c0f', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:11:27,343 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle acb81e36a94ca1d2a5163e6c816ee3c2 deactivated due to stimulus 'task-finished-1756350687.3403769'
+2025-08-28 13:11:37,145 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle de06b2a715315e4acf5a2841d4e4a044 initialized by task ('rechunk-merge-rechunk-transfer-d4cdd6dc71fc658cf21ca33d0246858c', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:34239
+2025-08-28 13:11:53,615 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle de06b2a715315e4acf5a2841d4e4a044 deactivated due to stimulus 'task-finished-1756350713.6117477'
+2025-08-28 13:12:02,938 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 8d77776c23289a86f405245efd18f5dc initialized by task ('rechunk-merge-rechunk-transfer-7f0029d7cab8eb721beeb056317f4e1b', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.5:43149
+2025-08-28 13:12:19,535 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 8d77776c23289a86f405245efd18f5dc deactivated due to stimulus 'task-finished-1756350739.5327265'
+2025-08-28 13:12:29,383 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle a2c4e905918675cc98853bd26a31730c initialized by task ('rechunk-merge-rechunk-transfer-d413b7e6b5325ffeb18d526eb2a84654', 0, 0, 0, 0, 5, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:12:46,716 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle a2c4e905918675cc98853bd26a31730c deactivated due to stimulus 'task-finished-1756350766.713444'
+2025-08-28 13:12:50,248 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.25s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 13:12:59,335 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 8bf25da7de7c7769d5d864adfed3c36d initialized by task ('rechunk-merge-rechunk-transfer-0aa9844ee9943ecf7a949b5d10faf0fb', 0, 0, 0, 0, 5, 0) executed on worker tcp://10.6.102.9:44595
+2025-08-28 13:13:16,929 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 8bf25da7de7c7769d5d864adfed3c36d deactivated due to stimulus 'task-finished-1756350796.9241102'
+2025-08-28 13:13:27,135 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 67ae8b79af206cc7026139c43bc0c764 initialized by task ('rechunk-merge-rechunk-transfer-4c6ca86dbb98ceca713e190992c68415', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:13:43,505 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 67ae8b79af206cc7026139c43bc0c764 deactivated due to stimulus 'task-finished-1756350823.5023289'
+2025-08-28 13:13:52,999 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 8387f7887372f9062efabb40e15a34ca initialized by task ('rechunk-merge-rechunk-transfer-a74d1f83b5d240485c7647312cac8d62', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.5:33423
+2025-08-28 13:14:10,102 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 8387f7887372f9062efabb40e15a34ca deactivated due to stimulus 'task-finished-1756350850.0999038'
+2025-08-28 13:14:18,485 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle d29ca1f6ccda80b30ea7b34bfbe7ab6d initialized by task ('rechunk-merge-rechunk-transfer-62345204eca41303f79c43f17c36475c', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.9:34757
+2025-08-28 13:14:35,950 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle d29ca1f6ccda80b30ea7b34bfbe7ab6d deactivated due to stimulus 'task-finished-1756350875.9473643'
+2025-08-28 13:14:45,333 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle ce96adeda1fa6ff8aacdd511e2250b45 initialized by task ('rechunk-merge-rechunk-transfer-934cfac1046bd2b7989b3b7154915ad1', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:15:02,318 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle ce96adeda1fa6ff8aacdd511e2250b45 deactivated due to stimulus 'task-finished-1756350902.3154256'
+2025-08-28 13:15:11,251 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle d3b0119c1ee9de955ea2dc892878d81f initialized by task ('rechunk-merge-rechunk-transfer-30b54bfe311fc965a4ad27af2608bfa0', 0, 0, 0, 0, 5, 0) executed on worker tcp://10.6.102.8:46279
+2025-08-28 13:15:28,440 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle d3b0119c1ee9de955ea2dc892878d81f deactivated due to stimulus 'task-finished-1756350928.438363'
+2025-08-28 13:15:32,438 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.51s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 13:15:41,299 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7479f35613e1f911dbb619650c31a96c initialized by task ('rechunk-merge-rechunk-transfer-2b0d215cb148d55ccc2ab68be52c2331', 0, 0, 0, 0, 5, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:15:57,886 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7479f35613e1f911dbb619650c31a96c deactivated due to stimulus 'task-finished-1756350957.881833'
+2025-08-28 13:16:07,277 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle bd985962f8c6a959185a4713e0d4f5ff initialized by task ('rechunk-merge-rechunk-transfer-7ebffcc3bf6b9fbfbc5b36f9d9408339', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.9:35589
+2025-08-28 13:16:23,752 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle bd985962f8c6a959185a4713e0d4f5ff deactivated due to stimulus 'task-finished-1756350983.7467754'
+2025-08-28 13:16:31,984 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle f1451f99fdfe8400819bef54c0e96c5a initialized by task ('rechunk-merge-rechunk-transfer-7470301d025d5b52a81f2b8e83aa7686', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:42851
+2025-08-28 13:16:50,359 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle f1451f99fdfe8400819bef54c0e96c5a deactivated due to stimulus 'task-finished-1756351010.3571334'
+2025-08-28 13:16:58,968 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle be346b08c267b57cd1c72906f019bbb5 initialized by task ('rechunk-merge-rechunk-transfer-9967e9fd7ad7186c3871edafca3095d0', 0, 0, 0, 0, 0, 0) executed on worker tcp://10.6.102.7:38529
+2025-08-28 13:17:16,548 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle be346b08c267b57cd1c72906f019bbb5 deactivated due to stimulus 'task-finished-1756351036.5459104'
+2025-08-28 13:17:25,319 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle fbcb50206178ff86a9bfee906b8c71fd initialized by task ('rechunk-merge-rechunk-transfer-7e936082917c90ed3d9838771f614657', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:45221
+2025-08-28 13:17:42,776 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle fbcb50206178ff86a9bfee906b8c71fd deactivated due to stimulus 'task-finished-1756351062.7736993'
+2025-08-28 13:17:51,717 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 0834781aa7e53651952767c4ae1a8da7 initialized by task ('rechunk-merge-rechunk-transfer-1c745beb621be0ef8fb5af86ace07b5a', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:18:09,128 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 0834781aa7e53651952767c4ae1a8da7 deactivated due to stimulus 'task-finished-1756351089.1257555'
+2025-08-28 13:18:17,826 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 401f500b9b421c2c2a1a679129f63a02 initialized by task ('rechunk-merge-rechunk-transfer-f5c4215a60e549097a48667589b4f005', 0, 0, 0, 0, 5, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:18:24,099 - distributed.core - INFO - Event loop was unresponsive in Scheduler for 3.48s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-08-28 13:18:37,913 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 401f500b9b421c2c2a1a679129f63a02 deactivated due to stimulus 'task-finished-1756351117.9115598'
+2025-08-28 13:18:48,143 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 029731911f853b1708f17b35ca699704 initialized by task ('rechunk-merge-rechunk-transfer-7423e3d3dd946aa0f23104f559c44558', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.7:35715
+2025-08-28 13:19:04,083 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 029731911f853b1708f17b35ca699704 deactivated due to stimulus 'task-finished-1756351144.0809278'
+2025-08-28 13:19:12,219 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 944a8bcf464494ae4d4420bf1a142901 initialized by task ('rechunk-merge-rechunk-transfer-da898530ef076b2a38d235de4d84f0ca', 0, 0, 0, 0, 3, 0) executed on worker tcp://10.6.102.7:41129
+2025-08-28 13:19:30,224 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 944a8bcf464494ae4d4420bf1a142901 deactivated due to stimulus 'task-finished-1756351170.2217138'
+2025-08-28 13:19:38,953 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 904d7d721b7208966a002cb0d9746df5 initialized by task ('rechunk-merge-rechunk-transfer-b7d5e354a830e6f9f0fd3344dc6940d3', 0, 0, 0, 0, 2, 0) executed on worker tcp://10.6.102.7:33637
+2025-08-28 13:19:56,217 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 904d7d721b7208966a002cb0d9746df5 deactivated due to stimulus 'task-finished-1756351196.2149775'
+2025-08-28 13:20:05,035 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 39382b50504a19d70f8eadf018dce969 initialized by task ('rechunk-merge-rechunk-transfer-34f023b64f6da36211339d9901097d24', 0, 0, 0, 0, 1, 0) executed on worker tcp://10.6.102.9:35141
+2025-08-28 13:20:22,209 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 39382b50504a19d70f8eadf018dce969 deactivated due to stimulus 'task-finished-1756351222.2071834'
+2025-08-28 13:20:31,950 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 93bb7b1187edee2669d7446e9bb30ad9 initialized by task ('rechunk-merge-rechunk-transfer-294b68d4e7291f6df364ec0ff8a2a679', 0, 0, 0, 0, 4, 0) executed on worker tcp://10.6.102.5:33423
+2025-08-28 13:20:48,488 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 93bb7b1187edee2669d7446e9bb30ad9 deactivated due to stimulus 'task-finished-1756351248.4839191'
+2025-08-28 13:20:48,628 - distributed.scheduler - INFO - Remove client Client-cd16adf0-83b3-11f0-b3c3-00000559fe80
+2025-08-28 13:20:49,161 - distributed.core - INFO - Received 'close-stream' from tcp://10.6.102.5:56962; closing.
+2025-08-28 13:20:49,164 - distributed.scheduler - INFO - Remove client Client-cd16adf0-83b3-11f0-b3c3-00000559fe80
+2025-08-28 13:20:49,230 - distributed.scheduler - INFO - Close client connection: Client-cd16adf0-83b3-11f0-b3c3-00000559fe80

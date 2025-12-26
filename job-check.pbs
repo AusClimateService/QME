@@ -1,0 +1,23 @@
+#!/bin/bash
+#PBS -l ncpus=104
+#PBS -l mem=500GB
+#PBS -l jobfs=250GB
+#PBS -q normalsr
+#PBS -P eg3
+#PBS -l walltime=01:00:00
+#PBS -l storage=gdata/hh5+gdata/dk92+gdata/ia39+scratch/eg3+gdata/xv83
+#PBS -l wd
+#PBS -j oe
+#PBS -o logs/check
+
+module use /g/data/hh5/public/modules
+module load conda_concept/analysis3-23.04
+
+module use /g/data/dk92/apps/Modules/modulefiles
+module load gadi_jupyterlab/23.02
+
+jupyter.ini.sh -D
+
+command="python acs_check_output.py ${gcm} ${empat} ${mdl_run} ${org} ${rcm} ${bc}"
+echo ${command}
+${command}

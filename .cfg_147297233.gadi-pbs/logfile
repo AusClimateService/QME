@@ -1,0 +1,1680 @@
+2025-08-18 15:46:17,623 - distributed.scheduler - INFO - -----------------------------------------------
+2025-08-18 15:46:18,430 - distributed.scheduler - INFO - State start
+2025-08-18 15:46:18,432 - distributed.scheduler - INFO - -----------------------------------------------
+2025-08-18 15:46:18,433 - distributed.scheduler - INFO -   Scheduler at:     tcp://10.6.83.24:8753
+2025-08-18 15:46:18,434 - distributed.scheduler - INFO -   dashboard at:          proxy/8880/status
+2025-08-18 15:46:18,454 - distributed.scheduler - INFO - Registering Worker plugin shuffle
+2025-08-18 15:46:22,813 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:36375 name: tcp://10.6.83.24:36375
+2025-08-18 15:46:22,827 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:36375
+2025-08-18 15:46:22,827 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35586
+2025-08-18 15:46:22,828 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:33923 name: tcp://10.6.83.24:33923
+2025-08-18 15:46:22,828 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:33923
+2025-08-18 15:46:22,828 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35558
+2025-08-18 15:46:22,829 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:44185 name: tcp://10.6.83.24:44185
+2025-08-18 15:46:22,830 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:44185
+2025-08-18 15:46:22,830 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35544
+2025-08-18 15:46:22,831 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:41765 name: tcp://10.6.83.24:41765
+2025-08-18 15:46:22,831 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:41765
+2025-08-18 15:46:22,831 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35592
+2025-08-18 15:46:22,832 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:45019 name: tcp://10.6.83.24:45019
+2025-08-18 15:46:22,832 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:45019
+2025-08-18 15:46:22,832 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35470
+2025-08-18 15:46:22,833 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:37673 name: tcp://10.6.83.24:37673
+2025-08-18 15:46:22,833 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:37673
+2025-08-18 15:46:22,833 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35484
+2025-08-18 15:46:22,835 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:41083 name: tcp://10.6.83.24:41083
+2025-08-18 15:46:22,835 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:41083
+2025-08-18 15:46:22,835 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35486
+2025-08-18 15:46:22,835 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:33699 name: tcp://10.6.83.24:33699
+2025-08-18 15:46:22,836 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:33699
+2025-08-18 15:46:22,836 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35514
+2025-08-18 15:46:22,837 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:39209 name: tcp://10.6.83.24:39209
+2025-08-18 15:46:22,837 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:39209
+2025-08-18 15:46:22,837 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35516
+2025-08-18 15:46:22,838 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:41395 name: tcp://10.6.83.24:41395
+2025-08-18 15:46:22,838 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:41395
+2025-08-18 15:46:22,838 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35528
+2025-08-18 15:46:22,838 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:43057 name: tcp://10.6.83.24:43057
+2025-08-18 15:46:22,838 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:43057
+2025-08-18 15:46:22,838 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35498
+2025-08-18 15:46:22,839 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:32921 name: tcp://10.6.83.24:32921
+2025-08-18 15:46:22,839 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:32921
+2025-08-18 15:46:22,839 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35546
+2025-08-18 15:46:22,839 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:40811 name: tcp://10.6.83.24:40811
+2025-08-18 15:46:22,840 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:40811
+2025-08-18 15:46:22,840 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35572
+2025-08-18 15:46:22,840 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:33225 name: tcp://10.6.83.24:33225
+2025-08-18 15:46:22,840 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:33225
+2025-08-18 15:46:22,840 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35552
+2025-08-18 15:46:22,840 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:45157 name: tcp://10.6.83.24:45157
+2025-08-18 15:46:22,841 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:45157
+2025-08-18 15:46:22,841 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35560
+2025-08-18 15:46:22,841 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:43793 name: tcp://10.6.83.24:43793
+2025-08-18 15:46:22,841 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:43793
+2025-08-18 15:46:22,841 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35612
+2025-08-18 15:46:22,842 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:34941 name: tcp://10.6.83.24:34941
+2025-08-18 15:46:22,842 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:34941
+2025-08-18 15:46:22,842 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35604
+2025-08-18 15:46:22,842 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:41505 name: tcp://10.6.83.24:41505
+2025-08-18 15:46:22,842 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:41505
+2025-08-18 15:46:22,842 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35608
+2025-08-18 15:46:22,843 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:41483 name: tcp://10.6.83.24:41483
+2025-08-18 15:46:22,843 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:41483
+2025-08-18 15:46:22,843 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35626
+2025-08-18 15:46:22,843 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:39551 name: tcp://10.6.83.24:39551
+2025-08-18 15:46:22,844 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:39551
+2025-08-18 15:46:22,844 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35616
+2025-08-18 15:46:22,844 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:38773 name: tcp://10.6.83.24:38773
+2025-08-18 15:46:22,844 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:38773
+2025-08-18 15:46:22,844 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35610
+2025-08-18 15:46:22,845 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:44689 name: tcp://10.6.83.24:44689
+2025-08-18 15:46:22,845 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:44689
+2025-08-18 15:46:22,845 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35632
+2025-08-18 15:46:22,850 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:32833 name: tcp://10.6.83.24:32833
+2025-08-18 15:46:22,850 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:32833
+2025-08-18 15:46:22,851 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35634
+2025-08-18 15:46:22,852 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:46155 name: tcp://10.6.83.24:46155
+2025-08-18 15:46:22,852 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:46155
+2025-08-18 15:46:22,853 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35658
+2025-08-18 15:46:22,855 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:33151 name: tcp://10.6.83.24:33151
+2025-08-18 15:46:22,855 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:33151
+2025-08-18 15:46:22,855 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35644
+2025-08-18 15:46:22,867 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:40873 name: tcp://10.6.83.24:40873
+2025-08-18 15:46:22,867 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:40873
+2025-08-18 15:46:22,868 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35672
+2025-08-18 15:46:22,901 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:33023 name: tcp://10.6.83.24:33023
+2025-08-18 15:46:22,902 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:33023
+2025-08-18 15:46:22,902 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35682
+2025-08-18 15:46:22,916 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:43333 name: tcp://10.6.83.24:43333
+2025-08-18 15:46:22,917 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:43333
+2025-08-18 15:46:22,917 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35686
+2025-08-18 15:46:22,926 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:36519 name: tcp://10.6.83.24:36519
+2025-08-18 15:46:22,926 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:36519
+2025-08-18 15:46:22,926 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35694
+2025-08-18 15:46:22,995 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:35973 name: tcp://10.6.83.24:35973
+2025-08-18 15:46:22,996 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:35973
+2025-08-18 15:46:22,996 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35710
+2025-08-18 15:46:23,015 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:33017 name: tcp://10.6.83.24:33017
+2025-08-18 15:46:23,016 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:33017
+2025-08-18 15:46:23,016 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35716
+2025-08-18 15:46:23,030 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:35881 name: tcp://10.6.83.24:35881
+2025-08-18 15:46:23,031 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:35881
+2025-08-18 15:46:23,031 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35724
+2025-08-18 15:46:23,077 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:33167 name: tcp://10.6.83.24:33167
+2025-08-18 15:46:23,078 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:33167
+2025-08-18 15:46:23,078 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35738
+2025-08-18 15:46:23,085 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:43789 name: tcp://10.6.83.24:43789
+2025-08-18 15:46:23,085 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:43789
+2025-08-18 15:46:23,085 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35752
+2025-08-18 15:46:23,098 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:40813 name: tcp://10.6.83.24:40813
+2025-08-18 15:46:23,099 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:40813
+2025-08-18 15:46:23,099 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35758
+2025-08-18 15:46:23,129 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:44301 name: tcp://10.6.83.24:44301
+2025-08-18 15:46:23,130 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:44301
+2025-08-18 15:46:23,130 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35762
+2025-08-18 15:46:23,139 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:40253 name: tcp://10.6.83.24:40253
+2025-08-18 15:46:23,140 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:40253
+2025-08-18 15:46:23,140 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35764
+2025-08-18 15:46:23,146 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:44861 name: tcp://10.6.83.24:44861
+2025-08-18 15:46:23,147 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:44861
+2025-08-18 15:46:23,147 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35778
+2025-08-18 15:46:23,149 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:34019 name: tcp://10.6.83.24:34019
+2025-08-18 15:46:23,150 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:34019
+2025-08-18 15:46:23,150 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35780
+2025-08-18 15:46:23,294 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:44241 name: tcp://10.6.83.24:44241
+2025-08-18 15:46:23,295 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:44241
+2025-08-18 15:46:23,295 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35786
+2025-08-18 15:46:23,300 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:41105 name: tcp://10.6.83.24:41105
+2025-08-18 15:46:23,301 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:41105
+2025-08-18 15:46:23,301 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35794
+2025-08-18 15:46:23,309 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:39513 name: tcp://10.6.83.24:39513
+2025-08-18 15:46:23,309 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:39513
+2025-08-18 15:46:23,309 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35804
+2025-08-18 15:46:23,310 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:35503 name: tcp://10.6.83.24:35503
+2025-08-18 15:46:23,311 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:35503
+2025-08-18 15:46:23,311 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35814
+2025-08-18 15:46:23,313 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:38925 name: tcp://10.6.83.24:38925
+2025-08-18 15:46:23,313 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:38925
+2025-08-18 15:46:23,313 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35820
+2025-08-18 15:46:23,314 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:32825 name: tcp://10.6.83.24:32825
+2025-08-18 15:46:23,315 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:32825
+2025-08-18 15:46:23,315 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35828
+2025-08-18 15:46:23,316 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:35253 name: tcp://10.6.83.24:35253
+2025-08-18 15:46:23,317 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:35253
+2025-08-18 15:46:23,317 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35832
+2025-08-18 15:46:23,318 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:41669 name: tcp://10.6.83.24:41669
+2025-08-18 15:46:23,318 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:41669
+2025-08-18 15:46:23,318 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35838
+2025-08-18 15:46:23,320 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:39813 name: tcp://10.6.83.24:39813
+2025-08-18 15:46:23,320 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:39813
+2025-08-18 15:46:23,320 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35864
+2025-08-18 15:46:23,323 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:43753 name: tcp://10.6.83.24:43753
+2025-08-18 15:46:23,324 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:43753
+2025-08-18 15:46:23,324 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35850
+2025-08-18 15:46:23,325 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:38583 name: tcp://10.6.83.24:38583
+2025-08-18 15:46:23,325 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:38583
+2025-08-18 15:46:23,325 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35880
+2025-08-18 15:46:23,333 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:34165 name: tcp://10.6.83.24:34165
+2025-08-18 15:46:23,334 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:34165
+2025-08-18 15:46:23,334 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35886
+2025-08-18 15:46:23,338 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.24:38263 name: tcp://10.6.83.24:38263
+2025-08-18 15:46:23,339 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.24:38263
+2025-08-18 15:46:23,339 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:35882
+2025-08-18 15:46:27,296 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:43647 name: tcp://10.6.83.25:43647
+2025-08-18 15:46:27,297 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:43647
+2025-08-18 15:46:27,297 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56060
+2025-08-18 15:46:27,297 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:34515 name: tcp://10.6.83.25:34515
+2025-08-18 15:46:27,298 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:34515
+2025-08-18 15:46:27,298 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56136
+2025-08-18 15:46:27,299 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:45031 name: tcp://10.6.83.25:45031
+2025-08-18 15:46:27,299 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:45031
+2025-08-18 15:46:27,299 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56178
+2025-08-18 15:46:27,300 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:36053 name: tcp://10.6.83.25:36053
+2025-08-18 15:46:27,301 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:36053
+2025-08-18 15:46:27,301 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56162
+2025-08-18 15:46:27,302 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:42539 name: tcp://10.6.83.25:42539
+2025-08-18 15:46:27,302 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:42539
+2025-08-18 15:46:27,303 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56080
+2025-08-18 15:46:27,303 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:40349 name: tcp://10.6.83.25:40349
+2025-08-18 15:46:27,304 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:40349
+2025-08-18 15:46:27,304 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56058
+2025-08-18 15:46:27,305 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:42739 name: tcp://10.6.83.25:42739
+2025-08-18 15:46:27,305 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:42739
+2025-08-18 15:46:27,305 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56096
+2025-08-18 15:46:27,306 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:33643 name: tcp://10.6.83.25:33643
+2025-08-18 15:46:27,306 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:33643
+2025-08-18 15:46:27,307 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56144
+2025-08-18 15:46:27,308 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:35593 name: tcp://10.6.83.25:35593
+2025-08-18 15:46:27,309 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:35593
+2025-08-18 15:46:27,309 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56192
+2025-08-18 15:46:27,309 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:42519 name: tcp://10.6.83.25:42519
+2025-08-18 15:46:27,310 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:42519
+2025-08-18 15:46:27,310 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56040
+2025-08-18 15:46:27,311 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:45981 name: tcp://10.6.83.25:45981
+2025-08-18 15:46:27,311 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:45981
+2025-08-18 15:46:27,311 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56062
+2025-08-18 15:46:27,311 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:36635 name: tcp://10.6.83.25:36635
+2025-08-18 15:46:27,312 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:36635
+2025-08-18 15:46:27,312 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56108
+2025-08-18 15:46:27,312 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:34497 name: tcp://10.6.83.25:34497
+2025-08-18 15:46:27,313 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:34497
+2025-08-18 15:46:27,313 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56036
+2025-08-18 15:46:27,313 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:45433 name: tcp://10.6.83.25:45433
+2025-08-18 15:46:27,314 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:45433
+2025-08-18 15:46:27,314 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56140
+2025-08-18 15:46:27,314 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:34727 name: tcp://10.6.83.25:34727
+2025-08-18 15:46:27,315 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:34727
+2025-08-18 15:46:27,315 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56156
+2025-08-18 15:46:27,315 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:40131 name: tcp://10.6.83.25:40131
+2025-08-18 15:46:27,316 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:40131
+2025-08-18 15:46:27,316 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56042
+2025-08-18 15:46:27,316 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:39305 name: tcp://10.6.83.25:39305
+2025-08-18 15:46:27,317 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:39305
+2025-08-18 15:46:27,317 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56118
+2025-08-18 15:46:27,318 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:43877 name: tcp://10.6.83.25:43877
+2025-08-18 15:46:27,319 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:43877
+2025-08-18 15:46:27,319 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56128
+2025-08-18 15:46:27,319 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:39609 name: tcp://10.6.83.25:39609
+2025-08-18 15:46:27,320 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:39609
+2025-08-18 15:46:27,320 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56200
+2025-08-18 15:46:27,320 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:35247 name: tcp://10.6.83.25:35247
+2025-08-18 15:46:27,321 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:35247
+2025-08-18 15:46:27,321 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56206
+2025-08-18 15:46:27,413 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:42105 name: tcp://10.6.83.25:42105
+2025-08-18 15:46:27,414 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:42105
+2025-08-18 15:46:27,414 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56216
+2025-08-18 15:46:27,508 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:34425 name: tcp://10.6.83.25:34425
+2025-08-18 15:46:27,510 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:34425
+2025-08-18 15:46:27,510 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56228
+2025-08-18 15:46:27,513 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:36813 name: tcp://10.6.83.25:36813
+2025-08-18 15:46:27,514 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:36813
+2025-08-18 15:46:27,514 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56240
+2025-08-18 15:46:27,543 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:43377 name: tcp://10.6.83.25:43377
+2025-08-18 15:46:27,545 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:43377
+2025-08-18 15:46:27,545 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56256
+2025-08-18 15:46:27,581 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:35351 name: tcp://10.6.83.25:35351
+2025-08-18 15:46:27,582 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:35351
+2025-08-18 15:46:27,582 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56262
+2025-08-18 15:46:27,588 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:37101 name: tcp://10.6.83.25:37101
+2025-08-18 15:46:27,589 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:37101
+2025-08-18 15:46:27,589 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56264
+2025-08-18 15:46:27,591 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:39097 name: tcp://10.6.83.25:39097
+2025-08-18 15:46:27,591 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:39097
+2025-08-18 15:46:27,592 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56294
+2025-08-18 15:46:27,592 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:34015 name: tcp://10.6.83.25:34015
+2025-08-18 15:46:27,593 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:34015
+2025-08-18 15:46:27,593 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56280
+2025-08-18 15:46:27,594 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:36845 name: tcp://10.6.83.25:36845
+2025-08-18 15:46:27,595 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:36845
+2025-08-18 15:46:27,595 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56306
+2025-08-18 15:46:27,606 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:37961 name: tcp://10.6.83.25:37961
+2025-08-18 15:46:27,607 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:37961
+2025-08-18 15:46:27,607 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56322
+2025-08-18 15:46:27,615 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:38015 name: tcp://10.6.83.25:38015
+2025-08-18 15:46:27,616 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:38015
+2025-08-18 15:46:27,616 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56332
+2025-08-18 15:46:27,618 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:43199 name: tcp://10.6.83.25:43199
+2025-08-18 15:46:27,619 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:43199
+2025-08-18 15:46:27,619 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56350
+2025-08-18 15:46:27,621 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:38389 name: tcp://10.6.83.25:38389
+2025-08-18 15:46:27,622 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:38389
+2025-08-18 15:46:27,622 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56344
+2025-08-18 15:46:27,624 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:45089 name: tcp://10.6.83.25:45089
+2025-08-18 15:46:27,625 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:45089
+2025-08-18 15:46:27,625 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56358
+2025-08-18 15:46:27,637 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:32795 name: tcp://10.6.83.25:32795
+2025-08-18 15:46:27,638 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:32795
+2025-08-18 15:46:27,638 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56370
+2025-08-18 15:46:27,639 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:35831 name: tcp://10.6.83.25:35831
+2025-08-18 15:46:27,639 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:35831
+2025-08-18 15:46:27,639 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56360
+2025-08-18 15:46:27,640 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:39945 name: tcp://10.6.83.25:39945
+2025-08-18 15:46:27,641 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:39945
+2025-08-18 15:46:27,641 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56378
+2025-08-18 15:46:27,644 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:46237 name: tcp://10.6.83.25:46237
+2025-08-18 15:46:27,645 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:46237
+2025-08-18 15:46:27,645 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56380
+2025-08-18 15:46:27,717 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:42261 name: tcp://10.6.83.25:42261
+2025-08-18 15:46:27,718 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:42261
+2025-08-18 15:46:27,718 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56388
+2025-08-18 15:46:27,783 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:33197 name: tcp://10.6.83.25:33197
+2025-08-18 15:46:27,784 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:33197
+2025-08-18 15:46:27,785 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56398
+2025-08-18 15:46:27,910 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:38567 name: tcp://10.6.83.25:38567
+2025-08-18 15:46:27,911 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:38567
+2025-08-18 15:46:27,911 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56408
+2025-08-18 15:46:27,911 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:43245 name: tcp://10.6.83.25:43245
+2025-08-18 15:46:27,912 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:43245
+2025-08-18 15:46:27,912 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56430
+2025-08-18 15:46:27,913 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:34065 name: tcp://10.6.83.25:34065
+2025-08-18 15:46:27,913 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:34065
+2025-08-18 15:46:27,913 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56410
+2025-08-18 15:46:27,914 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:44879 name: tcp://10.6.83.25:44879
+2025-08-18 15:46:27,914 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:44879
+2025-08-18 15:46:27,914 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56414
+2025-08-18 15:46:27,920 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:36153 name: tcp://10.6.83.25:36153
+2025-08-18 15:46:27,920 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:36153
+2025-08-18 15:46:27,920 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56436
+2025-08-18 15:46:27,920 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:38319 name: tcp://10.6.83.25:38319
+2025-08-18 15:46:27,921 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:38319
+2025-08-18 15:46:27,921 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56452
+2025-08-18 15:46:27,921 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:34581 name: tcp://10.6.83.25:34581
+2025-08-18 15:46:27,922 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:34581
+2025-08-18 15:46:27,922 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56468
+2025-08-18 15:46:27,922 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:43653 name: tcp://10.6.83.25:43653
+2025-08-18 15:46:27,922 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:43653
+2025-08-18 15:46:27,922 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56472
+2025-08-18 15:46:27,923 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:34807 name: tcp://10.6.83.25:34807
+2025-08-18 15:46:27,923 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:34807
+2025-08-18 15:46:27,923 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56496
+2025-08-18 15:46:27,924 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:45173 name: tcp://10.6.83.25:45173
+2025-08-18 15:46:27,924 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:45173
+2025-08-18 15:46:27,924 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56486
+2025-08-18 15:46:27,924 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:42353 name: tcp://10.6.83.25:42353
+2025-08-18 15:46:27,925 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:42353
+2025-08-18 15:46:27,925 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56520
+2025-08-18 15:46:27,925 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.25:44185 name: tcp://10.6.83.25:44185
+2025-08-18 15:46:27,925 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.25:44185
+2025-08-18 15:46:27,926 - distributed.core - INFO - Starting established connection to tcp://10.6.83.25:56506
+2025-08-18 15:46:28,238 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:36367 name: tcp://10.6.83.26:36367
+2025-08-18 15:46:28,239 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:36367
+2025-08-18 15:46:28,239 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53636
+2025-08-18 15:46:28,240 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:38779 name: tcp://10.6.83.26:38779
+2025-08-18 15:46:28,241 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:38779
+2025-08-18 15:46:28,241 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53652
+2025-08-18 15:46:28,242 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:34841 name: tcp://10.6.83.26:34841
+2025-08-18 15:46:28,243 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:34841
+2025-08-18 15:46:28,243 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53584
+2025-08-18 15:46:28,244 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:32959 name: tcp://10.6.83.26:32959
+2025-08-18 15:46:28,245 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:32959
+2025-08-18 15:46:28,245 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53676
+2025-08-18 15:46:28,245 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:45933 name: tcp://10.6.83.26:45933
+2025-08-18 15:46:28,246 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:45933
+2025-08-18 15:46:28,246 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53626
+2025-08-18 15:46:28,247 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:46325 name: tcp://10.6.83.26:46325
+2025-08-18 15:46:28,248 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:46325
+2025-08-18 15:46:28,248 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53754
+2025-08-18 15:46:28,249 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:43323 name: tcp://10.6.83.26:43323
+2025-08-18 15:46:28,250 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:43323
+2025-08-18 15:46:28,250 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53580
+2025-08-18 15:46:28,251 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:36337 name: tcp://10.6.83.26:36337
+2025-08-18 15:46:28,251 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:36337
+2025-08-18 15:46:28,251 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53634
+2025-08-18 15:46:28,252 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:37425 name: tcp://10.6.83.26:37425
+2025-08-18 15:46:28,253 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:37425
+2025-08-18 15:46:28,253 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53606
+2025-08-18 15:46:28,253 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:39883 name: tcp://10.6.83.26:39883
+2025-08-18 15:46:28,254 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:39883
+2025-08-18 15:46:28,254 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53598
+2025-08-18 15:46:28,254 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:33885 name: tcp://10.6.83.26:33885
+2025-08-18 15:46:28,255 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:33885
+2025-08-18 15:46:28,255 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53696
+2025-08-18 15:46:28,255 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:35085 name: tcp://10.6.83.26:35085
+2025-08-18 15:46:28,256 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:35085
+2025-08-18 15:46:28,256 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53762
+2025-08-18 15:46:28,256 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:42361 name: tcp://10.6.83.26:42361
+2025-08-18 15:46:28,257 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:42361
+2025-08-18 15:46:28,257 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53662
+2025-08-18 15:46:28,259 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:41687 name: tcp://10.6.83.26:41687
+2025-08-18 15:46:28,260 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:41687
+2025-08-18 15:46:28,260 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53618
+2025-08-18 15:46:28,260 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:38467 name: tcp://10.6.83.26:38467
+2025-08-18 15:46:28,261 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:38467
+2025-08-18 15:46:28,261 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53726
+2025-08-18 15:46:28,262 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:36301 name: tcp://10.6.83.26:36301
+2025-08-18 15:46:28,262 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:36301
+2025-08-18 15:46:28,262 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53692
+2025-08-18 15:46:28,263 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:39237 name: tcp://10.6.83.26:39237
+2025-08-18 15:46:28,263 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:39237
+2025-08-18 15:46:28,263 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53776
+2025-08-18 15:46:28,263 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:35995 name: tcp://10.6.83.26:35995
+2025-08-18 15:46:28,264 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:35995
+2025-08-18 15:46:28,264 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53730
+2025-08-18 15:46:28,264 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:43085 name: tcp://10.6.83.26:43085
+2025-08-18 15:46:28,265 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:43085
+2025-08-18 15:46:28,265 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53668
+2025-08-18 15:46:28,265 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:41199 name: tcp://10.6.83.26:41199
+2025-08-18 15:46:28,266 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:41199
+2025-08-18 15:46:28,266 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53710
+2025-08-18 15:46:28,266 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:43181 name: tcp://10.6.83.26:43181
+2025-08-18 15:46:28,267 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:43181
+2025-08-18 15:46:28,267 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53658
+2025-08-18 15:46:28,267 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:37521 name: tcp://10.6.83.26:37521
+2025-08-18 15:46:28,267 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:37521
+2025-08-18 15:46:28,267 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53738
+2025-08-18 15:46:28,284 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:38733 name: tcp://10.6.83.26:38733
+2025-08-18 15:46:28,285 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:38733
+2025-08-18 15:46:28,285 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53792
+2025-08-18 15:46:28,286 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:37463 name: tcp://10.6.83.26:37463
+2025-08-18 15:46:28,286 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:37463
+2025-08-18 15:46:28,286 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53800
+2025-08-18 15:46:28,358 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:34129 name: tcp://10.6.83.26:34129
+2025-08-18 15:46:28,360 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:34129
+2025-08-18 15:46:28,360 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53806
+2025-08-18 15:46:28,362 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:33659 name: tcp://10.6.83.26:33659
+2025-08-18 15:46:28,363 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:33659
+2025-08-18 15:46:28,363 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53810
+2025-08-18 15:46:28,375 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:39725 name: tcp://10.6.83.26:39725
+2025-08-18 15:46:28,376 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:39725
+2025-08-18 15:46:28,376 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53818
+2025-08-18 15:46:28,379 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:33155 name: tcp://10.6.83.26:33155
+2025-08-18 15:46:28,380 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:33155
+2025-08-18 15:46:28,380 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53822
+2025-08-18 15:46:28,403 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:34573 name: tcp://10.6.83.26:34573
+2025-08-18 15:46:28,405 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:34573
+2025-08-18 15:46:28,405 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53832
+2025-08-18 15:46:28,417 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:42505 name: tcp://10.6.83.26:42505
+2025-08-18 15:46:28,418 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:42505
+2025-08-18 15:46:28,418 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53844
+2025-08-18 15:46:28,425 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:39989 name: tcp://10.6.83.26:39989
+2025-08-18 15:46:28,426 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:39989
+2025-08-18 15:46:28,426 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53850
+2025-08-18 15:46:28,436 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:33183 name: tcp://10.6.83.26:33183
+2025-08-18 15:46:28,438 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:33183
+2025-08-18 15:46:28,438 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53866
+2025-08-18 15:46:28,488 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:46653 name: tcp://10.6.83.26:46653
+2025-08-18 15:46:28,489 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:46653
+2025-08-18 15:46:28,489 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53870
+2025-08-18 15:46:28,522 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:36445 name: tcp://10.6.83.26:36445
+2025-08-18 15:46:28,524 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:36445
+2025-08-18 15:46:28,524 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53884
+2025-08-18 15:46:28,525 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:42317 name: tcp://10.6.83.26:42317
+2025-08-18 15:46:28,526 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:42317
+2025-08-18 15:46:28,526 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53894
+2025-08-18 15:46:28,529 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:33163 name: tcp://10.6.83.26:33163
+2025-08-18 15:46:28,530 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:33163
+2025-08-18 15:46:28,530 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53886
+2025-08-18 15:46:28,531 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:34237 name: tcp://10.6.83.26:34237
+2025-08-18 15:46:28,532 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:34237
+2025-08-18 15:46:28,532 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53890
+2025-08-18 15:46:28,534 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:39037 name: tcp://10.6.83.26:39037
+2025-08-18 15:46:28,536 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:39037
+2025-08-18 15:46:28,536 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53908
+2025-08-18 15:46:28,551 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:36815 name: tcp://10.6.83.26:36815
+2025-08-18 15:46:28,552 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:36815
+2025-08-18 15:46:28,553 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53924
+2025-08-18 15:46:28,637 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:37407 name: tcp://10.6.83.26:37407
+2025-08-18 15:46:28,639 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:37407
+2025-08-18 15:46:28,639 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53938
+2025-08-18 15:46:28,640 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:33419 name: tcp://10.6.83.26:33419
+2025-08-18 15:46:28,641 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:33419
+2025-08-18 15:46:28,642 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53954
+2025-08-18 15:46:28,642 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:35975 name: tcp://10.6.83.26:35975
+2025-08-18 15:46:28,643 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:35975
+2025-08-18 15:46:28,643 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53974
+2025-08-18 15:46:28,644 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:34879 name: tcp://10.6.83.26:34879
+2025-08-18 15:46:28,645 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:34879
+2025-08-18 15:46:28,645 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53970
+2025-08-18 15:46:28,646 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:46261 name: tcp://10.6.83.26:46261
+2025-08-18 15:46:28,646 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:46261
+2025-08-18 15:46:28,647 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53978
+2025-08-18 15:46:28,647 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:40741 name: tcp://10.6.83.26:40741
+2025-08-18 15:46:28,648 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:40741
+2025-08-18 15:46:28,648 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53982
+2025-08-18 15:46:28,651 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:46821 name: tcp://10.6.83.26:46821
+2025-08-18 15:46:28,652 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:46821
+2025-08-18 15:46:28,652 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:54012
+2025-08-18 15:46:28,653 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:46877 name: tcp://10.6.83.26:46877
+2025-08-18 15:46:28,653 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:46877
+2025-08-18 15:46:28,653 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:53992
+2025-08-18 15:46:28,654 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:35533 name: tcp://10.6.83.26:35533
+2025-08-18 15:46:28,655 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:35533
+2025-08-18 15:46:28,655 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:54006
+2025-08-18 15:46:28,657 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:46155 name: tcp://10.6.83.26:46155
+2025-08-18 15:46:28,657 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:46155
+2025-08-18 15:46:28,657 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:54024
+2025-08-18 15:46:28,658 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:46243 name: tcp://10.6.83.26:46243
+2025-08-18 15:46:28,659 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:46243
+2025-08-18 15:46:28,659 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:54034
+2025-08-18 15:46:28,660 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:34379 name: tcp://10.6.83.26:34379
+2025-08-18 15:46:28,660 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:34379
+2025-08-18 15:46:28,660 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:54042
+2025-08-18 15:46:28,665 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.26:36881 name: tcp://10.6.83.26:36881
+2025-08-18 15:46:28,666 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.26:36881
+2025-08-18 15:46:28,666 - distributed.core - INFO - Starting established connection to tcp://10.6.83.26:54050
+2025-08-18 15:46:29,235 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:40837 name: tcp://10.6.83.27:40837
+2025-08-18 15:46:29,236 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:40837
+2025-08-18 15:46:29,237 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:38938
+2025-08-18 15:46:29,237 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:41291 name: tcp://10.6.83.27:41291
+2025-08-18 15:46:29,238 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:41291
+2025-08-18 15:46:29,239 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:38968
+2025-08-18 15:46:29,239 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:35817 name: tcp://10.6.83.27:35817
+2025-08-18 15:46:29,240 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:35817
+2025-08-18 15:46:29,240 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:38972
+2025-08-18 15:46:29,242 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:37613 name: tcp://10.6.83.27:37613
+2025-08-18 15:46:29,243 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:37613
+2025-08-18 15:46:29,243 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39010
+2025-08-18 15:46:29,243 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:41099 name: tcp://10.6.83.27:41099
+2025-08-18 15:46:29,244 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:41099
+2025-08-18 15:46:29,245 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39056
+2025-08-18 15:46:29,245 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:40735 name: tcp://10.6.83.27:40735
+2025-08-18 15:46:29,246 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:40735
+2025-08-18 15:46:29,246 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39106
+2025-08-18 15:46:29,248 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:41811 name: tcp://10.6.83.27:41811
+2025-08-18 15:46:29,249 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:41811
+2025-08-18 15:46:29,249 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:38928
+2025-08-18 15:46:29,249 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:40991 name: tcp://10.6.83.27:40991
+2025-08-18 15:46:29,250 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:40991
+2025-08-18 15:46:29,250 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:38924
+2025-08-18 15:46:29,251 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:33527 name: tcp://10.6.83.27:33527
+2025-08-18 15:46:29,252 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:33527
+2025-08-18 15:46:29,252 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:38982
+2025-08-18 15:46:29,252 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:33131 name: tcp://10.6.83.27:33131
+2025-08-18 15:46:29,253 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:33131
+2025-08-18 15:46:29,253 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:38994
+2025-08-18 15:46:29,254 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:36823 name: tcp://10.6.83.27:36823
+2025-08-18 15:46:29,254 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:36823
+2025-08-18 15:46:29,254 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39034
+2025-08-18 15:46:29,255 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:33805 name: tcp://10.6.83.27:33805
+2025-08-18 15:46:29,256 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:33805
+2025-08-18 15:46:29,256 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39026
+2025-08-18 15:46:29,256 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:35889 name: tcp://10.6.83.27:35889
+2025-08-18 15:46:29,257 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:35889
+2025-08-18 15:46:29,257 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39032
+2025-08-18 15:46:29,258 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:44353 name: tcp://10.6.83.27:44353
+2025-08-18 15:46:29,258 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:44353
+2025-08-18 15:46:29,259 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39072
+2025-08-18 15:46:29,259 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:41093 name: tcp://10.6.83.27:41093
+2025-08-18 15:46:29,260 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:41093
+2025-08-18 15:46:29,260 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:38952
+2025-08-18 15:46:29,260 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:33729 name: tcp://10.6.83.27:33729
+2025-08-18 15:46:29,261 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:33729
+2025-08-18 15:46:29,261 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:38984
+2025-08-18 15:46:29,261 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:43023 name: tcp://10.6.83.27:43023
+2025-08-18 15:46:29,262 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:43023
+2025-08-18 15:46:29,262 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39078
+2025-08-18 15:46:29,263 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:34229 name: tcp://10.6.83.27:34229
+2025-08-18 15:46:29,263 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:34229
+2025-08-18 15:46:29,263 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39022
+2025-08-18 15:46:29,263 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:43393 name: tcp://10.6.83.27:43393
+2025-08-18 15:46:29,264 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:43393
+2025-08-18 15:46:29,264 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39094
+2025-08-18 15:46:29,264 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:38523 name: tcp://10.6.83.27:38523
+2025-08-18 15:46:29,265 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:38523
+2025-08-18 15:46:29,265 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39118
+2025-08-18 15:46:29,276 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:37909 name: tcp://10.6.83.27:37909
+2025-08-18 15:46:29,277 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:37909
+2025-08-18 15:46:29,277 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39130
+2025-08-18 15:46:29,288 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:39543 name: tcp://10.6.83.27:39543
+2025-08-18 15:46:29,289 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:39543
+2025-08-18 15:46:29,289 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39136
+2025-08-18 15:46:29,308 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:34063 name: tcp://10.6.83.27:34063
+2025-08-18 15:46:29,309 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:34063
+2025-08-18 15:46:29,309 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39144
+2025-08-18 15:46:29,379 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:41279 name: tcp://10.6.83.27:41279
+2025-08-18 15:46:29,381 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:41279
+2025-08-18 15:46:29,381 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39160
+2025-08-18 15:46:29,382 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:44859 name: tcp://10.6.83.27:44859
+2025-08-18 15:46:29,383 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:44859
+2025-08-18 15:46:29,383 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39176
+2025-08-18 15:46:29,400 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:39049 name: tcp://10.6.83.27:39049
+2025-08-18 15:46:29,402 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:39049
+2025-08-18 15:46:29,402 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39190
+2025-08-18 15:46:29,408 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:37911 name: tcp://10.6.83.27:37911
+2025-08-18 15:46:29,409 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:37911
+2025-08-18 15:46:29,409 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39196
+2025-08-18 15:46:29,413 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:44705 name: tcp://10.6.83.27:44705
+2025-08-18 15:46:29,414 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:44705
+2025-08-18 15:46:29,414 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39208
+2025-08-18 15:46:29,424 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:41769 name: tcp://10.6.83.27:41769
+2025-08-18 15:46:29,425 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:41769
+2025-08-18 15:46:29,425 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39216
+2025-08-18 15:46:29,429 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:38021 name: tcp://10.6.83.27:38021
+2025-08-18 15:46:29,430 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:38021
+2025-08-18 15:46:29,430 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39224
+2025-08-18 15:46:29,449 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:40417 name: tcp://10.6.83.27:40417
+2025-08-18 15:46:29,450 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:40417
+2025-08-18 15:46:29,450 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39226
+2025-08-18 15:46:29,575 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:41229 name: tcp://10.6.83.27:41229
+2025-08-18 15:46:29,580 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:41229
+2025-08-18 15:46:29,581 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39240
+2025-08-18 15:46:29,582 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:38229 name: tcp://10.6.83.27:38229
+2025-08-18 15:46:29,584 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:38229
+2025-08-18 15:46:29,584 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39250
+2025-08-18 15:46:29,585 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:39579 name: tcp://10.6.83.27:39579
+2025-08-18 15:46:29,586 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:39579
+2025-08-18 15:46:29,586 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39258
+2025-08-18 15:46:29,662 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:40919 name: tcp://10.6.83.27:40919
+2025-08-18 15:46:29,663 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:40919
+2025-08-18 15:46:29,663 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39276
+2025-08-18 15:46:29,666 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:42879 name: tcp://10.6.83.27:42879
+2025-08-18 15:46:29,667 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:42879
+2025-08-18 15:46:29,667 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39260
+2025-08-18 15:46:29,668 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:38635 name: tcp://10.6.83.27:38635
+2025-08-18 15:46:29,669 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:38635
+2025-08-18 15:46:29,670 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39266
+2025-08-18 15:46:29,672 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:35499 name: tcp://10.6.83.27:35499
+2025-08-18 15:46:29,673 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:35499
+2025-08-18 15:46:29,673 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39330
+2025-08-18 15:46:29,674 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:45773 name: tcp://10.6.83.27:45773
+2025-08-18 15:46:29,675 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:45773
+2025-08-18 15:46:29,675 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39292
+2025-08-18 15:46:29,676 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:38255 name: tcp://10.6.83.27:38255
+2025-08-18 15:46:29,677 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:38255
+2025-08-18 15:46:29,677 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39318
+2025-08-18 15:46:29,678 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:36801 name: tcp://10.6.83.27:36801
+2025-08-18 15:46:29,678 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:36801
+2025-08-18 15:46:29,678 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39294
+2025-08-18 15:46:29,679 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:45289 name: tcp://10.6.83.27:45289
+2025-08-18 15:46:29,680 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:45289
+2025-08-18 15:46:29,680 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39308
+2025-08-18 15:46:29,682 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:35413 name: tcp://10.6.83.27:35413
+2025-08-18 15:46:29,683 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:35413
+2025-08-18 15:46:29,683 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39344
+2025-08-18 15:46:29,683 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:34013 name: tcp://10.6.83.27:34013
+2025-08-18 15:46:29,684 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:34013
+2025-08-18 15:46:29,684 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39354
+2025-08-18 15:46:29,686 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:44313 name: tcp://10.6.83.27:44313
+2025-08-18 15:46:29,687 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:44313
+2025-08-18 15:46:29,687 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39370
+2025-08-18 15:46:29,688 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:40921 name: tcp://10.6.83.27:40921
+2025-08-18 15:46:29,688 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:40921
+2025-08-18 15:46:29,688 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39382
+2025-08-18 15:46:29,689 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:36769 name: tcp://10.6.83.27:36769
+2025-08-18 15:46:29,689 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:36769
+2025-08-18 15:46:29,689 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39410
+2025-08-18 15:46:29,689 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:35535 name: tcp://10.6.83.27:35535
+2025-08-18 15:46:29,690 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:35535
+2025-08-18 15:46:29,690 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39414
+2025-08-18 15:46:29,691 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:33061 name: tcp://10.6.83.27:33061
+2025-08-18 15:46:29,692 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:33061
+2025-08-18 15:46:29,692 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39400
+2025-08-18 15:46:29,692 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:41413 name: tcp://10.6.83.27:41413
+2025-08-18 15:46:29,693 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:41413
+2025-08-18 15:46:29,693 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39384
+2025-08-18 15:46:29,697 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:36791 name: tcp://10.6.83.27:36791
+2025-08-18 15:46:29,698 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:36791
+2025-08-18 15:46:29,698 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39430
+2025-08-18 15:46:29,698 - distributed.scheduler - INFO - Register worker addr: tcp://10.6.83.27:42477 name: tcp://10.6.83.27:42477
+2025-08-18 15:46:29,698 - distributed.scheduler - INFO - Starting worker compute stream, tcp://10.6.83.27:42477
+2025-08-18 15:46:29,698 - distributed.core - INFO - Starting established connection to tcp://10.6.83.27:39420
+2025-08-18 15:46:35,392 - distributed.scheduler - INFO - Receive client connection: Client-b39738f5-7bf6-11f0-ab31-0000055bfe80
+2025-08-18 15:46:35,394 - distributed.core - INFO - Starting established connection to tcp://10.6.83.24:43134
+2025-08-18 15:46:35,403 - distributed.utils - INFO - Reload module qme_utils from .py file
+2025-08-18 15:46:36,153 - distributed.scheduler - INFO - Registering Worker plugin qme_utils.py9f9e3cdb-f5f1-4050-a935-61dc018598db
+2025-08-18 15:46:38,448 - distributed.utils - INFO - Reload module qme_vars from .py file
+2025-08-18 15:46:38,451 - distributed.scheduler - INFO - Registering Worker plugin qme_vars.py5a958ef2-5d7d-436b-aeb9-39d19bc8bcfc
+2025-08-18 15:46:38,537 - distributed.scheduler - INFO - Registering Worker plugin qme_train.pyfffbbe3b-c7fa-4dfd-8057-85002d3f41da
+2025-08-18 15:46:38,554 - distributed.utils - INFO - Reload module qme_train from .py file
+2025-08-18 15:46:38,607 - distributed.utils - INFO - Reload module qme_apply from .py file
+2025-08-18 15:46:38,609 - distributed.scheduler - INFO - Registering Worker plugin qme_apply.py9fc5ee9f-bf8e-4e05-80ff-6fc0aaf89ae8
+2025-08-18 15:48:29,549 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7a0ba2747b89a1fe3c13707c497aa78b initialized by task ('rechunk-merge-rechunk-transfer-fa7ca12a91479410ae3559b6d634fb0d', 0, 0, 0, 87, 0, 0) executed on worker tcp://10.6.83.26:37407
+2025-08-18 15:48:41,885 - distributed.scheduler - INFO - Remove client Client-b39738f5-7bf6-11f0-ab31-0000055bfe80
+2025-08-18 15:48:42,441 - distributed.shuffle._scheduler_plugin - WARNING - Shuffle 7a0ba2747b89a1fe3c13707c497aa78b deactivated due to stimulus 'remove-client-1755496121.8853395'
+2025-08-18 15:48:42,714 - distributed.core - INFO - Received 'close-stream' from tcp://10.6.83.24:43134; closing.
+2025-08-18 15:48:42,714 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 26, 9, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,714 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,878 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,880 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 24, 21, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,881 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 18, 7, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,881 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,881 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 2, 30, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,882 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,882 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 9, 3, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,883 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 33, 20, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,883 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 22, 23, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,883 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,884 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,884 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 0, 15, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,884 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 26, 20, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,884 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,895 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 2, 19, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,895 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 3, 11, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,905 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 26, 30, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,905 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 12, 32, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,905 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 32, 32, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,905 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 27, 38, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,905 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 7, 36, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,905 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 28, 36, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,907 - distributed.scheduler - INFO - Remove client Client-b39738f5-7bf6-11f0-ab31-0000055bfe80
+2025-08-18 15:48:42,907 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 9, 38, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,907 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 3, 30, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,937 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 17, 25, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,937 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,938 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,939 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,939 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,940 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,941 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,941 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 22, 5, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,942 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 15, 34, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,942 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,942 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,943 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 27, 1, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,943 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 33, 21, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,943 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 1, 3, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,943 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,944 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 9, 11, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,944 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 19, 12, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,945 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:42,946 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 29, 22, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,946 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 7, 12, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:42,946 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 5, 24, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,005 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 18, 21, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,008 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 16, 36, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,008 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 11, 9, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,012 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 3, 6, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,015 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 4, 19, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,015 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 18, 23, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,056 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,059 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,060 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,060 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 6, 22, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,061 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 13, 21, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,061 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 33, 30, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,062 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 25, 25, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,062 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,064 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,065 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 6, 43, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,065 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,066 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 31, 26, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,066 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,067 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 9, 18, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,067 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,068 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 29, 10, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,068 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 8, 7, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,068 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 34, 29, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,068 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,069 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 12, 5, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,069 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 4, 9, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,069 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 23, 19, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,069 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 17, 0, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,070 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 32, 38, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,070 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,071 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 20, 40, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,071 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,072 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,072 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,073 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 1, 21, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,073 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,074 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,075 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 20, 6, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,076 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,077 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,077 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 32, 23, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,078 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,078 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 7, 42, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,080 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,081 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,082 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 4, 32, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,082 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,083 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 24, 2, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,083 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,084 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 26, 25, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,084 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,085 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,086 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 25, 28, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,087 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 15, 15, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,087 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 13, 3, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,087 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,088 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 12, 36, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,089 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 4, 18, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,089 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,089 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,090 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 16, 27, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,090 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 2, 11, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,091 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 9, 16, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,091 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 16, 0, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,091 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,092 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 18, 3, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,094 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 21, 2, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,094 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 4, 10, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,094 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,095 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 17, 30, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,095 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,096 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,097 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 20, 11, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,097 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,098 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,098 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 14, 34, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,098 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 21, 35, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,099 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,099 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 6, 37, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,100 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 9, 9, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,100 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 21, 9, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,100 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 26, 42, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,100 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,101 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 1, 36, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,101 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,101 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,102 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 27, 11, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,102 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 11, 5, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,102 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 20, 20, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,102 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 16, 20, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,102 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 4, 11, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,103 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 11, 29, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,103 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 25, 26, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,103 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 30, 17, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,103 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,104 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,105 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 21, 17, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,105 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 20, 39, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,106 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,108 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 27, 29, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,108 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 31, 10, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,108 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 5, 29, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,108 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,109 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,110 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 24, 19, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,110 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 28, 14, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,110 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 34, 7, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,110 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 1, 9, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,110 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,111 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 25, 3, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,111 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 3, 12, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,111 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 25, 18, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,111 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 17, 21, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,111 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 30, 40, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,111 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 33, 17, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,111 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,112 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,113 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,113 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,114 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,115 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 19, 2, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,116 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 9, 10, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,116 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 21, 42, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,116 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,117 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,117 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 2, 21, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,117 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,118 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,119 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,119 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 17, 24, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,119 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 24, 20, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,120 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,121 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,121 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,122 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 25, 37, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,122 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 11, 19, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,122 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 17, 5, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,134 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 32, 10, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,134 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 3, 39, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,136 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 12, 25, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,136 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 18, 31, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,136 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 6, 24, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 31, 0, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 34, 33, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 9, 8, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 6, 8, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 31, 14, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 10, 8, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 5, 21, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 32, 5, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 15, 23, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 25, 34, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 12, 40, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 26, 8, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 14, 23, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 9, 15, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,137 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 11, 20, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,138 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 21, 28, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,138 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 16, 34, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,138 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 5, 20, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,138 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 20, 1, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,138 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 9, 40, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,138 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 25, 9, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,138 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 20, 12, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,138 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 14, 0, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,138 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 6, 32, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,138 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 7, 31, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,138 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 8, 35, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,138 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 9, 42, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,138 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 4, 20, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,139 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 23, 16, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,139 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 34, 31, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,139 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 17, 42, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,139 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 0, 22, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,139 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 11, 40, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,139 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 25, 33, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,139 - distributed.scheduler - WARNING - Attempting to reschedule task ('getitem-rechunk-vectorize_count_dist-vectorize_count_dist_0-transpose-096d409f47bc2667ddc75042be290c94', 16, 43, 0, 0), which was not found on the scheduler. Aborting reschedule.
+2025-08-18 15:48:43,151 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,153 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,154 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,156 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,157 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,158 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,159 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,163 - distributed.scheduler - INFO - Close client connection: Client-b39738f5-7bf6-11f0-ab31-0000055bfe80
+2025-08-18 15:48:43,175 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,176 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,177 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,178 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,183 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,184 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,185 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,186 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,187 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,188 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,188 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,189 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,194 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,195 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,196 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,196 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,197 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
+2025-08-18 15:48:43,202 - distributed.core - ERROR - Exception while handling op shuffle_restrict_task
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/core.py", line 832, in _handle_comm
+    result = handler(**msg)
+             ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.06/lib/python3.11/site-packages/distributed/shuffle/_scheduler_plugin.py", line 152, in restrict_task
+    shuffle = self.active_shuffles[id]
+              ~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: '7a0ba2747b89a1fe3c13707c497aa78b'
