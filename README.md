@@ -29,3 +29,16 @@ Extra notes:
 - lat and lon values must match exactly between the model and reference data - there is no attempt at regridding. Time values do not have to match (and if leap days are excluded from the model data they will be excluded from the output).
 - Currently the Python code only supports calculating factors on a monthly basis. Previously the IDL version has been applied at a seasonal scale. This could be achieved with a few modifications to the Python code - specifically, in steps 1 and 3 - but is not currently implemented.
 - A couple of the extra features of the IDL code (in particular, applying the location mask and creating diagnostic figures) were deemed unnecessary for this implementation and were excluded.
+
+
+# Branches
+Two branches have been added to the repository:
+
+1) qme_dev_daily
+An updated version of qme_dev (forked from M. Black's NCI-GitLab) for daily bias correction of ACS data.
+
+2) qme_dev_hourly
+A newly implemented hourly QME bias correction code for ACS data, adapted from qme_dev_daily.
+
+
+Each branch includes its own README file with detailed instructions for running the code.
