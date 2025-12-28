@@ -30,33 +30,46 @@ chunked and compressed in a post-processing step for sharing and publishing purp
 To run the code:
 
 1) Open 
-/qme_dev_hourly/dataset_finder/paths.yml 
+
+`/qme_dev_hourly/dataset_finder/paths.yml` 
+
 and create or modify a dictionary key to access your input files (reference and model data).
 
 2) Run 
-/qme_dev_hourly/find_runs.ipynb 
-with your specific dictionary key to create the `jobs_to_do.sh` file (e.g., /qme_dev_hourly/jobs_to_do.sh).
+
+`/qme_dev_hourly/find_runs.ipynb` 
+
+with your specific dictionary key to create the `jobs_to_do.sh` file (e.g., `/qme_dev_hourly/jobs_to_do.sh`).
 In the `jobs_to_do.sh` file, uncomment the line for processing historical data, and run only the lines for processing SSP370 and SSP126 one after another. When you run 
 SSP370 first, it will create bias-corrected historical and future data (this takes ~24 hours). Once the historical output files are created, 
 you can start running SSP126 for future data (this takes ~19 hours).
 
 3) Configure
-/qme_dev_hourly/job-general.pbs 
+
+`/qme_dev_hourly/job-general.pbs` 
+
 if needed, and then run
 ```bash
 bash jobs_to_do.sh
 ```
 This will execute the main code 
-/qme_dev_hourly/acs_run_qme.py 
+
+`/qme_dev_hourly/acs_run_qme.py` 
+
 Make sure you have specified the output directory here. Also, ensure that your desired variable is defined in 
-/qme_dev_hourly/qme_vars.py 
+
+`/qme_dev_hourly/qme_vars.py` 
+
 before the code execution.
 
 4) Monitor logs and Dask client commands
 Logs are saved in: 
-/qme_dev_hourly/logs/
+
+`/qme_dev_hourly/logs/`
+
 Dask scheduler tracking is stored in:
-/qme_dev_hourly/client_cmd 
+
+`/qme_dev_hourly/client_cmd` 
 
 
 The performance of the code could be further improved by using futures or delayed objects, among others. This is the goal for the next code update.
