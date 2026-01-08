@@ -18,7 +18,11 @@ Python code runnable (by import in Jupyter notebook or from PBS submission, see 
 The Python code can create the required histograms from given data, generate QME bias correction factors and apply them to model data (including future data). It is based on Andrew Dowdy's IDL code including his recent revisions.
 
 
-# Further comments on the qme_dev_daily branch (Alicia Takbash)
+## Further comments on the qme_dev_daily branch (Alicia Takbash)
+
+The `qme_dev_daily` branch is based on `qme_dev` (available on Michell Black’s NCI-GitLab page), which was used to bias-correct the ACS daily data. `qme_dev` was cloned from NCI-GitLab and some code lines were modified based on Andrew Gammon’s recommendations. 
+So, `qme_dev_daily` is an updated version of `qme_dev`. `qme_dev_daily` was tested on a single CORDEX variable “prsn” by Alicia Takbash, which worked fine. No further daily variables were tested by Alicia Takbash using this code.
+
 To run the code:
 
 1) Open 
