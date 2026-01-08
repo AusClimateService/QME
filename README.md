@@ -21,6 +21,8 @@ The Python code can create the required histograms from given data, generate QME
 # Hourly implementation (qme_dev_hourly branch)
 Hourly QME Implementation: Alicia Takbash (Alicia.Takbash@csiro.au)
 
+`qme_dev_hourly` was implemented for hourly bias-correction, adopted from `qme_dev_daily`.
+
 The hourly implementation of the QME code groups data by hour, calculates the adjustment factors on an hourly basis, 
 and then applies these hourly-based adjustment factors to the hourly data for each year separately (1960 – 2100). 
 Note that the input data must be uncompressed and unchunked. The generated outputs (yearly files) are not compressed and not chunked (i.e., they are contiguous files) 
